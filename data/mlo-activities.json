@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mlo-activities-1",
+    "category": "mlo-activities",
+    "question": "Which document must a lender provide to a borrower within three business days of receiving a completed mortgage application?",
+    "choices": ["Closing Disclosure", "Loan Estimate", "Truth in Lending disclosure only", "Good Faith Estimate"],
+    "correctIndex": 1,
+    "explanation": "Under TRID rules, the Loan Estimate must be delivered or placed in the mail within three business days of receiving a completed loan application."
+  },
+  {
+    "id": "mlo-activities-2",
+    "category": "mlo-activities",
+    "question": "What is the minimum number of business days a borrower must have to review the Closing Disclosure before consummation of the loan?",
+    "choices": ["1 business day", "7 business days", "3 business days", "10 business days"],
+    "correctIndex": 2,
+    "explanation": "TRID requires a mandatory three business day waiting period between receipt of the Closing Disclosure and loan consummation."
+  },
+  {
+    "id": "mlo-activities-3",
+    "category": "mlo-activities",
+    "question": "During loan processing, verifying a borrower's income and assets primarily supports which underwriting factor?",
+    "choices": ["Loan-to-value ratio", "Property appraisal", "Title insurance", "Ability to repay"],
+    "correctIndex": 3,
+    "explanation": "Verified income and asset documentation is central to the lender's ability-to-repay (ATR) determination."
+  },
+  {
+    "id": "mlo-activities-4",
+    "category": "mlo-activities",
+    "question": "A \"pre-qualification\" differs from a \"pre-approval\" primarily because a pre-qualification:",
+    "choices": [
+      "Is based on unverified information provided by the borrower",
+      "Requires the same underwriting review as a full loan approval",
+      "Requires a full credit report and verified documentation",
+      "Guarantees the borrower will receive final loan approval"
+    ],
+    "correctIndex": 0,
+    "explanation": "A pre-qualification is a general, non-binding estimate based on unverified borrower-reported information. A pre-approval, by contrast, involves verified documentation but still does not guarantee final approval."
+  },
+  {
+    "id": "mlo-activities-5",
+    "category": "mlo-activities",
+    "question": "Which activity would classify an individual as a \"loan originator\" under the SAFE Act?",
+    "choices": ["Performing purely administrative or clerical tasks", "Taking a residential mortgage loan application and offering or negotiating loan terms for compensation", "Servicing a loan after closing", "Providing legal advice on a purchase contract"],
+    "correctIndex": 1,
+    "explanation": "The SAFE Act defines a loan originator as someone who takes an application and offers or negotiates loan terms for compensation or gain."
+  }
+]

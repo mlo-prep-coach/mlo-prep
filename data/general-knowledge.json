@@ -1,0 +1,47 @@
+[
+  {
+    "id": "general-knowledge-1",
+    "category": "general-knowledge",
+    "question": "Private Mortgage Insurance (PMI) is typically required when the loan-to-value (LTV) ratio exceeds:",
+    "choices": ["60%", "70%", "95%", "80%"],
+    "correctIndex": 3,
+    "explanation": "Lenders typically require PMI on conventional loans when the LTV ratio exceeds 80%, since the down payment is less than 20%."
+  },
+  {
+    "id": "general-knowledge-2",
+    "category": "general-knowledge",
+    "question": "An adjustable-rate mortgage (ARM) described as \"5/1\" means:",
+    "choices": [
+      "The rate adjusts every 5 years for a 1-year term",
+      "The rate is fixed for the first 5 years, then adjusts annually",
+      "The rate is fixed for 1 year, then adjusts every 5 years",
+      "The loan has a 5-year term with interest-only payments for 1 year"
+    ],
+    "correctIndex": 1,
+    "explanation": "A 5/1 ARM has a fixed rate for the first 5 years, after which the rate adjusts once per year based on an index."
+  },
+  {
+    "id": "general-knowledge-3",
+    "category": "general-knowledge",
+    "question": "Debt-to-income (DTI) ratio is calculated as:",
+    "choices": ["Total assets divided by total debt", "Loan amount divided by property value", "Monthly debt payments divided by gross monthly income", "Credit score divided by loan amount"],
+    "correctIndex": 2,
+    "explanation": "DTI is a borrower's total monthly debt payments divided by their gross monthly income, expressed as a percentage."
+  },
+  {
+    "id": "general-knowledge-4",
+    "category": "general-knowledge",
+    "question": "Which loan type is insured by the Federal Housing Administration and often allows lower down payments?",
+    "choices": ["FHA loan", "Conventional loan", "Jumbo loan", "VA loan"],
+    "correctIndex": 0,
+    "explanation": "FHA loans are insured by the Federal Housing Administration and typically allow lower down payments and more flexible credit requirements. VA loans are also low-down-payment, but they're guaranteed by the Department of Veterans Affairs, not the FHA."
+  },
+  {
+    "id": "general-knowledge-5",
+    "category": "general-knowledge",
+    "question": "In an escrow account, a lender collects funds monthly to pay for:",
+    "choices": ["The borrower's homeowner's association dues only", "The lender's origination fee", "Private investment accounts", "Property taxes and homeowner's insurance"],
+    "correctIndex": 3,
+    "explanation": "Escrow accounts are commonly used to collect and pay recurring property taxes and homeowner's insurance premiums on the borrower's behalf."
+  }
+]

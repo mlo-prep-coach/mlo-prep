@@ -1,0 +1,52 @@
+[
+  {
+    "id": "state-content-1",
+    "category": "state-content",
+    "question": "The Nationwide Multistate Licensing System (NMLS) is used primarily to:",
+    "choices": [
+      "Set uniform national interest rate caps for all mortgage loans",
+      "Replace state licensing requirements with a single federal license",
+      "Administer licensing, registration, and tracking of state-licensed mortgage loan originators",
+      "Process and adjudicate individual consumer complaints against lenders"
+    ],
+    "correctIndex": 2,
+    "explanation": "NMLS is the system of record used by state regulators to license, register, and track mortgage loan originators nationwide. It does not replace individual state licenses — MLOs still need a license in each state where they originate loans."
+  },
+  {
+    "id": "state-content-2",
+    "category": "state-content",
+    "question": "Most states require a mortgage loan originator to complete continuing education requirements:",
+    "choices": ["Annually, to renew their license", "Never, once initially licensed", "Only if they change employers", "Only when a complaint is filed"],
+    "correctIndex": 0,
+    "explanation": "State licensing laws generally require MLOs to complete continuing education courses annually to renew their license."
+  },
+  {
+    "id": "state-content-3",
+    "category": "state-content",
+    "question": "A surety bond required by many states for MLO licensing primarily serves to:",
+    "choices": ["Guarantee the MLO's personal income", "Provide a source of recovery for consumers harmed by the MLO's licensing law violations", "Pay the MLO's taxes", "Replace the need for a credit check"],
+    "correctIndex": 1,
+    "explanation": "Surety bonds provide a financial remedy for consumers harmed by an MLO's violation of licensing laws or regulations."
+  },
+  {
+    "id": "state-content-4",
+    "category": "state-content",
+    "question": "State licensing laws for MLOs are generally built on a uniform framework established by:",
+    "choices": ["The Federal Reserve", "State real estate commissions only", "The IRS", "The SAFE Mortgage Licensing Act"],
+    "correctIndex": 3,
+    "explanation": "The SAFE Mortgage Licensing Act of 2008 established the uniform framework that states use for MLO licensing requirements."
+  },
+  {
+    "id": "state-content-5",
+    "category": "state-content",
+    "question": "If an MLO wants to originate loans in a new state, they typically must:",
+    "choices": [
+      "Automatically be licensed nationwide with no additional steps",
+      "Wait five years before applying",
+      "Obtain a separate license or registration for that state through NMLS",
+      "Only notify their current state regulator"
+    ],
+    "correctIndex": 2,
+    "explanation": "MLO licenses are state-specific, so an MLO must obtain a separate license or registration for each additional state through NMLS."
+  }
+]

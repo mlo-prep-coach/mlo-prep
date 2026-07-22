@@ -1,0 +1,105 @@
+"use client";
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { shuffle } from "@/lib/exam";
+import { saveSession } from "@/lib/storage";
+import QuestionCard from "@/components/QuestionCard";
+import ProgressBar from "@/components/ProgressBar";
+
+export default function PracticeSession({ questions: inputQuestions, title, sessionCategory }) {
+  const router = useRouter();
+  const [questions] = useState(() => shuffle(inputQuestions));
+
+  const [index, setIndex] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState(null);
+  const [answers, setAnswers] = useState([]);
+
+  if (questions.length === 0) {
+    return <p className="text-navy-600">No questions available for this session.</p>;
+  }
+
+  const question = questions[index];
+  const isLast = index === questions.length - 1;
+  const answeredCount = index + (selectedIndex !== null ? 1 : 0);
+
+  function handleSelect(choiceIndex) {
+    if (selectedIndex !== null) return;
+    setSelectedIndex(choiceIndex);
+    setAnswers((prev) => [
+      ...prev,
+      {
+        questionId: question.id,
+        category: question.category,
+        question: question.question,
+        choices: question.choices,
+        correctIndex: question.correctIndex,
+        explanation: question.explanation,
+        selectedIndex: choiceIndex,
+        correct: choiceIndex === question.correctIndex,
+      },
+    ]);
+  }
+
+  function handleNext() {
+    if (isLast) {
+      const score = answers.filter((a) => a.correct).length;
+      const session = {
+        id: `practice-${Date.now()}`,
+        mode: "practice",
+        category: sessionCategory,
+        label: title,
+        timestamp: Date.now(),
+        score,
+        total: answers.length,
+        answers,
+      };
+      saveSession(session);
+      router.push("/results");
+      return;
+    }
+    setIndex((i) => i + 1);
+    setSelectedIndex(null);
+  }
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div>
+        <div className="mb-2 flex items-center justify-between">
+          <h1 className="font-display text-lg font-bold text-navy-900">{title}</h1>
+          <p className="text-sm font-medium text-navy-500">
+            {index + 1} / {questions.length}
+          </p>
+        </div>
+        <ProgressBar value={(answeredCount / questions.length) * 100} />
+      </div>
+
+      <QuestionCard
+        key={question.id}
+        question={question}
+        selectedIndex={selectedIndex}
+        onSelect={handleSelect}
+        showFeedback
+      />
+
+      {selectedIndex !== null && (
+        <button
+          type="button"
+          onClick={handleNext}
+          className="flex items-center justify-center gap-2 self-end rounded-xl bg-navy-900 px-6 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-navy-800"
+        >
+          {isLast ? (
+            <>
+              Finish <CheckCircle2 size={16} />
+            </>
+          ) : (
+            <>
+              Next <ArrowRight size={16} />
+            </>
+          )}
+        </button>
+      )}
+    </div>
+  );
+}

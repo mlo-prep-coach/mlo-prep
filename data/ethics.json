@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ethics-1",
+    "category": "ethics",
+    "question": "Accepting an unearned fee for referring settlement service business is prohibited under:",
+    "choices": ["TILA", "HMDA", "FCRA", "RESPA Section 8"],
+    "correctIndex": 3,
+    "explanation": "RESPA Section 8 prohibits kickbacks and unearned fees for the referral of settlement service business."
+  },
+  {
+    "id": "ethics-2",
+    "category": "ethics",
+    "question": "An MLO steers a borrower who qualifies for a lower-cost loan into a higher-priced loan solely because it pays the MLO a larger commission. This is best described as:",
+    "choices": [
+      "An unethical and potentially illegal practice that violates fair lending duties",
+      "A permissible pricing strategy as long as the borrower signs the loan documents",
+      "Acceptable because the borrower ultimately consented to the loan terms",
+      "A standard industry practice used to compensate loan originators fairly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Steering a borrower into a costlier loan for personal gain violates fair lending principles and can constitute an unfair or deceptive practice, regardless of whether the borrower signed the paperwork."
+  },
+  {
+    "id": "ethics-3",
+    "category": "ethics",
+    "question": "A loan originator helps a borrower's application get approved by listing rental income the borrower does not actually receive. This is an example of:",
+    "choices": [
+      "Acceptable practice since it only affects one line of the application",
+      "A compliance violation, but not fraud, since no money changed hands",
+      "Mortgage fraud, because it knowingly misrepresents material information on the application",
+      "A judgment call left to the underwriter's discretion"
+    ],
+    "correctIndex": 2,
+    "explanation": "Knowingly misrepresenting material information, such as fabricating income, on a loan application constitutes mortgage fraud regardless of intent to \"help\" the borrower."
+  },
+  {
+    "id": "ethics-4",
+    "category": "ethics",
+    "question": "Under UDAAP (Unfair, Deceptive, or Abusive Acts or Practices) standards, an MLO's advertising must:",
+    "choices": [
+      "Guarantee approval to all applicants who respond",
+      "Be truthful and not misleading",
+      "Emphasize the lowest possible rate even if few borrowers will qualify for it",
+      "Be reviewed for compliance only after a consumer complaint is filed"
+    ],
+    "correctIndex": 1,
+    "explanation": "UDAAP standards require that advertising and marketing materials be truthful and not misleading to consumers, including not featuring rates that only a small fraction of applicants could actually obtain."
+  },
+  {
+    "id": "ethics-5",
+    "category": "ethics",
+    "question": "An MLO discovers a conflict of interest with a transaction. The ethical course of action is to:",
+    "choices": [
+      "Proceed without informing anyone since it's a minor issue",
+      "Only disclose the conflict if a client specifically asks about it",
+      "Document it internally but continue the transaction as normal",
+      "Disclose the conflict of interest to the affected parties"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ethical practice requires proactively disclosing any conflict of interest to the affected parties, not waiting to be asked or handling it only through internal notes."
+  }
+]

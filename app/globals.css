@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+
+  --color-navy-50: #eef2f9;
+  --color-navy-100: #d7e0f0;
+  --color-navy-200: #b0c1e0;
+  --color-navy-300: #85a0cc;
+  --color-navy-400: #5679ac;
+  --color-navy-500: #385890;
+  --color-navy-600: #274375;
+  --color-navy-700: #1c335c;
+  --color-navy-800: #14264a;
+  --color-navy-900: #0d1b38;
+  --color-navy-950: #070f22;
+
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #dbe7ff;
+  --color-brand-200: #bcd3ff;
+  --color-brand-300: #8fb5ff;
+  --color-brand-400: #5c8eff;
+  --color-brand-500: #3466f6;
+  --color-brand-600: #2249e0;
+  --color-brand-700: #1b39b8;
+  --color-brand-800: #1a3193;
+  --color-brand-900: #182b74;
+}
+
+@layer base {
+  body {
+    background: #f6f8fc;
+  }
+}
+
+/* Hides scrollbars on horizontally-scrolling nav rows while staying swipeable/scrollable */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "federal-law-1",
+    "category": "federal-law",
+    "question": "RESPA primarily regulates:",
+    "choices": ["Settlement services and prohibits kickbacks and referral fees", "Advertising of interest rates", "State licensing renewal", "Credit score calculation methods"],
+    "correctIndex": 0,
+    "explanation": "The Real Estate Settlement Procedures Act (RESPA) governs settlement services and prohibits kickbacks and unearned referral fees, notably under Section 8."
+  },
+  {
+    "id": "federal-law-2",
+    "category": "federal-law",
+    "question": "Under the Equal Credit Opportunity Act (ECOA), a lender may NOT deny credit based on which factor?",
+    "choices": ["Debt-to-income ratio", "Credit history", "Loan-to-value ratio", "Receipt of public assistance income"],
+    "correctIndex": 3,
+    "explanation": "ECOA prohibits discrimination based on protected characteristics, including the fact that an applicant's income derives from public assistance."
+  },
+  {
+    "id": "federal-law-3",
+    "category": "federal-law",
+    "question": "The Home Mortgage Disclosure Act (HMDA) primarily requires lenders to:",
+    "choices": ["Cap interest rates on high-cost loans", "Collect and report data on mortgage applications to help identify discriminatory lending patterns", "Provide a three-day right of rescission", "Disclose closing costs three days before closing"],
+    "correctIndex": 1,
+    "explanation": "HMDA requires covered lenders to collect and publicly report mortgage application data, which helps regulators identify potential discriminatory lending patterns."
+  },
+  {
+    "id": "federal-law-4",
+    "category": "federal-law",
+    "question": "The Ability-to-Repay/Qualified Mortgage (ATR/QM) rule, which requires lenders to make a reasonable, good-faith determination of a borrower's ability to repay, amended which existing federal law?",
+    "choices": ["RESPA", "Fair Housing Act", "Truth in Lending Act (TILA)", "SAFE Act"],
+    "correctIndex": 2,
+    "explanation": "The Dodd-Frank Act amended TILA to add the Ability-to-Repay/Qualified Mortgage (ATR/QM) rule, rather than creating a standalone statute."
+  },
+  {
+    "id": "federal-law-5",
+    "category": "federal-law",
+    "question": "The Fair Housing Act prohibits discrimination in residential lending based on all of the following EXCEPT:",
+    "choices": ["Credit score", "Familial status", "National origin", "Race"],
+    "correctIndex": 0,
+    "explanation": "Credit score is a legitimate underwriting factor, not a protected class. Race, familial status, and national origin are protected characteristics under the Fair Housing Act."
+  }
+]
