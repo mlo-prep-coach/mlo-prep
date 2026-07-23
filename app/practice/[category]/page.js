@@ -1,6 +1,7 @@
-import { notFound } from "next/navigation";
-import { getCategory } from "@/lib/categories";
+import { notFound, redirect } from "next/navigation";
+import { getCategory, FREE_CATEGORY_ID } from "@/lib/categories";
 import { getQuestionsByCategory } from "@/lib/questions";
+import { hasActiveAccess } from "@/lib/paywall";
 import PracticeSession from "@/components/PracticeSession";
 
 export default async function PracticePage({ params }) {
@@ -9,6 +10,10 @@ export default async function PracticePage({ params }) {
 
   if (!category) {
     notFound();
+  }
+
+  if (categoryId !== FREE_CATEGORY_ID && !(await hasActiveAccess())) {
+    redirect("/upgrade");
   }
 
   return (
