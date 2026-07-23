@@ -8,15 +8,20 @@ export async function POST(request) {
     return NextResponse.json({ error: "Pricing is not configured yet." }, { status: 500 });
   }
 
-  const stripe = getStripe();
-  const session = await stripe.checkout.sessions.create({
-    mode: "subscription",
-    line_items: [{ price: process.env.STRIPE_PRICE_ID, quantity: 1 }],
-    success_url: `${origin}/api/checkout/callback?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${origin}/upgrade`,
-    allow_promotion_codes: true,
-    managed_payments: { enabled: false },
-  });
+  try {
+    const stripe = getStripe();
+    const session = await stripe.checkout.sessions.create({
+      mode: "subscription",
+      line_items: [{ price: process.env.STRIPE_PRICE_ID, quantity: 1 }],
+      success_url: `${origin}/api/checkout/callback?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${origin}/upgrade`,
+      allow_promotion_codes: true,
+      managed_payments: { enabled: false },
+    });
 
-  return NextResponse.redirect(session.url, 303);
+    return NextResponse.redirect(session.url, 303);
+  } catch (err) {
+    console.error("checkout session creation failed:", err);
+    return NextResponse.redirect(`${origin}/upgrade?error=incomplete`, 303);
+  }
 }
