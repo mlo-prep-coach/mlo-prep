@@ -297,5 +297,161 @@
     ],
     "correctIndex": 0,
     "explanation": "A license that isn't properly renewed and maintained, including required continuing education, will typically become inactive or expired, requiring the MLO to complete reinstatement steps before originating loans again."
+  },
+  {
+    "id": "state-content-24",
+    "category": "state-content",
+    "question": "State mortgage licensing generally distinguishes between an individual MLO license and:",
+    "choices": [
+      "A real estate agent license, which automatically covers MLO activity",
+      "A driver's license, which serves the same purpose",
+      "No other type of license exists at the state level",
+      "A company or branch license covering the mortgage business entity itself"
+    ],
+    "correctIndex": 3,
+    "explanation": "States generally require both an individual MLO license for the person originating loans and a separate company (and often branch) license for the mortgage business entity itself."
+  },
+  {
+    "id": "state-content-25",
+    "category": "state-content",
+    "question": "A mortgage company opening a new physical branch office generally must:",
+    "choices": [
+      "Obtain separate branch licensing or registration for that location, as required by the state",
+      "Wait five years before the branch can originate loans",
+      "Operate without any additional licensing steps",
+      "Only notify the post office"
+    ],
+    "correctIndex": 0,
+    "explanation": "Most states require a mortgage company to obtain branch-specific licensing or registration before originating loans from a new physical office location."
+  },
+  {
+    "id": "state-content-26",
+    "category": "state-content",
+    "question": "If a licensed MLO changes their home or business address, state law generally requires them to:",
+    "choices": [
+      "Report the change only if a complaint is filed",
+      "Update their NMLS record within the timeframe required by the state",
+      "Wait until the next annual renewal to report it",
+      "Take no action, since NMLS updates automatically"
+    ],
+    "correctIndex": 1,
+    "explanation": "MLOs are generally required to promptly update material information, such as a change of address, in their NMLS record within the timeframe set by state law, rather than waiting for annual renewal."
+  },
+  {
+    "id": "state-content-27",
+    "category": "state-content",
+    "question": "Because MLO licenses are state-specific, an MLO who wants to originate loans in five different states will generally need to:",
+    "choices": [
+      "Only be licensed in the state where the company's headquarters is located",
+      "Apply once and automatically be approved in all fifty states",
+      "Obtain just one nationwide license",
+      "Apply for and maintain a separate license in each of those five states through NMLS"
+    ],
+    "correctIndex": 3,
+    "explanation": "Although NMLS is a single shared system, MLO licensing itself remains state-specific, so an originator must apply for and maintain a separate license in each state where they conduct business."
+  },
+  {
+    "id": "state-content-28",
+    "category": "state-content",
+    "question": "An applicant who fails the SAFE MLO national exam is generally:",
+    "choices": [
+      "Allowed to retake it immediately with no waiting period ever",
+      "Permitted to retake it after a required waiting period, which generally increases after multiple failed attempts",
+      "Permanently barred from retaking it",
+      "Required to switch to a different career path"
+    ],
+    "correctIndex": 1,
+    "explanation": "Candidates who fail the exam may retake it after a required waiting period; that waiting period generally increases after repeated failed attempts (for example, a longer wait after a third or subsequent failure)."
+  },
+  {
+    "id": "state-content-29",
+    "category": "state-content",
+    "question": "A consumer who believes an MLO violated state licensing laws can generally file a complaint with:",
+    "choices": [
+      "The MLO's personal social media account",
+      "The state's mortgage regulatory agency",
+      "Only a private attorney, with no regulatory option",
+      "No agency has authority to review such complaints"
+    ],
+    "correctIndex": 1,
+    "explanation": "Consumers can generally file complaints about a licensed MLO's conduct with the applicable state mortgage regulatory agency, which has authority to investigate and take disciplinary action."
+  },
+  {
+    "id": "state-content-30",
+    "category": "state-content",
+    "question": "Mortgage companies are generally required to periodically file a Mortgage Call Report (MCR) through NMLS, which primarily:",
+    "choices": [
+      "Reports loan volume and other business activity data to state regulators",
+      "Is only required once, at initial licensing",
+      "Is used exclusively for marketing purposes",
+      "Replaces the need for individual MLO licensing"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Mortgage Call Report is a periodic filing through NMLS in which licensed companies report loan volume and other business activity data used by state regulators for oversight."
+  },
+  {
+    "id": "state-content-31",
+    "category": "state-content",
+    "question": "State mortgage regulators generally retain the authority to:",
+    "choices": [
+      "Set federal interest rate policy",
+      "Issue licenses without any background review",
+      "Conduct examinations and audits of licensees for compliance with state law",
+      "Overrule federal banking regulators on all matters"
+    ],
+    "correctIndex": 2,
+    "explanation": "State mortgage regulators generally have authority to examine and audit licensees' books, records, and practices to ensure compliance with state licensing laws and regulations."
+  },
+  {
+    "id": "state-content-32",
+    "category": "state-content",
+    "question": "\"Reciprocity\" between states for MLO licensing generally means:",
+    "choices": [
+      "Some states may streamline or ease certain requirements for MLOs already licensed elsewhere, but a separate license is still generally required",
+      "One state's license automatically satisfies every other state's requirements",
+      "Reciprocity eliminates the need for NMLS registration",
+      "No two states can ever recognize each other's licensing standards"
+    ],
+    "correctIndex": 0,
+    "explanation": "While some states offer streamlined processes for MLOs already licensed in another state, full automatic reciprocity is generally not the rule — a separate license in each state where the MLO originates loans is still typically required."
+  },
+  {
+    "id": "state-content-33",
+    "category": "state-content",
+    "question": "An MLO whose license shows as \"inactive\" on NMLS because they are between sponsoring employers generally:",
+    "choices": [
+      "May continue originating loans in the meantime",
+      "Must retake the pre-licensing course immediately",
+      "May not originate loans until a licensed company sponsors them again and the license becomes active",
+      "Automatically loses their license permanently"
+    ],
+    "correctIndex": 2,
+    "explanation": "A license in inactive status due to a lack of employer sponsorship generally cannot be used to originate loans until an approved company sponsors the MLO and the license is reactivated."
+  },
+  {
+    "id": "state-content-34",
+    "category": "state-content",
+    "question": "In addition to federal advertising rules, state licensing laws may impose additional requirements on MLO advertising, such as:",
+    "choices": [
+      "Requiring advertisements to guarantee approval",
+      "Prohibiting any mention of interest rates",
+      "Banning all forms of advertising entirely",
+      "Requiring the MLO's name and/or NMLS ID to appear in advertisements"
+    ],
+    "correctIndex": 3,
+    "explanation": "Beyond federal advertising rules, many states impose their own requirements, such as requiring an MLO's name and NMLS unique identifier to appear on advertising and marketing materials."
+  },
+  {
+    "id": "state-content-35",
+    "category": "state-content",
+    "question": "The purpose of state examinations and audits of licensed mortgage companies and MLOs is primarily to:",
+    "choices": [
+      "Determine the company's tax liability",
+      "Set the company's advertising budget",
+      "Verify ongoing compliance with licensing laws and consumer protection requirements",
+      "Increase the company's loan volume"
+    ],
+    "correctIndex": 2,
+    "explanation": "State examinations and audits are conducted to verify that licensed companies and individuals continue to comply with licensing laws, recordkeeping requirements, and consumer protection standards."
   }
 ]

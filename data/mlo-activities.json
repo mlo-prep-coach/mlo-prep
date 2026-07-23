@@ -388,5 +388,590 @@
     ],
     "correctIndex": 3,
     "explanation": "Variable income like bonuses or overtime generally must have a documented history and reasonable expectation of continuance to be counted; otherwise it may be excluded or reduced."
+  },
+  {
+    "id": "mlo-activities-31",
+    "category": "mlo-activities",
+    "question": "Under TRID's tolerance rules, fees paid to the lender itself, such as the origination charge, generally fall into which tolerance category?",
+    "choices": [
+      "Zero tolerance — the fee cannot increase at closing",
+      "Unlimited tolerance",
+      "10% cumulative tolerance",
+      "No tolerance rule applies to lender fees"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fees the lender charges itself, and fees for services the borrower cannot shop for, fall under the zero-tolerance category and generally cannot increase from the Loan Estimate to closing."
+  },
+  {
+    "id": "mlo-activities-32",
+    "category": "mlo-activities",
+    "question": "Under TRID, recording fees and third-party fees for services the borrower selects from the lender's written provider list are generally subject to:",
+    "choices": [
+      "A 10% cumulative tolerance",
+      "A 25% cumulative tolerance",
+      "No tolerance limit at all",
+      "Zero tolerance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Recording fees and fees for third-party services the borrower chooses from the lender's provider list may increase, but the total of these charges cannot increase by more than 10% in the aggregate."
+  },
+  {
+    "id": "mlo-activities-33",
+    "category": "mlo-activities",
+    "question": "Which of the following charges is generally subject to unlimited tolerance under TRID, meaning it can change by any amount at closing?",
+    "choices": [
+      "The lender's origination fee",
+      "Recording fees",
+      "Prepaid interest and services the borrower selects from a provider not on the lender's list",
+      "A third-party fee from the lender's provider list"
+    ],
+    "correctIndex": 2,
+    "explanation": "Prepaid interest, property insurance premiums, and fees for services the borrower selects from a provider not on the lender's written list are generally not subject to a tolerance limit."
+  },
+  {
+    "id": "mlo-activities-34",
+    "category": "mlo-activities",
+    "question": "Appraiser independence requirements generally prohibit an MLO from:",
+    "choices": [
+      "Attempting to influence the appraiser's opinion of value",
+      "Reviewing the completed appraisal report",
+      "Ordering an appraisal at all",
+      "Providing the appraiser with the property address"
+    ],
+    "correctIndex": 0,
+    "explanation": "Appraiser independence rules prohibit loan originators and other interested parties from improperly influencing or coercing an appraiser's value conclusion."
+  },
+  {
+    "id": "mlo-activities-35",
+    "category": "mlo-activities",
+    "question": "A lender's practice of contacting a borrower's employer shortly before closing to confirm continued employment is best described as:",
+    "choices": [
+      "A violation of the borrower's privacy",
+      "Unnecessary once the initial application is verified",
+      "A verification of employment (VOE) used to confirm the borrower's job is still active before funding",
+      "An adverse action"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lenders commonly perform a verification of employment shortly before closing to confirm the borrower is still employed, since a change in employment status could affect the borrower's ability to repay."
+  },
+  {
+    "id": "mlo-activities-36",
+    "category": "mlo-activities",
+    "question": "An Automated Underwriting System (AUS) is primarily used to:",
+    "choices": [
+      "Generate the Closing Disclosure automatically",
+      "Replace the need for any borrower documentation",
+      "Calculate the appraised value of a property",
+      "Analyze loan data against investor guidelines to issue a preliminary underwriting recommendation"
+    ],
+    "correctIndex": 3,
+    "explanation": "An AUS such as Desktop Underwriter or Loan Product Advisor analyzes application and credit data against investor guidelines to produce a preliminary underwriting recommendation, which is still subject to full documentation review."
+  },
+  {
+    "id": "mlo-activities-37",
+    "category": "mlo-activities",
+    "question": "A loan is manually underwritten rather than run through an automated underwriting system typically because:",
+    "choices": [
+      "The borrower requested a lower interest rate",
+      "The loan does not fit standard AUS criteria or received a refer/caution recommendation",
+      "The property is a single-family home",
+      "Manual underwriting is always faster"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manual underwriting is used when a loan doesn't meet standard automated underwriting criteria, receives an unfavorable AUS recommendation, or otherwise requires individualized human judgment."
+  },
+  {
+    "id": "mlo-activities-38",
+    "category": "mlo-activities",
+    "question": "A borrower with a higher DTI ratio than typically allowed may still be approved if the file shows strong \"compensating factors,\" such as:",
+    "choices": [
+      "Substantial cash reserves and a long, stable employment history",
+      "A low appraised value",
+      "An incomplete application",
+      "A recent late mortgage payment"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compensating factors like significant cash reserves, a strong credit history, or stable long-term employment can offset a higher DTI ratio in the underwriter's overall risk assessment."
+  },
+  {
+    "id": "mlo-activities-39",
+    "category": "mlo-activities",
+    "question": "A loan modification differs from a refinance primarily because a modification:",
+    "choices": [
+      "Requires a full new appraisal and application",
+      "Changes the terms of the existing loan without paying it off and issuing a new loan",
+      "Always requires the borrower to be in default",
+      "Always results in a lower loan balance"
+    ],
+    "correctIndex": 1,
+    "explanation": "A loan modification changes the terms of an existing loan, such as the rate or term, without paying off the original loan and originating a brand-new one, unlike a refinance."
+  },
+  {
+    "id": "mlo-activities-40",
+    "category": "mlo-activities",
+    "question": "When a borrower refinances a first mortgage but keeps an existing second mortgage or HELOC in place, the second lienholder is typically asked to sign a:",
+    "choices": [
+      "Adverse action notice",
+      "Subordination agreement, keeping the second lien in a junior position",
+      "Loan Estimate",
+      "Gift letter"
+    ],
+    "correctIndex": 1,
+    "explanation": "A subordination agreement allows the existing second lien to remain in a junior lien position behind the new first mortgage after a refinance."
+  },
+  {
+    "id": "mlo-activities-41",
+    "category": "mlo-activities",
+    "question": "A Home Equity Conversion Mortgage (HECM), the most common type of reverse mortgage, generally allows an eligible senior borrower to:",
+    "choices": [
+      "Skip mortgage insurance requirements entirely",
+      "Avoid ever repaying the loan under any circumstance",
+      "Receive loan proceeds without making required monthly principal and interest payments, with the loan repaid when the borrower sells, moves, or passes away",
+      "Borrow against a home they do not own"
+    ],
+    "correctIndex": 2,
+    "explanation": "A HECM reverse mortgage lets qualifying senior homeowners access home equity without required monthly principal and interest payments; the loan generally becomes due when the borrower sells, permanently moves out, or dies."
+  },
+  {
+    "id": "mlo-activities-42",
+    "category": "mlo-activities",
+    "question": "Before approving a loan on a unit in a condominium project, an underwriter will typically review the project's:",
+    "choices": [
+      "Real estate agent's commission split",
+      "Local school district ratings",
+      "HOA governing documents, budget, and insurance to confirm the project meets guidelines",
+      "Individual owners' personal credit scores"
+    ],
+    "correctIndex": 2,
+    "explanation": "Condo project approval generally involves reviewing HOA governing documents, budget, reserves, and insurance coverage to confirm the project meets investor and program eligibility guidelines."
+  },
+  {
+    "id": "mlo-activities-43",
+    "category": "mlo-activities",
+    "question": "For a manufactured home to be eligible for standard mortgage financing rather than personal property (chattel) financing, it generally must be:",
+    "choices": [
+      "Located outside the United States",
+      "Permanently affixed to a foundation and titled as real property",
+      "Rented rather than owned",
+      "Built before 1970"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manufactured homes typically must be permanently affixed to an approved foundation and legally classified as real property, rather than personal property, to qualify for standard mortgage financing."
+  },
+  {
+    "id": "mlo-activities-44",
+    "category": "mlo-activities",
+    "question": "A borrower purchasing a 3-unit, owner-occupied property may generally use a portion of the projected rental income from the other units to help qualify, provided:",
+    "choices": [
+      "The property is classified as commercial",
+      "The borrower has never landlorded before, which disqualifies the income entirely",
+      "No documentation is ever required",
+      "The rental income meets documentation and underwriting guidelines for its use"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rental income from other units in an owner-occupied 2-4 unit property can often be used to help qualify, but it must meet specific documentation and underwriting requirements, such as lease agreements or appraiser rent schedules."
+  },
+  {
+    "id": "mlo-activities-45",
+    "category": "mlo-activities",
+    "question": "An \"assumable\" mortgage allows:",
+    "choices": [
+      "A qualified buyer to take over the seller's existing loan, often at its original rate and terms",
+      "The property to be sold without any financing involved",
+      "Only the original borrower to ever benefit from the loan",
+      "The lender to demand immediate repayment upon sale"
+    ],
+    "correctIndex": 0,
+    "explanation": "An assumable mortgage, common with FHA and VA loans, allows a qualified new buyer to take over the seller's existing loan under its original terms, subject to lender approval and program requirements."
+  },
+  {
+    "id": "mlo-activities-46",
+    "category": "mlo-activities",
+    "question": "A lender may generally waive the requirement for an escrow account on a conventional loan when:",
+    "choices": [
+      "The borrower simply requests it with no other conditions",
+      "The property is a condominium",
+      "The loan's LTV and other program conditions permit a waiver",
+      "Escrow waivers are never permitted on conventional loans"
+    ],
+    "correctIndex": 2,
+    "explanation": "Escrow waivers on conventional loans are typically conditioned on factors like LTV ratio and loan program guidelines, not simply a borrower's preference."
+  },
+  {
+    "id": "mlo-activities-47",
+    "category": "mlo-activities",
+    "question": "On an FHA loan, the Upfront Mortgage Insurance Premium (UFMIP) differs from the annual MIP because the UFMIP is:",
+    "choices": [
+      "Paid monthly for the life of the loan",
+      "Refunded automatically after one year",
+      "Only charged on VA loans",
+      "A one-time premium generally paid or financed at closing"
+    ],
+    "correctIndex": 3,
+    "explanation": "FHA's Upfront Mortgage Insurance Premium is a one-time charge paid or financed at closing, separate from the ongoing annual MIP that is collected as part of the monthly payment."
+  },
+  {
+    "id": "mlo-activities-48",
+    "category": "mlo-activities",
+    "question": "When a loan's servicing is transferred to a new servicer after closing, borrowers are generally entitled to:",
+    "choices": [
+      "The right to cancel the loan",
+      "A brand-new Loan Estimate",
+      "No notice at all",
+      "Advance notice of the transfer and the new servicer's contact information"
+    ],
+    "correctIndex": 3,
+    "explanation": "Borrowers are generally entitled to notice of a servicing transfer, including who the new servicer is and how to reach them, so payments are properly directed."
+  },
+  {
+    "id": "mlo-activities-49",
+    "category": "mlo-activities",
+    "question": "In a \"dry funding\" closing state, loan funds are generally:",
+    "choices": [
+      "Disbursed before all closing documents are signed and reviewed",
+      "Never disbursed",
+      "Wired directly to the borrower's personal account before closing",
+      "Disbursed only after all closing conditions and documents are reviewed and approved"
+    ],
+    "correctIndex": 3,
+    "explanation": "In dry funding states, the lender or closing agent reviews and approves all signed closing documents before funds are disbursed, unlike wet funding states where funds may disburse the same day documents are signed."
+  },
+  {
+    "id": "mlo-activities-50",
+    "category": "mlo-activities",
+    "question": "A borrower who cannot attend closing in person may, under appropriate circumstances, sign documents through a:",
+    "choices": [
+      "Substitute borrower with no legal authorization",
+      "Power of attorney authorizing another person to sign on their behalf",
+      "Text message confirmation",
+      "Verbal agreement with the closing agent"
+    ],
+    "correctIndex": 1,
+    "explanation": "A properly executed and lender-approved power of attorney can allow another person to sign closing documents on behalf of a borrower who cannot attend in person."
+  },
+  {
+    "id": "mlo-activities-51",
+    "category": "mlo-activities",
+    "question": "A \"short sale\" occurs when:",
+    "choices": [
+      "A property closes faster than a typical transaction",
+      "A buyer purchases a property sight unseen",
+      "A lender agrees to accept less than the full loan balance owed as payoff on a sale of the property",
+      "A borrower pays off the loan early"
+    ],
+    "correctIndex": 2,
+    "explanation": "A short sale occurs when a lender agrees to accept a payoff less than the full amount owed on the mortgage, typically because the property's value has fallen below the loan balance."
+  },
+  {
+    "id": "mlo-activities-52",
+    "category": "mlo-activities",
+    "question": "Under TRID, receipt of which combination of information from a consumer generally constitutes a completed \"application\" that triggers the Loan Estimate timing requirement?",
+    "choices": [
+      "Name, income, Social Security number, property address, estimated property value, and desired loan amount",
+      "The borrower's Social Security number alone",
+      "Only the borrower's name and phone number",
+      "Only the property address"
+    ],
+    "correctIndex": 0,
+    "explanation": "TRID defines a completed application as the receipt of six specific pieces of information: the consumer's name, income, Social Security number, the property address, an estimate of the property's value, and the desired loan amount."
+  },
+  {
+    "id": "mlo-activities-53",
+    "category": "mlo-activities",
+    "question": "TRID's integrated disclosure requirements generally apply to:",
+    "choices": [
+      "Only cash purchases with no financing",
+      "Commercial loans exclusively",
+      "Most closed-end consumer credit transactions secured by real property",
+      "All consumer loans regardless of collateral"
+    ],
+    "correctIndex": 2,
+    "explanation": "TRID's Loan Estimate and Closing Disclosure requirements generally apply to most closed-end consumer credit transactions secured by real property, with certain exemptions such as HELOCs and reverse mortgages."
+  },
+  {
+    "id": "mlo-activities-54",
+    "category": "mlo-activities",
+    "question": "A loan made primarily for a business purpose, rather than personal, family, or household use, is generally:",
+    "choices": [
+      "Required to use a Good Faith Estimate instead",
+      "Subject to the same TRID disclosures as a consumer purchase loan",
+      "Automatically classified as a high-cost loan",
+      "Exempt from TRID's Loan Estimate and Closing Disclosure requirements"
+    ],
+    "correctIndex": 3,
+    "explanation": "Business-purpose loans are generally exempt from TRID's consumer disclosure requirements, since TRID applies to credit extended primarily for personal, family, or household purposes."
+  },
+  {
+    "id": "mlo-activities-55",
+    "category": "mlo-activities",
+    "question": "A Home Equity Line of Credit (HELOC) is generally exempt from receiving a standard Loan Estimate and Closing Disclosure because it instead uses:",
+    "choices": [
+      "The disclosures required under Truth in Lending's open-end credit provisions",
+      "The same forms as a purchase mortgage",
+      "No disclosures at all",
+      "A verbal disclosure only"
+    ],
+    "correctIndex": 0,
+    "explanation": "HELOCs are open-end credit and are generally exempt from TRID's closed-end Loan Estimate and Closing Disclosure; they instead receive open-end disclosures under Truth in Lending."
+  },
+  {
+    "id": "mlo-activities-56",
+    "category": "mlo-activities",
+    "question": "Federal rules generally require borrowers considering a HECM reverse mortgage to first complete:",
+    "choices": [
+      "Independent HUD-approved housing counseling",
+      "A four-year degree program",
+      "A separate credit application",
+      "A second appraisal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Borrowers considering a HECM reverse mortgage are generally required to complete counseling from an independent, HUD-approved housing counseling agency before proceeding."
+  },
+  {
+    "id": "mlo-activities-57",
+    "category": "mlo-activities",
+    "question": "The \"CHARM booklet\" (Consumer Handbook on Adjustable-Rate Mortgages) is generally provided to borrowers:",
+    "choices": [
+      "Only to borrowers with a HELOC",
+      "When applying for an adjustable-rate mortgage, to help explain how ARMs work",
+      "After closing on an ARM",
+      "Only when applying for a fixed-rate loan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lenders generally provide the CHARM booklet to applicants for adjustable-rate mortgages to explain how ARM features like indexes, margins, and caps work."
+  },
+  {
+    "id": "mlo-activities-58",
+    "category": "mlo-activities",
+    "question": "A home inspection differs from an appraisal because a home inspection primarily focuses on:",
+    "choices": [
+      "The borrower's ability to repay the loan",
+      "Comparable sales in the neighborhood",
+      "The property's market value for lending purposes",
+      "The physical condition and functionality of the home's systems and structure"
+    ],
+    "correctIndex": 3,
+    "explanation": "A home inspection evaluates the physical condition of the property's systems and structure, while an appraisal focuses on estimating market value for lending purposes; a mortgage requires an appraisal but generally does not require an inspection."
+  },
+  {
+    "id": "mlo-activities-59",
+    "category": "mlo-activities",
+    "question": "A property survey obtained during a real estate transaction primarily verifies:",
+    "choices": [
+      "The borrower's credit history",
+      "The property's boundaries, easements, and any encroachments",
+      "The borrower's income sources",
+      "The interest rate on the loan"
+    ],
+    "correctIndex": 1,
+    "explanation": "A survey identifies the property's legal boundaries, easements, and any encroachments, which can be important for title insurance and lender requirements."
+  },
+  {
+    "id": "mlo-activities-60",
+    "category": "mlo-activities",
+    "question": "After closing, the deed of trust or mortgage securing the loan is generally:",
+    "choices": [
+      "Destroyed once the loan funds",
+      "Sent only to the borrower's employer",
+      "Kept private and never filed anywhere",
+      "Recorded with the county to create a public lien against the property"
+    ],
+    "correctIndex": 3,
+    "explanation": "The security instrument (deed of trust or mortgage) is recorded in county land records after closing, creating a public lien against the property that secures the loan."
+  },
+  {
+    "id": "mlo-activities-61",
+    "category": "mlo-activities",
+    "question": "A mortgage payoff statement generally includes:",
+    "choices": [
+      "The appraised value of the home",
+      "The buyer's new interest rate",
+      "The remaining principal balance, accrued interest, and any per diem amount needed to satisfy the loan in full",
+      "Only the borrower's original loan amount"
+    ],
+    "correctIndex": 2,
+    "explanation": "A payoff statement itemizes the remaining principal balance, accrued interest through a specific date, per diem interest, and any other amounts needed to fully satisfy the existing loan."
+  },
+  {
+    "id": "mlo-activities-62",
+    "category": "mlo-activities",
+    "question": "If a purchase appraisal comes in below the agreed sale price, the parties generally have which of the following options?",
+    "choices": [
+      "Renegotiating the price, having the borrower cover the shortfall in cash, or canceling under the purchase contract's terms",
+      "Ignoring the appraisal and closing at the original loan amount",
+      "Automatically increasing the loan amount to match the sale price",
+      "Only canceling the transaction, with no other alternatives"
+    ],
+    "correctIndex": 0,
+    "explanation": "When an appraisal comes in low, common options include renegotiating the sale price, having the borrower make up the gap in cash, adjusting the loan amount, or canceling the transaction per the contract's appraisal contingency."
+  },
+  {
+    "id": "mlo-activities-63",
+    "category": "mlo-activities",
+    "question": "Lenders commonly use IRS Form 4506-C during processing to:",
+    "choices": [
+      "Disclose the APR",
+      "Verify the borrower's employment",
+      "Order title insurance",
+      "Request transcripts directly from the IRS to verify a borrower's reported tax return information"
+    ],
+    "correctIndex": 3,
+    "explanation": "Form 4506-C authorizes the lender to request tax transcripts directly from the IRS, helping verify that income reported on the application matches what the borrower filed."
+  },
+  {
+    "id": "mlo-activities-64",
+    "category": "mlo-activities",
+    "question": "A \"non-QM\" (non-Qualified Mortgage) loan is best described as a loan that:",
+    "choices": [
+      "Does not meet the specific requirements to be classified as a Qualified Mortgage under the ATR/QM rule",
+      "Can only be offered to first-time homebuyers",
+      "Is guaranteed by the VA",
+      "Automatically violates federal law"
+    ],
+    "correctIndex": 0,
+    "explanation": "A non-QM loan falls outside the specific product features, points and fees limits, or underwriting requirements needed to qualify as a Qualified Mortgage, though the lender must still meet the general ability-to-repay standard."
+  },
+  {
+    "id": "mlo-activities-65",
+    "category": "mlo-activities",
+    "question": "A \"portfolio loan\" is a mortgage that a lender:",
+    "choices": [
+      "Must originate through a mortgage broker",
+      "Can only offer to existing depositors",
+      "Keeps in its own investment portfolio rather than selling on the secondary market",
+      "Sells immediately to Fannie Mae"
+    ],
+    "correctIndex": 2,
+    "explanation": "A portfolio loan is originated and held by the lender in its own investment portfolio, rather than being sold to investors or GSEs on the secondary market, often allowing more underwriting flexibility."
+  },
+  {
+    "id": "mlo-activities-66",
+    "category": "mlo-activities",
+    "question": "A warehouse line of credit is best described as a short-term financing tool used by:",
+    "choices": [
+      "Mortgage lenders to fund loans before they are sold on the secondary market",
+      "Individual borrowers to buy a home",
+      "Real estate agents to pay commissions",
+      "Appraisers to fund their operations"
+    ],
+    "correctIndex": 0,
+    "explanation": "Warehouse lines of credit are short-term funding sources mortgage lenders use to fund closed loans until those loans are sold to investors on the secondary market."
+  },
+  {
+    "id": "mlo-activities-67",
+    "category": "mlo-activities",
+    "question": "A correspondent lender is best described as an entity that:",
+    "choices": [
+      "Only refers borrowers to other lenders for a fee",
+      "Originates and funds loans in its own name, then typically sells them to a larger investor shortly after closing",
+      "Only services loans after closing",
+      "Cannot originate FHA or VA loans"
+    ],
+    "correctIndex": 1,
+    "explanation": "A correspondent lender underwrites, closes, and funds loans in its own name, then typically sells those loans to a larger investor or aggregator soon after closing."
+  },
+  {
+    "id": "mlo-activities-68",
+    "category": "mlo-activities",
+    "question": "A key distinction between a mortgage broker and a mortgage banker is that a mortgage broker generally:",
+    "choices": [
+      "Cannot be licensed under the SAFE Act",
+      "Services loans after closing",
+      "Funds loans using its own capital",
+      "Arranges financing between the borrower and a wholesale lender, without funding the loan itself"
+    ],
+    "correctIndex": 3,
+    "explanation": "A mortgage broker connects borrowers with wholesale lenders and does not fund loans with its own capital, unlike a mortgage banker, which typically originates and funds loans directly."
+  },
+  {
+    "id": "mlo-activities-69",
+    "category": "mlo-activities",
+    "question": "\"Table funding\" refers to a closing structure in which:",
+    "choices": [
+      "The appraiser is paid at the closing table",
+      "The loan is funded by a third party at the closing table, and the loan is immediately assigned to that funder",
+      "No funds are disbursed at closing",
+      "The borrower pays cash for the entire property"
+    ],
+    "correctIndex": 1,
+    "explanation": "In table funding, a third-party investor or lender provides the funds at the closing table, and the loan is simultaneously assigned to that funding party, even though the original entity is named as the lender on the note."
+  },
+  {
+    "id": "mlo-activities-70",
+    "category": "mlo-activities",
+    "question": "A \"bridge loan\" is generally used to:",
+    "choices": [
+      "Finance construction of a new home from the ground up",
+      "Refinance a VA loan into a conventional loan",
+      "Permanently replace a 30-year fixed mortgage",
+      "Provide short-term financing, often to help a borrower purchase a new home before selling their current one"
+    ],
+    "correctIndex": 3,
+    "explanation": "A bridge loan is short-term financing that helps a borrower access equity in a current home, often to purchase a new home before the current one sells."
+  },
+  {
+    "id": "mlo-activities-71",
+    "category": "mlo-activities",
+    "question": "State and local down payment assistance (DPA) programs typically provide funds to eligible borrowers in the form of:",
+    "choices": [
+      "Cash with no restrictions or documentation",
+      "Grants, forgivable loans, or low-interest second mortgages",
+      "Only high-interest personal loans",
+      "Direct reductions to the appraised value"
+    ],
+    "correctIndex": 1,
+    "explanation": "Down payment assistance programs commonly provide funds as grants, forgivable loans, or low-interest second mortgages to help eligible borrowers cover down payment and closing costs."
+  },
+  {
+    "id": "mlo-activities-72",
+    "category": "mlo-activities",
+    "question": "Many first-time homebuyer programs define a \"first-time homebuyer\" as someone who has not owned a home:",
+    "choices": [
+      "Within the past 30 days",
+      "Within the past ten years",
+      "Within the past three years",
+      "Ever, under any circumstance, with no exceptions"
+    ],
+    "correctIndex": 2,
+    "explanation": "Many first-time homebuyer programs use a common definition of not having owned a primary residence within the prior three years, rather than requiring the borrower to have never owned a home at all."
+  },
+  {
+    "id": "mlo-activities-73",
+    "category": "mlo-activities",
+    "question": "An escrow \"shortage\" identified during an annual escrow analysis generally means:",
+    "choices": [
+      "The projected account balance will fall below the required cushion, requiring the borrower to make up the difference over time or in a lump sum",
+      "The loan is in default",
+      "The borrower's interest rate will increase",
+      "The account has more funds than needed and a refund is due"
+    ],
+    "correctIndex": 0,
+    "explanation": "An escrow shortage occurs when the projected account balance is expected to dip below the required minimum, prompting the servicer to spread the shortfall over future payments or request a lump-sum payment."
+  },
+  {
+    "id": "mlo-activities-74",
+    "category": "mlo-activities",
+    "question": "If a Loan Estimate is delivered to a borrower by mail rather than hand-delivered or delivered electronically with confirmed receipt, the borrower is generally presumed to have received it:",
+    "choices": [
+      "Thirty days after it is placed in the mail",
+      "Three business days after it is placed in the mail",
+      "Only when the borrower confirms receipt in writing",
+      "Immediately upon mailing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Under TRID, when a disclosure is delivered by mail, the borrower is presumed to have received it three business days after mailing, absent evidence otherwise."
+  },
+  {
+    "id": "mlo-activities-75",
+    "category": "mlo-activities",
+    "question": "For settlement services that can be shopped for, RESPA and TRID generally require that a borrower be given:",
+    "choices": [
+      "The right to choose only the appraiser",
+      "Only one approved provider with no alternatives",
+      "A written list of providers and the ability to choose their own provider for those services",
+      "No say in choosing providers"
+    ],
+    "correctIndex": 2,
+    "explanation": "For shoppable settlement services, borrowers must be given a written list of provider options and generally retain the right to choose their own provider rather than being limited to the lender's preferred vendor."
   }
 ]

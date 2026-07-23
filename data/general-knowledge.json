@@ -323,5 +323,460 @@
     ],
     "correctIndex": 2,
     "explanation": "Fannie Mae and Freddie Mac are government-sponsored enterprises that purchase conforming loans from lenders and package them into mortgage-backed securities, providing liquidity to the mortgage market."
+  },
+  {
+    "id": "general-knowledge-26",
+    "category": "general-knowledge",
+    "question": "The \"index\" used in an adjustable-rate mortgage is best described as:",
+    "choices": [
+      "A benchmark market interest rate the loan's rate is tied to, such as SOFR",
+      "The borrower's credit score",
+      "A fixed number set once at closing that never changes",
+      "The lender's internal profit target"
+    ],
+    "correctIndex": 0,
+    "explanation": "The index is a published, independent benchmark interest rate, such as SOFR, that an ARM's rate is tied to; the fully indexed rate equals the index plus the lender's margin."
+  },
+  {
+    "id": "general-knowledge-27",
+    "category": "general-knowledge",
+    "question": "An ARM described as having \"2/2/6\" caps generally means:",
+    "choices": [
+      "The loan has a 2-year term with a 6% fixed rate",
+      "The rate can adjust 2% at the first adjustment, up to 2% at each subsequent adjustment, and up to 6% over the life of the loan",
+      "The loan has a 2% down payment requirement",
+      "The borrower makes 2 payments per year for 6 years"
+    ],
+    "correctIndex": 1,
+    "explanation": "A 2/2/6 cap structure typically limits the initial adjustment to 2%, each subsequent periodic adjustment to 2%, and the total lifetime increase to 6% above the initial rate."
+  },
+  {
+    "id": "general-knowledge-28",
+    "category": "general-knowledge",
+    "question": "Compared to a fixed-rate mortgage, an ARM generally offers which tradeoff?",
+    "choices": [
+      "A payment that can never increase",
+      "Often a lower initial rate, but payment uncertainty if rates rise after the fixed period ends",
+      "No risk of payment changes ever",
+      "A guaranteed lower payment for the entire loan term"
+    ],
+    "correctIndex": 1,
+    "explanation": "ARMs often start with a lower introductory rate than fixed-rate loans, but carry the risk of higher payments later if the index rate rises, unlike a fixed-rate loan's payment certainty."
+  },
+  {
+    "id": "general-knowledge-29",
+    "category": "general-knowledge",
+    "question": "In a standard amortizing mortgage, payments made early in the loan term are generally applied:",
+    "choices": [
+      "Equally split between principal and taxes",
+      "Entirely toward property taxes",
+      "Mostly toward interest, with a smaller portion toward principal",
+      "Entirely to principal"
+    ],
+    "correctIndex": 2,
+    "explanation": "Under standard amortization, early payments are weighted mostly toward interest, with the principal portion gradually increasing as the loan matures."
+  },
+  {
+    "id": "general-knowledge-30",
+    "category": "general-knowledge",
+    "question": "Compared to a 30-year fixed loan, a 15-year fixed loan on the same loan amount generally results in:",
+    "choices": [
+      "A higher monthly payment but significantly less total interest paid over the life of the loan",
+      "The exact same monthly payment",
+      "A higher interest rate in all cases",
+      "A lower monthly payment and less total interest paid"
+    ],
+    "correctIndex": 0,
+    "explanation": "A 15-year term typically has a higher monthly payment than a 30-year term on the same loan amount, but results in significantly less total interest paid due to the shorter amortization period."
+  },
+  {
+    "id": "general-knowledge-31",
+    "category": "general-knowledge",
+    "question": "A \"second mortgage\" is best described as a loan that:",
+    "choices": [
+      "Is always larger than the first mortgage",
+      "Has no lien against the property",
+      "Replaces the first mortgage entirely",
+      "Is secured by the property in a lien position behind the first mortgage"
+    ],
+    "correctIndex": 3,
+    "explanation": "A second mortgage is a separate loan secured by the property in a junior, or subordinate, lien position behind the existing first mortgage."
+  },
+  {
+    "id": "general-knowledge-32",
+    "category": "general-knowledge",
+    "question": "Compared to financing a primary residence, financing an investment property typically involves:",
+    "choices": [
+      "Identical rates and down payment requirements",
+      "Stricter qualification standards, often including a higher down payment and interest rate",
+      "No down payment requirement at all",
+      "Lower interest rates than a primary residence"
+    ],
+    "correctIndex": 1,
+    "explanation": "Investment properties are considered higher risk to lenders, generally resulting in stricter underwriting, larger down payment requirements, and higher interest rates than owner-occupied primary residences."
+  },
+  {
+    "id": "general-knowledge-33",
+    "category": "general-knowledge",
+    "question": "Financing for a manufactured home that is not permanently affixed to real property is generally treated as:",
+    "choices": [
+      "Commercial financing only",
+      "Real property financing identical to a site-built home",
+      "Ineligible for any type of financing",
+      "Personal property (chattel) financing, which differs from a standard real estate mortgage"
+    ],
+    "correctIndex": 3,
+    "explanation": "A manufactured home not permanently affixed to a foundation and titled as real property is generally financed as personal property, or chattel, under different terms than a standard real estate mortgage."
+  },
+  {
+    "id": "general-knowledge-34",
+    "category": "general-knowledge",
+    "question": "Underwriting a loan on a condominium unit typically differs from a single-family home because it also requires review of:",
+    "choices": [
+      "The borrower's college transcript",
+      "The condo project's HOA, budget, and insurance to confirm the project itself meets guidelines",
+      "The listing agent's license",
+      "The seller's tax returns"
+    ],
+    "correctIndex": 1,
+    "explanation": "Condo loans require an additional layer of underwriting review of the overall project — including HOA financials, insurance, and owner-occupancy ratios — beyond the individual borrower's qualifications."
+  },
+  {
+    "id": "general-knowledge-35",
+    "category": "general-knowledge",
+    "question": "A \"loan-level price adjustment\" (LLPA) is best described as:",
+    "choices": [
+      "A flat fee charged on every loan regardless of risk",
+      "A government subsidy paid directly to the borrower",
+      "A pricing adjustment based on risk factors like credit score, LTV, and property type",
+      "A discount available only to first-time buyers"
+    ],
+    "correctIndex": 2,
+    "explanation": "LLPAs are risk-based pricing adjustments that lenders and GSEs apply based on factors such as credit score, loan-to-value ratio, occupancy, and property type."
+  },
+  {
+    "id": "general-knowledge-36",
+    "category": "general-knowledge",
+    "question": "Lender-paid mortgage insurance (LPMI), compared to standard borrower-paid PMI, typically:",
+    "choices": [
+      "Cannot ever be used on conventional loans",
+      "Is only available on FHA loans",
+      "Is paid separately by the borrower each month in addition to the payment",
+      "Is built into a slightly higher interest rate rather than a separate monthly premium"
+    ],
+    "correctIndex": 3,
+    "explanation": "With LPMI, the lender pays the mortgage insurance premium and recoups the cost through a slightly higher interest rate, rather than charging the borrower a separate monthly PMI payment."
+  },
+  {
+    "id": "general-knowledge-37",
+    "category": "general-knowledge",
+    "question": "Lenders often require a borrower to show \"cash reserves\" at closing, meaning:",
+    "choices": [
+      "Verified funds remaining after closing, equal to a certain number of months of housing payments",
+      "Cash paid directly to the seller as a bonus",
+      "The total sale price of the home",
+      "The real estate agent's commission"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cash reserves refer to verified liquid funds a borrower has left over after closing, often expressed as a number of months' worth of the housing payment, used to demonstrate financial cushion."
+  },
+  {
+    "id": "general-knowledge-38",
+    "category": "general-knowledge",
+    "question": "The \"front-end\" (housing expense) ratio differs from the \"back-end\" (total) DTI ratio because the front-end ratio:",
+    "choices": [
+      "Is always higher than the back-end ratio",
+      "Only includes the proposed housing payment divided by gross monthly income",
+      "Ignores the mortgage payment entirely",
+      "Includes all of the borrower's debts, including credit cards and auto loans"
+    ],
+    "correctIndex": 1,
+    "explanation": "The front-end, or housing expense, ratio compares only the proposed monthly housing payment to gross monthly income, while the back-end ratio includes all monthly debt obligations."
+  },
+  {
+    "id": "general-knowledge-39",
+    "category": "general-knowledge",
+    "question": "Recording fees and transfer taxes charged at closing are generally paid to:",
+    "choices": [
+      "The credit bureau",
+      "The appraiser",
+      "The county or state government to record the transaction and transfer of ownership",
+      "The borrower's employer"
+    ],
+    "correctIndex": 2,
+    "explanation": "Recording fees and transfer taxes are government charges paid to record the deed and mortgage documents and, in many areas, to tax the transfer of property ownership."
+  },
+  {
+    "id": "general-knowledge-40",
+    "category": "general-knowledge",
+    "question": "Most mortgage lenders require borrowers to maintain which type of insurance on the financed property for the life of the loan?",
+    "choices": [
+      "Travel insurance",
+      "Pet insurance",
+      "Life insurance on the borrower",
+      "Hazard (homeowners) insurance covering the structure"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lenders generally require borrowers to maintain hazard, or homeowners, insurance covering the dwelling for the life of the loan to protect the property securing the debt."
+  },
+  {
+    "id": "general-knowledge-41",
+    "category": "general-knowledge",
+    "question": "If a property is located in a Special Flood Hazard Area, the lender will generally require the borrower to:",
+    "choices": [
+      "Pay an extra property tax only",
+      "Cancel the transaction automatically",
+      "Obtain and maintain flood insurance for the life of the loan",
+      "Waive homeowners insurance instead"
+    ],
+    "correctIndex": 2,
+    "explanation": "Properties in a federally designated Special Flood Hazard Area generally require the borrower to obtain and maintain flood insurance as a condition of the loan."
+  },
+  {
+    "id": "general-knowledge-42",
+    "category": "general-knowledge",
+    "question": "A reverse mortgage, such as a HECM, differs from a traditional \"forward\" mortgage in that the reverse mortgage borrower generally:",
+    "choices": [
+      "Must pay off the loan within one year",
+      "Makes larger monthly payments than on a forward mortgage",
+      "Is not required to make monthly principal and interest payments, with the loan balance growing over time",
+      "Cannot use the funds for any purpose"
+    ],
+    "correctIndex": 2,
+    "explanation": "Unlike a traditional forward mortgage, a reverse mortgage generally does not require monthly principal and interest payments; instead, the loan balance grows over time and is repaid later."
+  },
+  {
+    "id": "general-knowledge-43",
+    "category": "general-knowledge",
+    "question": "A homeowner's \"equity\" in a property is best calculated as:",
+    "choices": [
+      "The property's current market value minus the outstanding loan balance(s)",
+      "The original purchase price only",
+      "The monthly mortgage payment amount",
+      "The homeowner's annual income"
+    ],
+    "correctIndex": 0,
+    "explanation": "Home equity is the difference between the property's current market value and the total outstanding balance of any loans secured by the property."
+  },
+  {
+    "id": "general-knowledge-44",
+    "category": "general-knowledge",
+    "question": "A \"rate-and-term\" refinance is primarily used to:",
+    "choices": [
+      "Pull significant cash out for the borrower's personal use",
+      "Purchase a new property",
+      "Change the interest rate and/or loan term without the borrower receiving significant cash back",
+      "Add a co-borrower with no other changes"
+    ],
+    "correctIndex": 2,
+    "explanation": "A rate-and-term refinance replaces the existing loan to adjust the interest rate and/or term, generally without the borrower receiving a significant amount of cash back."
+  },
+  {
+    "id": "general-knowledge-45",
+    "category": "general-knowledge",
+    "question": "A temporary \"2-1 buydown\" generally works by:",
+    "choices": [
+      "Eliminating the need for a down payment",
+      "Temporarily reducing the effective payment rate by 2% in year one and 1% in year two, before returning to the note rate",
+      "Permanently lowering the note rate for the entire loan term",
+      "Doubling the loan term"
+    ],
+    "correctIndex": 1,
+    "explanation": "A 2-1 buydown temporarily lowers the borrower's effective interest rate by 2 percentage points in the first year and 1 percentage point in the second year, using funds set aside at closing, before the rate returns to the permanent note rate."
+  },
+  {
+    "id": "general-knowledge-46",
+    "category": "general-knowledge",
+    "question": "Compared to a conventional loan, FHA and VA loans are generally considered more readily \"assumable,\" meaning:",
+    "choices": [
+      "A qualified buyer can potentially take over the existing loan's rate and terms, subject to lender approval",
+      "No qualification of the new buyer is ever required",
+      "The loan must be paid off immediately upon any sale",
+      "The seller remains responsible for the loan forever"
+    ],
+    "correctIndex": 0,
+    "explanation": "FHA and VA loans are generally more assumable than conventional loans, potentially allowing a qualified buyer to take over the existing loan's rate and terms, subject to lender approval and program requirements."
+  },
+  {
+    "id": "general-knowledge-47",
+    "category": "general-knowledge",
+    "question": "A property used as a \"second home\" is generally distinguished from an \"investment property\" because a second home:",
+    "choices": [
+      "Cannot be financed with a mortgage at all",
+      "Is occupied by the borrower for part of the year and not held primarily as a rental",
+      "Is rented out full-time for income",
+      "Must always be located overseas"
+    ],
+    "correctIndex": 1,
+    "explanation": "A second home is generally a property the borrower occupies for part of the year for personal use, distinct from an investment property, which is held primarily to generate rental income."
+  },
+  {
+    "id": "general-knowledge-48",
+    "category": "general-knowledge",
+    "question": "A \"gift of equity\" occurs when:",
+    "choices": [
+      "The appraiser reduces the appraised value",
+      "A buyer receives a cash rebate from their real estate agent",
+      "A lender waives all closing costs",
+      "A seller sells a property to a buyer, often a relative, below market value, with the price difference counted as the buyer's equity contribution"
+    ],
+    "correctIndex": 3,
+    "explanation": "A gift of equity occurs when a seller, often a family member, sells a property below its market value, with the difference between the sale price and market value counted toward the buyer's down payment or equity."
+  },
+  {
+    "id": "general-knowledge-49",
+    "category": "general-knowledge",
+    "question": "Acceptable sources of down payment funds typically include all of the following EXCEPT:",
+    "choices": [
+      "A documented gift from an eligible donor",
+      "The borrower's personal savings",
+      "An undocumented cash deposit with no verifiable source",
+      "Funds from an eligible down payment assistance program"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lenders generally require down payment funds to be sourced and verified; an unexplained cash deposit with no documented, verifiable source is typically not an acceptable source of funds."
+  },
+  {
+    "id": "general-knowledge-50",
+    "category": "general-knowledge",
+    "question": "All else being equal, extending a loan's amortization period from 15 years to 30 years generally results in:",
+    "choices": [
+      "A lower monthly payment but more total interest paid over the life of the loan",
+      "No change to either the payment or total interest",
+      "A shorter total repayment period",
+      "A higher monthly payment and less total interest paid"
+    ],
+    "correctIndex": 0,
+    "explanation": "Spreading the same loan amount over a longer amortization period generally lowers the monthly payment, but increases the total amount of interest paid over the life of the loan."
+  },
+  {
+    "id": "general-knowledge-51",
+    "category": "general-knowledge",
+    "question": "A loan with \"impounds\" or an escrow account, compared to a non-impounded loan, means the borrower's monthly payment:",
+    "choices": [
+      "Never changes for the life of the loan",
+      "Is always lower than a non-impounded loan",
+      "Includes a portion for taxes and insurance collected by the servicer, in addition to principal and interest",
+      "Only covers principal and interest, with no funds collected for taxes or insurance"
+    ],
+    "correctIndex": 2,
+    "explanation": "An impounded, or escrowed, loan bundles a portion for property taxes and insurance into the monthly payment, which the servicer collects and pays on the borrower's behalf, unlike a non-impounded loan where the borrower pays those bills directly."
+  },
+  {
+    "id": "general-knowledge-52",
+    "category": "general-knowledge",
+    "question": "When comparing loan offers from different lenders, the APR is often more useful than the note rate alone because APR:",
+    "choices": [
+      "Is always identical to the note rate",
+      "Ignores all fees",
+      "Only applies to FHA loans",
+      "Reflects the note rate plus certain fees and costs, giving a fuller picture of the loan's overall cost"
+    ],
+    "correctIndex": 3,
+    "explanation": "Because APR incorporates certain fees and costs in addition to the interest rate, it can offer a more complete basis for comparing the overall cost of loan offers from different lenders."
+  },
+  {
+    "id": "general-knowledge-53",
+    "category": "general-knowledge",
+    "question": "A borrower has a gross monthly income of $5,000 and a proposed housing payment of $1,400. What is the borrower's front-end (housing expense) ratio?",
+    "choices": [
+      "35%",
+      "28%",
+      "14%",
+      "40%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Front-end ratio equals the housing payment divided by gross monthly income: $1,400 ÷ $5,000 = 28%."
+  },
+  {
+    "id": "general-knowledge-54",
+    "category": "general-knowledge",
+    "question": "A borrower's credit score generally has which effect on the interest rate they are offered?",
+    "choices": [
+      "Higher credit scores generally qualify borrowers for more favorable pricing and lower rates",
+      "Credit score only affects the loan term, never the rate",
+      "No effect whatsoever",
+      "Lower credit scores always result in a lower rate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Credit score is a major risk-based pricing factor; borrowers with higher credit scores generally qualify for more favorable interest rates and pricing than those with lower scores."
+  },
+  {
+    "id": "general-knowledge-55",
+    "category": "general-knowledge",
+    "question": "A property's occupancy classification as primary residence, second home, or investment property primarily affects:",
+    "choices": [
+      "The pricing, down payment requirements, and eligibility guidelines applied to the loan",
+      "The borrower's Social Security number",
+      "Nothing at all in the underwriting process",
+      "Only the color of the closing documents"
+    ],
+    "correctIndex": 0,
+    "explanation": "Occupancy type is a key underwriting factor that affects loan pricing, minimum down payment, reserve requirements, and overall eligibility, since investment and second homes are considered higher risk than a primary residence."
+  },
+  {
+    "id": "general-knowledge-56",
+    "category": "general-knowledge",
+    "question": "An \"escrow cushion\" collected as part of a borrower's monthly payment primarily serves to:",
+    "choices": [
+      "Provide a small reserve buffer in the escrow account in case of tax or insurance increases",
+      "Pay down the loan principal faster",
+      "Cover the lender's origination fee",
+      "Replace the need for a down payment"
+    ],
+    "correctIndex": 0,
+    "explanation": "The escrow cushion is a limited reserve buffer collected in the escrow account to help absorb increases in property tax or insurance costs without immediately creating a shortage."
+  },
+  {
+    "id": "general-knowledge-57",
+    "category": "general-knowledge",
+    "question": "Which loan term option would generally result in the LOWEST total interest paid over the life of the loan, assuming the same rate is available at each term?",
+    "choices": [
+      "30-year term",
+      "20-year term",
+      "10-year term",
+      "25-year term"
+    ],
+    "correctIndex": 2,
+    "explanation": "A shorter amortization term, such as 10 years, generally results in the least total interest paid over the life of the loan, since the balance is paid down faster, even though the monthly payment is higher."
+  },
+  {
+    "id": "general-knowledge-58",
+    "category": "general-knowledge",
+    "question": "A borrower refinances specifically to convert an existing ARM into a new fixed-rate loan, primarily to gain payment stability. This is best classified as a:",
+    "choices": [
+      "Home equity line of credit",
+      "Reverse mortgage",
+      "Cash-out refinance",
+      "Rate-and-term refinance"
+    ],
+    "correctIndex": 3,
+    "explanation": "Refinancing to change the loan's rate structure or term, such as converting an ARM to a fixed rate, without taking significant cash out, is a rate-and-term refinance."
+  },
+  {
+    "id": "general-knowledge-59",
+    "category": "general-knowledge",
+    "question": "Streamlined refinance programs offered on certain government loans, such as FHA and VA, are generally designed to:",
+    "choices": [
+      "Only be available to first-time homebuyers",
+      "Eliminate the need for a note rate",
+      "Require a full new appraisal and complete income re-verification in every case",
+      "Reduce documentation requirements for eligible borrowers refinancing an existing government loan into a new one"
+    ],
+    "correctIndex": 3,
+    "explanation": "Streamlined refinance programs, such as FHA Streamline and VA IRRRL, are designed to simplify and reduce documentation for eligible borrowers already in a government loan who are refinancing into a new one, often without a new appraisal."
+  },
+  {
+    "id": "general-knowledge-60",
+    "category": "general-knowledge",
+    "question": "Which of the following best describes why lenders classify loans as \"conforming\" versus \"jumbo\"?",
+    "choices": [
+      "The classification is based solely on the borrower's citizenship",
+      "Conforming loans meet Fannie Mae/Freddie Mac loan-size and underwriting limits, while jumbo loans exceed those size limits",
+      "Jumbo loans are always government-insured",
+      "Conforming loans always have adjustable rates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Conforming loans meet the loan-size and underwriting guidelines set by Fannie Mae and Freddie Mac, while jumbo loans exceed those size limits and are not eligible for purchase by the GSEs."
   }
 ]

@@ -323,5 +323,395 @@
     ],
     "correctIndex": 2,
     "explanation": "When compliance is uncertain, MLOs should proactively seek guidance from compliance resources or supervisors rather than guessing, to ensure fair lending obligations are met."
+  },
+  {
+    "id": "ethics-26",
+    "category": "ethics",
+    "question": "An advertisement that implies a mortgage product is endorsed or guaranteed by a government agency, when it is not, is:",
+    "choices": [
+      "Only a concern for state-chartered banks",
+      "A misleading advertising practice that should be avoided",
+      "Required for FHA and VA loan advertising",
+      "Acceptable as long as the loan closes successfully"
+    ],
+    "correctIndex": 1,
+    "explanation": "Advertising that falsely implies government endorsement or guarantee of a mortgage product is misleading and improper, even for products like FHA or VA loans that involve government insurance or guaranty of the loan itself, not an endorsement of the lender."
+  },
+  {
+    "id": "ethics-27",
+    "category": "ethics",
+    "question": "Paying an unlicensed individual, such as a friend or relative, a fee for referring mortgage business to an MLO is generally:",
+    "choices": [
+      "Only a concern if the fee exceeds $500",
+      "A prohibited unlicensed activity and referral fee arrangement",
+      "Acceptable as long as the referral results in a closed loan",
+      "Required under RESPA"
+    ],
+    "correctIndex": 1,
+    "explanation": "Paying referral fees to unlicensed individuals for generating mortgage business is generally prohibited, both as unlicensed loan origination activity and as an improper referral fee arrangement."
+  },
+  {
+    "id": "ethics-28",
+    "category": "ethics",
+    "question": "\"Redlining,\" the practice of avoiding lending in certain neighborhoods based on the racial or ethnic composition of residents, is:",
+    "choices": [
+      "Illegal discrimination under fair lending laws",
+      "A legitimate risk-management strategy",
+      "Only prohibited for government-backed loans",
+      "Permitted if disclosed in advertising"
+    ],
+    "correctIndex": 0,
+    "explanation": "Redlining, avoiding or limiting lending in areas based on the racial or ethnic makeup of residents, is illegal discrimination under fair lending laws such as the Fair Housing Act and ECOA."
+  },
+  {
+    "id": "ethics-29",
+    "category": "ethics",
+    "question": "Pulling a consumer's credit report without a legitimate, permissible purpose under FCRA is:",
+    "choices": [
+      "Only a concern if the consumer finds out",
+      "An ethics and legal violation, since credit reports may only be accessed for permitted purposes",
+      "Acceptable if the MLO deletes the report afterward",
+      "A routine and acceptable business practice"
+    ],
+    "correctIndex": 1,
+    "explanation": "Accessing a consumer's credit report without a permissible purpose, such as an actual credit transaction the consumer initiated, violates FCRA and reflects a serious ethical breach of the consumer's privacy."
+  },
+  {
+    "id": "ethics-30",
+    "category": "ethics",
+    "question": "An MLO who pressures or hints to an appraiser that a higher value is needed for the loan to work is:",
+    "choices": [
+      "Acceptable if done informally and never in writing",
+      "Performing a normal part of loan processing",
+      "Only a concern if the appraiser agrees",
+      "Engaging in prohibited appraiser coercion"
+    ],
+    "correctIndex": 3,
+    "explanation": "Attempting to influence or pressure an appraiser toward a predetermined value violates appraiser independence requirements and reflects a serious ethical and legal violation regardless of whether the appraiser complies."
+  },
+  {
+    "id": "ethics-31",
+    "category": "ethics",
+    "question": "Beyond being a legal requirement, providing timely and accurate required disclosures, such as the Loan Estimate, reflects which broader ethical principle?",
+    "choices": [
+      "Minimizing the MLO's own paperwork",
+      "Prioritizing the fastest possible closing over accuracy",
+      "Honesty and transparency with the consumer about the true costs and terms of the loan",
+      "Maximizing loan volume regardless of accuracy"
+    ],
+    "correctIndex": 2,
+    "explanation": "Providing timely, accurate disclosures reflects the broader ethical principle of honesty and transparency, ensuring the consumer has a true and complete picture of the loan's costs and terms."
+  },
+  {
+    "id": "ethics-32",
+    "category": "ethics",
+    "question": "Making unsolicited marketing calls to phone numbers on the National Do Not Call Registry, without an applicable exception, is:",
+    "choices": [
+      "Required for compliance with RESPA",
+      "Only prohibited on weekends",
+      "A permissible marketing tactic if the MLO offers a good rate",
+      "A violation of telemarketing rules and an unethical disregard for consumer preferences"
+    ],
+    "correctIndex": 3,
+    "explanation": "Calling numbers on the Do Not Call Registry without a valid exception, such as an existing business relationship, violates telemarketing rules and disregards the consumer's expressed preference not to be contacted."
+  },
+  {
+    "id": "ethics-33",
+    "category": "ethics",
+    "question": "Sending unsolicited marketing emails that fail to honor a recipient's opt-out request is a violation of:",
+    "choices": [
+      "The CAN-SPAM Act's requirements for commercial email",
+      "The Flood Disaster Protection Act",
+      "The SAFE Act's education requirements",
+      "HMDA reporting rules"
+    ],
+    "correctIndex": 0,
+    "explanation": "The CAN-SPAM Act requires commercial email senders, including MLOs marketing their services, to honor opt-out requests and follow other requirements for unsolicited commercial email."
+  },
+  {
+    "id": "ethics-34",
+    "category": "ethics",
+    "question": "An MLO's marketing content posted on social media is generally held to:",
+    "choices": [
+      "The same substantive advertising and disclosure rules that apply to other marketing channels",
+      "Standards set solely by the social media platform",
+      "No compliance standards, since social media is informal",
+      "A lower standard than print advertising"
+    ],
+    "correctIndex": 0,
+    "explanation": "Social media marketing is generally subject to the same substantive advertising, UDAAP, and disclosure requirements as traditional marketing channels, even though the format differs."
+  },
+  {
+    "id": "ethics-35",
+    "category": "ethics",
+    "question": "Commingling client trust or escrow funds with a company's general operating funds is:",
+    "choices": [
+      "Required for efficient accounting",
+      "A routine bookkeeping shortcut",
+      "A prohibited practice that risks misuse of client funds",
+      "Only a concern if funds go missing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Trust and escrow funds must generally be kept separate from a company's operating funds; commingling them is prohibited because it risks misuse, mismanagement, or loss of client funds."
+  },
+  {
+    "id": "ethics-36",
+    "category": "ethics",
+    "question": "An employer that retaliates against an employee for reporting a suspected compliance violation through proper channels is:",
+    "choices": [
+      "Only accountable if the report turns out to be true",
+      "Required to do so under the SAFE Act",
+      "Engaging in conduct that undermines whistleblower protections and ethical reporting culture",
+      "Acting appropriately to protect company reputation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Retaliating against employees who report suspected violations in good faith undermines legal whistleblower protections and discourages the kind of internal reporting that helps catch misconduct early."
+  },
+  {
+    "id": "ethics-37",
+    "category": "ethics",
+    "question": "An MLO tells a prospective borrower their loan is \"guaranteed to be approved\" before any underwriting review has occurred. This statement is:",
+    "choices": [
+      "A misleading representation, since approval cannot be guaranteed before underwriting",
+      "Acceptable as a sales technique",
+      "Required disclosure language",
+      "Only a concern if the loan is later denied"
+    ],
+    "correctIndex": 0,
+    "explanation": "Claiming a loan is guaranteed to be approved before underwriting review is a misleading statement, since actual approval depends on verification and underwriting that hasn't yet occurred."
+  },
+  {
+    "id": "ethics-38",
+    "category": "ethics",
+    "question": "If an MLO discovers a material error in a closed loan file, the appropriate ethical response is to:",
+    "choices": [
+      "Hide the error to avoid liability",
+      "Disclose and address the error through proper channels rather than concealing it",
+      "Blame another party regardless of the facts",
+      "Wait to see if anyone notices"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ethical practice requires promptly disclosing and addressing material errors discovered after closing, rather than concealing them, to protect the borrower and maintain integrity in the transaction."
+  },
+  {
+    "id": "ethics-39",
+    "category": "ethics",
+    "question": "An MLO encourages a borrower to falsely claim a property as their primary residence to obtain a lower rate, when the borrower actually intends it as a rental. This is:",
+    "choices": [
+      "A permissible strategy to help the borrower save money",
+      "Standard practice for investment purchases",
+      "Only a concern for the title company",
+      "Occupancy fraud and an ethics violation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Encouraging a borrower to misrepresent intended occupancy to obtain better pricing is occupancy fraud, a serious ethics and legal violation regardless of who suggested it."
+  },
+  {
+    "id": "ethics-40",
+    "category": "ethics",
+    "question": "An MLO advertises an attractive rate to generate calls, then routinely tells callers that rate is \"no longer available\" and steers them to a higher-cost product. This tactic is best described as:",
+    "choices": [
+      "Acceptable if disclosed after the fact",
+      "A legitimate way to manage changing market rates",
+      "Bait-and-switch advertising, a deceptive practice",
+      "Required when rates change daily"
+    ],
+    "correctIndex": 2,
+    "explanation": "Advertising a rate with no intention of honoring it, in order to steer consumers to a different, often costlier product, is a classic bait-and-switch tactic and a deceptive practice."
+  },
+  {
+    "id": "ethics-41",
+    "category": "ethics",
+    "question": "When recommending a loan with features such as an adjustable rate, interest-only payments, or a prepayment penalty, an MLO has an ethical duty to:",
+    "choices": [
+      "Assume the borrower already understands it",
+      "Avoid discussing the feature unless asked",
+      "Only mention the initial low payment",
+      "Clearly explain the material risks and how the loan's terms could change over time"
+    ],
+    "correctIndex": 3,
+    "explanation": "MLOs have an ethical duty to clearly explain material risks and features of a loan product, such as rate adjustments or prepayment penalties, so the borrower can make an informed decision."
+  },
+  {
+    "id": "ethics-42",
+    "category": "ethics",
+    "question": "When an applicant withdraws their loan application, the sensitive documents they submitted, such as tax returns and bank statements, should be:",
+    "choices": [
+      "Immediately shared with a competing lender",
+      "Kept and used freely for future unrelated marketing",
+      "Left in an unsecured shared file",
+      "Securely retained or disposed of consistent with privacy and record retention requirements"
+    ],
+    "correctIndex": 3,
+    "explanation": "Even after an application is withdrawn, sensitive borrower documents must be securely retained or disposed of in accordance with privacy laws and applicable record retention requirements, not repurposed or left unsecured."
+  },
+  {
+    "id": "ethics-43",
+    "category": "ethics",
+    "question": "An MLO who also acts as the real estate agent on the same transaction has an ethical obligation to:",
+    "choices": [
+      "Only disclose the dual role if directly asked",
+      "Keep the dual role hidden from all parties",
+      "Choose whichever role earns the highest combined fee",
+      "Disclose the dual role and any resulting conflict of interest to the affected parties"
+    ],
+    "correctIndex": 3,
+    "explanation": "Serving in a dual role, such as both MLO and real estate agent on the same transaction, creates a conflict of interest that must be proactively disclosed to the parties involved."
+  },
+  {
+    "id": "ethics-44",
+    "category": "ethics",
+    "question": "Accepting a lavish personal gift from a client during an active transaction, in a way that could appear to influence the MLO's professional judgment, is generally:",
+    "choices": [
+      "Irrelevant to the MLO's professional obligations",
+      "Encouraged as good customer service",
+      "Something an MLO should decline or handle per company policy to avoid a conflict of interest",
+      "Only a concern if the gift is in cash"
+    ],
+    "correctIndex": 2,
+    "explanation": "Accepting gifts that could appear to compromise objectivity raises a conflict-of-interest concern; MLOs should generally decline such gifts or follow company policy limiting their acceptance."
+  },
+  {
+    "id": "ethics-45",
+    "category": "ethics",
+    "question": "An MLO who falsely reports completing required continuing education hours that were never actually taken has:",
+    "choices": [
+      "Violated no rule, since CE tracking is informal",
+      "Only a minor issue if caught",
+      "Committed a serious compliance and ethics violation that can jeopardize their license",
+      "Made an acceptable time-saving shortcut"
+    ],
+    "correctIndex": 2,
+    "explanation": "Falsely certifying completion of required continuing education is a serious violation of licensing requirements and professional ethics, and can result in license suspension or revocation."
+  },
+  {
+    "id": "ethics-46",
+    "category": "ethics",
+    "question": "Allowing another, possibly unlicensed, individual to originate loans under an MLO's own NMLS ID is:",
+    "choices": [
+      "Acceptable between coworkers at the same company",
+      "A serious violation that misrepresents who actually originated the loan",
+      "Only a concern if the other person makes a mistake",
+      "Required when an MLO is on vacation"
+    ],
+    "correctIndex": 1,
+    "explanation": "An MLO's NMLS ID must reflect the individual who actually performed loan origination activities; allowing someone else, especially an unlicensed person, to originate loans under that ID misrepresents accountability and violates licensing rules."
+  },
+  {
+    "id": "ethics-47",
+    "category": "ethics",
+    "question": "Overstating a borrower's likelihood of approval in order to collect an application fee, when the MLO has reason to believe the borrower likely will not qualify, is:",
+    "choices": [
+      "Standard sales practice",
+      "A deceptive practice that misleads the consumer for financial gain",
+      "Only a concern if the loan is later denied",
+      "Acceptable if the fee is refundable"
+    ],
+    "correctIndex": 1,
+    "explanation": "Misrepresenting a borrower's approval odds to induce them to pay a fee is a deceptive practice that prioritizes the MLO's financial interest over honest dealing with the consumer."
+  },
+  {
+    "id": "ethics-48",
+    "category": "ethics",
+    "question": "When a borrower validly exercises their right of rescission, the ethical and appropriate response from the MLO or lender is to:",
+    "choices": [
+      "Delay processing to see if the borrower changes their mind",
+      "Charge a penalty for exercising the right",
+      "Honor the rescission promptly and process it as required",
+      "Discourage the borrower from following through"
+    ],
+    "correctIndex": 2,
+    "explanation": "A valid rescission must be honored promptly and without discouragement or delay; pressuring a borrower not to rescind or slow-walking the process undermines a legally protected consumer right."
+  },
+  {
+    "id": "ethics-49",
+    "category": "ethics",
+    "question": "An MLO's advertisement makes false or misleading claims about a competitor's rates or services to win business. This practice is:",
+    "choices": [
+      "Acceptable as long as the MLO's own rates are accurate",
+      "Required to remain competitive",
+      "Only a concern if the competitor sues",
+      "A deceptive and unethical advertising practice"
+    ],
+    "correctIndex": 3,
+    "explanation": "Making false or misleading claims about a competitor is a deceptive advertising practice and reflects poorly on professional ethics, regardless of the accuracy of the MLO's own marketing."
+  },
+  {
+    "id": "ethics-50",
+    "category": "ethics",
+    "question": "Because the Loan Originator Compensation rule prohibits basing pay on loan terms, an MLO's ethical duty is to:",
+    "choices": [
+      "Recommend loan terms based on the borrower's needs, since compensation should not be steering the recommendation",
+      "Structure loan terms to maximize their own commission regardless of borrower fit",
+      "Only offer the highest-rate product available",
+      "Ignore the borrower's stated goals"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since compensation rules are designed to remove incentives tied to loan terms, MLOs have a corresponding ethical duty to recommend loan terms based on what genuinely fits the borrower's needs and goals."
+  },
+  {
+    "id": "ethics-51",
+    "category": "ethics",
+    "question": "Signing a borrower's name on loan documents without valid, specific authorization, such as a proper power of attorney, is:",
+    "choices": [
+      "Only a concern for documents signed at closing",
+      "A form of document fraud and forgery",
+      "Acceptable if done to save time before a deadline",
+      "Permitted as long as the MLO informs the borrower afterward"
+    ],
+    "correctIndex": 1,
+    "explanation": "Signing a borrower's name without valid, specific authorization constitutes forgery and document fraud, regardless of the MLO's intent to be helpful or save time."
+  },
+  {
+    "id": "ethics-52",
+    "category": "ethics",
+    "question": "An MLO consistently recommends a particular loan product mainly because it is easier and faster for the MLO to process, even when it isn't the best fit for the borrower's situation. This practice reflects:",
+    "choices": [
+      "A required underwriting standard",
+      "A prioritization of the MLO's own convenience over the borrower's best interest",
+      "An acceptable practice since all loan products are equally suitable",
+      "Efficient, borrower-focused service"
+    ],
+    "correctIndex": 1,
+    "explanation": "Recommending a product primarily for the MLO's convenience, rather than because it fits the borrower's needs, places the originator's interests ahead of the consumer's, which runs contrary to ethical practice."
+  },
+  {
+    "id": "ethics-53",
+    "category": "ethics",
+    "question": "An MLO who leaves a company and takes confidential client contact lists and financial data to use at a new employer has likely:",
+    "choices": [
+      "Violated confidentiality and privacy obligations owed to those clients and the former employer",
+      "Acted appropriately since client relationships belong to the MLO",
+      "Only violated company policy, with no legal or ethical implications",
+      "Done nothing wrong, since the MLO originated those loans personally"
+    ],
+    "correctIndex": 0,
+    "explanation": "Client financial and contact information is generally confidential; taking and reusing it without authorization after leaving a company can violate privacy laws, employment agreements, and professional ethics."
+  },
+  {
+    "id": "ethics-54",
+    "category": "ethics",
+    "question": "An MLO whose license has lapsed due to incomplete continuing education, but who continues to originate loans anyway, is:",
+    "choices": [
+      "Engaging in unlicensed activity, a serious violation",
+      "Exempt from licensing rules if their employer approves",
+      "Only in violation if a consumer complains",
+      "Still permitted to originate as long as they complete CE eventually"
+    ],
+    "correctIndex": 0,
+    "explanation": "Originating loans while a license is lapsed or inactive constitutes unlicensed activity, a serious violation regardless of the originator's intent to complete requirements later."
+  },
+  {
+    "id": "ethics-55",
+    "category": "ethics",
+    "question": "A borrower asks an MLO to backdate a document to make it appear signed on an earlier date than it actually was. The appropriate response is to:",
+    "choices": [
+      "Decline, since backdating a document misrepresents the facts and can constitute fraud",
+      "Backdate it as a customer service courtesy",
+      "Let the borrower backdate it themselves without comment",
+      "Backdate it only if the change seems minor"
+    ],
+    "correctIndex": 0,
+    "explanation": "Backdating documents misrepresents when an action actually occurred and can constitute fraud; an MLO should decline such requests regardless of how minor the change may seem."
   }
 ]

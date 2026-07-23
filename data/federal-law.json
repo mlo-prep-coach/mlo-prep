@@ -388,5 +388,590 @@
     ],
     "correctIndex": 2,
     "explanation": "Regulation C implements the Home Mortgage Disclosure Act (HMDA), governing the collection and reporting of mortgage application data."
+  },
+  {
+    "id": "federal-law-31",
+    "category": "federal-law",
+    "question": "Under RESPA, when a loan's servicing is transferred to a new servicer, borrowers are generally entitled to notice from the transferring and/or new servicer:",
+    "choices": [
+      "Within a required notice period before or after the effective transfer date",
+      "Only after the first missed payment",
+      "With no minimum timing requirement",
+      "Only if the borrower specifically requests it"
+    ],
+    "correctIndex": 0,
+    "explanation": "RESPA Section 6 requires servicers to provide borrowers advance notice of a servicing transfer within specified timeframes relative to the effective date, so borrowers know where to send payments."
+  },
+  {
+    "id": "federal-law-32",
+    "category": "federal-law",
+    "question": "Under RESPA, a lender's escrow account \"cushion\" is generally limited to no more than:",
+    "choices": [
+      "One-sixth (roughly two months) of estimated annual disbursements",
+      "One full year of disbursements",
+      "Half of the annual disbursements",
+      "Zero — no cushion is ever permitted"
+    ],
+    "correctIndex": 0,
+    "explanation": "RESPA limits the escrow account cushion a servicer may collect to no more than one-sixth of the estimated total annual disbursements, roughly two months' worth."
+  },
+  {
+    "id": "federal-law-33",
+    "category": "federal-law",
+    "question": "TILA's three-business-day right of rescission generally does NOT apply to:",
+    "choices": [
+      "A home equity line of credit on the primary residence",
+      "A cash-out refinance with a new lender",
+      "A rate-and-term refinance with a new lender",
+      "A purchase-money mortgage used to buy the borrower's primary residence"
+    ],
+    "correctIndex": 3,
+    "explanation": "The TILA right of rescission generally applies to certain refinances and home equity transactions on a borrower's primary residence, but it does not apply to purchase-money mortgages used to buy the home."
+  },
+  {
+    "id": "federal-law-34",
+    "category": "federal-law",
+    "question": "If a lender fails to properly deliver the required rescission notice and disclosures on a covered refinance, the borrower's right to rescind can extend up to:",
+    "choices": [
+      "Indefinitely, with no outer limit",
+      "3 business days only, with no extension possible",
+      "30 days only",
+      "Up to three years from consummation"
+    ],
+    "correctIndex": 3,
+    "explanation": "If required rescission notices or material disclosures are not properly provided, the borrower's right to rescind can extend up to three years from consummation, rather than expiring after the standard three business days."
+  },
+  {
+    "id": "federal-law-35",
+    "category": "federal-law",
+    "question": "Under ECOA and Regulation B, a creditor generally may NOT require a borrower's spouse to sign the loan application or note unless:",
+    "choices": [
+      "The loan amount exceeds the conforming limit",
+      "The spouse is self-employed",
+      "The spouse will also be a titleholder or is otherwise required by applicable state property law",
+      "The borrower requests a lower rate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Regulation B generally prohibits requiring a spouse's signature solely because they are a spouse, unless the spouse will have an ownership interest or state property law otherwise requires it."
+  },
+  {
+    "id": "federal-law-36",
+    "category": "federal-law",
+    "question": "Under the Fair Housing Act's familial status protections, discrimination against households with children is generally prohibited, with a limited exception for:",
+    "choices": [
+      "New construction only",
+      "Any property the owner personally selects",
+      "Rental properties only",
+      "Qualified housing developments for older persons, such as 55-and-over communities"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Fair Housing Act protects familial status but includes a limited exemption for qualified senior housing, such as properties meeting the requirements for 55-and-over communities."
+  },
+  {
+    "id": "federal-law-37",
+    "category": "federal-law",
+    "question": "The CFPB's authority to address \"unfair, deceptive, or abusive acts or practices\" (UDAAP) allows it to take action against practices that are:",
+    "choices": [
+      "Limited strictly to loan servicing",
+      "Limited strictly to advertising",
+      "Unfair, deceptive, or abusive to consumers, even without a violation of a specific other law",
+      "Only illegal under a specific named statute"
+    ],
+    "correctIndex": 2,
+    "explanation": "The CFPB's UDAAP authority allows it to address practices that are unfair, deceptive, or abusive to consumers broadly, independent of whether a separate, specific statute is also violated."
+  },
+  {
+    "id": "federal-law-38",
+    "category": "federal-law",
+    "question": "The three-business-day rescission period under TILA generally begins to run from the latest of which events?",
+    "choices": [
+      "The date the appraisal is ordered",
+      "Consummation of the transaction, delivery of the TILA disclosures, or delivery of the required rescission notice, whichever is latest",
+      "The date the Loan Estimate is issued",
+      "Loan application date only"
+    ],
+    "correctIndex": 1,
+    "explanation": "The rescission period runs from the latest of consummation, delivery of required Truth in Lending disclosures, or delivery of the notice of the right to rescind — whichever happens last."
+  },
+  {
+    "id": "federal-law-39",
+    "category": "federal-law",
+    "question": "Under RESPA Section 9, a seller of a property generally may NOT require the buyer to purchase title insurance from a particular company because:",
+    "choices": [
+      "Title insurance is never required",
+      "Title insurance is regulated exclusively by TILA",
+      "It restricts the buyer's ability to choose their own settlement service providers",
+      "Sellers are prohibited from discussing title insurance"
+    ],
+    "correctIndex": 2,
+    "explanation": "RESPA Section 9 prohibits sellers from requiring buyers to use a particular title insurance company as a condition of the sale, to preserve the buyer's ability to shop for services."
+  },
+  {
+    "id": "federal-law-40",
+    "category": "federal-law",
+    "question": "Under the SAFE Act, MLOs employed by federally regulated depository institutions generally must:",
+    "choices": [
+      "Register with NMLS but are not required to obtain a state license the way non-bank MLOs are",
+      "Complete no background check",
+      "Be completely exempt from NMLS entirely",
+      "Obtain a license in every state regardless of where they work"
+    ],
+    "correctIndex": 0,
+    "explanation": "MLOs at federally regulated depository institutions generally register with NMLS under federal registration requirements, rather than obtaining the state license required of MLOs at non-depository companies."
+  },
+  {
+    "id": "federal-law-41",
+    "category": "federal-law",
+    "question": "The Fair Housing Act is primarily enforced at the federal level by which agency?",
+    "choices": [
+      "The Department of Housing and Urban Development (HUD)",
+      "The Social Security Administration",
+      "The Department of Labor",
+      "The Federal Communications Commission"
+    ],
+    "correctIndex": 0,
+    "explanation": "HUD has primary federal enforcement authority over the Fair Housing Act, investigating and adjudicating housing discrimination complaints."
+  },
+  {
+    "id": "federal-law-42",
+    "category": "federal-law",
+    "question": "Under ECOA, the term \"creditor\" is generally defined broadly enough to include:",
+    "choices": [
+      "Only real estate agents",
+      "Only government agencies",
+      "Any person who regularly participates in credit decisions, including setting terms, such as mortgage lenders and brokers",
+      "Only nationally chartered banks"
+    ],
+    "correctIndex": 2,
+    "explanation": "ECOA defines \"creditor\" broadly to include anyone who regularly participates in decisions about whether and on what terms to extend credit, which includes most mortgage lenders and loan originators."
+  },
+  {
+    "id": "federal-law-43",
+    "category": "federal-law",
+    "question": "Under TILA, the \"finance charge\" generally represents:",
+    "choices": [
+      "Only the down payment amount",
+      "The property's appraised value",
+      "The cost of consumer credit, including interest and certain other required charges",
+      "The real estate agent's commission"
+    ],
+    "correctIndex": 2,
+    "explanation": "The finance charge under TILA reflects the cost of consumer credit as a dollar amount, including interest and certain fees the borrower must pay to obtain the loan."
+  },
+  {
+    "id": "federal-law-44",
+    "category": "federal-law",
+    "question": "Under the Ability-to-Repay rule, lenders are generally required to consider several underwriting factors, including which of the following?",
+    "choices": [
+      "The borrower's political affiliation",
+      "The borrower's favorite loan officer",
+      "The real estate agent's years of experience",
+      "The borrower's current income or assets, employment status, and debt-to-income ratio"
+    ],
+    "correctIndex": 3,
+    "explanation": "The ATR rule requires lenders to consider specific underwriting factors, including current or reasonably expected income and assets, employment status, monthly payment, other debt obligations, and debt-to-income ratio."
+  },
+  {
+    "id": "federal-law-45",
+    "category": "federal-law",
+    "question": "The CFPB has direct supervisory examination authority over:",
+    "choices": [
+      "Only state governments",
+      "Only credit unions with fewer than 100 members",
+      "No financial institutions at all",
+      "Certain large banks and many nonbank financial companies, including mortgage lenders"
+    ],
+    "correctIndex": 3,
+    "explanation": "The CFPB has supervisory authority over large insured depository institutions and many nonbank financial companies, including mortgage lenders, brokers, and servicers, to examine for compliance with federal consumer financial law."
+  },
+  {
+    "id": "federal-law-46",
+    "category": "federal-law",
+    "question": "TILA's advertising rules generally require that if an ad states a specific \"trigger term,\" such as the amount of a down payment, the ad must also disclose:",
+    "choices": [
+      "The appraiser's license number",
+      "Additional required credit terms, such as the APR and repayment terms",
+      "Nothing further is required",
+      "Only the lender's phone number"
+    ],
+    "correctIndex": 1,
+    "explanation": "When an advertisement includes certain \"trigger terms,\" TILA requires additional disclosures, such as the APR and other credit terms, to prevent misleading or incomplete advertising."
+  },
+  {
+    "id": "federal-law-47",
+    "category": "federal-law",
+    "question": "Higher-Priced Mortgage Loans (HPMLs) under Regulation Z are defined using a rate-based threshold that is generally:",
+    "choices": [
+      "Only applicable to VA loans",
+      "A separate, lower threshold than HOEPA's high-cost trigger, and can require an escrow account",
+      "Identical in every respect to HOEPA's high-cost loan threshold",
+      "Only applicable to jumbo loans"
+    ],
+    "correctIndex": 1,
+    "explanation": "HPMLs use a separate rate-spread threshold that is lower than HOEPA's high-cost trigger and, among other requirements, can require lenders to establish an escrow account for taxes and insurance."
+  },
+  {
+    "id": "federal-law-48",
+    "category": "federal-law",
+    "question": "The Dodd-Frank Wall Street Reform and Consumer Protection Act consolidated consumer financial protection rulemaking authority previously spread across multiple federal agencies into:",
+    "choices": [
+      "The newly created Consumer Financial Protection Bureau",
+      "The Federal Reserve exclusively",
+      "The Department of Justice",
+      "State attorneys general"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dodd-Frank consolidated rulemaking authority for most federal consumer financial protection laws, previously divided among several agencies, into the newly created CFPB."
+  },
+  {
+    "id": "federal-law-49",
+    "category": "federal-law",
+    "question": "The E-SIGN Act generally allows lenders to provide required disclosures electronically, provided that:",
+    "choices": [
+      "Disclosures are never permitted electronically",
+      "The borrower has affirmatively consented to receive electronic disclosures",
+      "The lender has no obligation to obtain consent",
+      "Only the lender's internal staff can view them electronically"
+    ],
+    "correctIndex": 1,
+    "explanation": "The E-SIGN Act permits electronic delivery of required disclosures, but generally requires the consumer's affirmative consent, along with confirmation they can access the electronic format."
+  },
+  {
+    "id": "federal-law-50",
+    "category": "federal-law",
+    "question": "Under ECOA/Regulation B, the definition of \"adverse action\" generally includes:",
+    "choices": [
+      "Only outright denials of credit",
+      "Only actions the lender takes after closing",
+      "Only the closing of an approved loan",
+      "Denials, unfavorable counteroffers the applicant does not accept, and certain other unfavorable actions"
+    ],
+    "correctIndex": 3,
+    "explanation": "Adverse action under Regulation B is defined broadly to include not just outright denial, but also an unfavorable counteroffer the applicant does not accept, and certain other negative credit actions."
+  },
+  {
+    "id": "federal-law-51",
+    "category": "federal-law",
+    "question": "On a transaction involving multiple owners of a primary residence with rescission rights, TILA generally requires the rescission notice to be given to:",
+    "choices": [
+      "Each consumer who has an ownership interest in the property being used as security",
+      "Only the primary wage earner",
+      "Only whichever spouse signed first",
+      "No one, since notice is optional"
+    ],
+    "correctIndex": 0,
+    "explanation": "TILA generally requires the notice of the right to rescind to be provided to each consumer entitled to rescind, meaning each owner of the property with an ownership interest, not just one household member."
+  },
+  {
+    "id": "federal-law-52",
+    "category": "federal-law",
+    "question": "HMDA reporting obligations generally apply to lenders that:",
+    "choices": [
+      "Meet certain asset-size, location, and loan-volume thresholds that make them a \"covered\" institution",
+      "Only operate in a single state",
+      "Originate any single mortgage loan, with no volume threshold whatsoever",
+      "Are exclusively credit unions"
+    ],
+    "correctIndex": 0,
+    "explanation": "HMDA reporting requirements generally apply to institutions that meet specific asset-size, physical location, and loan-volume criteria that classify them as a covered financial institution."
+  },
+  {
+    "id": "federal-law-53",
+    "category": "federal-law",
+    "question": "For a loan classified as a Higher-Priced Mortgage Loan (HPML), Regulation Z generally requires the lender to:",
+    "choices": [
+      "Obtain a more detailed appraisal in certain cases and, for many HPMLs, establish an escrow account",
+      "Charge a mandatory prepayment penalty",
+      "Waive the appraisal requirement entirely",
+      "Automatically deny the application"
+    ],
+    "correctIndex": 0,
+    "explanation": "HPMLs are subject to additional protections under Regulation Z, including enhanced appraisal requirements in certain cases and, for many HPMLs, a requirement to establish an escrow account for taxes and insurance."
+  },
+  {
+    "id": "federal-law-54",
+    "category": "federal-law",
+    "question": "Under Regulation B, an applicant who receives an adverse action has the right to:",
+    "choices": [
+      "Request the specific reasons for the denial or unfavorable action",
+      "Automatically receive the loan anyway",
+      "Sue the lender without any notice requirement",
+      "Nothing further — the decision is final with no explanation owed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Regulation B gives applicants who receive adverse action the right to request the specific reasons for the decision, which creditors must be able to provide."
+  },
+  {
+    "id": "federal-law-55",
+    "category": "federal-law",
+    "question": "An advertisement featuring a low introductory \"teaser\" interest rate must, under TILA's advertising rules, generally also disclose:",
+    "choices": [
+      "Nothing else is required",
+      "The lender's stock price",
+      "That the rate is only temporary, along with other required credit terms",
+      "The appraiser's fee schedule"
+    ],
+    "correctIndex": 2,
+    "explanation": "TILA's advertising rules generally require disclosure clarifying that a promotional or introductory rate is temporary, along with other required credit terms, to avoid misleading consumers."
+  },
+  {
+    "id": "federal-law-56",
+    "category": "federal-law",
+    "question": "RESPA's general prohibition on duplicate charges and unearned fees means a settlement service provider may generally only charge for:",
+    "choices": [
+      "Services it plans to perform someday",
+      "Services actually performed",
+      "Any amount regardless of work performed",
+      "Referral volume generated"
+    ],
+    "correctIndex": 1,
+    "explanation": "RESPA prohibits charging fees for settlement services that were not actually performed, as well as duplicate charges for the same service."
+  },
+  {
+    "id": "federal-law-57",
+    "category": "federal-law",
+    "question": "Under the Gramm-Leach-Bliley Act, financial institutions must generally provide customers with an initial privacy notice explaining:",
+    "choices": [
+      "The institution's licensing history",
+      "What nonpublic personal information is collected and how it may be shared, along with opt-out rights in certain cases",
+      "The institution's interest rate index",
+      "The institution's marketing budget"
+    ],
+    "correctIndex": 1,
+    "explanation": "GLBA requires financial institutions to provide customers a privacy notice describing what nonpublic personal information is collected and how it may be shared, along with the right to opt out of certain sharing with unaffiliated third parties."
+  },
+  {
+    "id": "federal-law-58",
+    "category": "federal-law",
+    "question": "Under the SAFE Act, a \"residential mortgage loan\" generally refers to a loan primarily secured by:",
+    "choices": [
+      "An unsecured line of credit",
+      "A vehicle",
+      "A dwelling or residential real estate, including a home used as security for the loan",
+      "A commercial office building"
+    ],
+    "correctIndex": 2,
+    "explanation": "The SAFE Act generally defines a residential mortgage loan as one secured by a dwelling or residential real property, which is central to determining whether SAFE Act licensing applies."
+  },
+  {
+    "id": "federal-law-59",
+    "category": "federal-law",
+    "question": "Under fair housing laws, a housing provider's duty to make a \"reasonable accommodation\" most directly applies to applicants or residents with:",
+    "choices": [
+      "A large down payment",
+      "A high credit score",
+      "A disability",
+      "A short employment history"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fair housing laws require reasonable accommodations in rules, policies, or practices for individuals with disabilities when necessary to afford them equal opportunity to use and enjoy housing."
+  },
+  {
+    "id": "federal-law-60",
+    "category": "federal-law",
+    "question": "TILA generally allows a borrower to waive the three-business-day rescission period only in cases involving:",
+    "choices": [
+      "Routine convenience for the closing agent",
+      "A bona fide personal financial emergency, with a written waiver meeting specific requirements",
+      "Any request the borrower makes verbally",
+      "The lender's scheduling preference"
+    ],
+    "correctIndex": 1,
+    "explanation": "TILA permits a borrower to modify or waive the rescission period only in the case of a genuine personal financial emergency, and only with a specific dated written statement describing the emergency and waiving the right."
+  },
+  {
+    "id": "federal-law-61",
+    "category": "federal-law",
+    "question": "Regulation B generally requires creditors to retain records related to a credit application, including any adverse action taken, for a minimum period of:",
+    "choices": [
+      "1 week",
+      "90 days",
+      "25 months",
+      "Indefinitely with no retention schedule"
+    ],
+    "correctIndex": 2,
+    "explanation": "Regulation B requires creditors to generally retain records of credit applications, including adverse action documentation, for at least 25 months after the date of the notification."
+  },
+  {
+    "id": "federal-law-62",
+    "category": "federal-law",
+    "question": "Under RESPA servicing rules, a loan servicer that receives a borrower's written request for information or to correct an error is generally required to:",
+    "choices": [
+      "Ignore the request unless the borrower is in default",
+      "Automatically transfer the loan to a new servicer",
+      "Report the borrower to the credit bureaus",
+      "Acknowledge and respond to the request within specified timeframes"
+    ],
+    "correctIndex": 3,
+    "explanation": "RESPA servicing rules require servicers to acknowledge and timely respond to a borrower's written request for information or notice of error, sometimes referred to as a Qualified Written Request or similar notice of error."
+  },
+  {
+    "id": "federal-law-63",
+    "category": "federal-law",
+    "question": "Under TILA and Regulation Z, loan disclosures must generally identify:",
+    "choices": [
+      "Only the title company",
+      "Only the real estate agent",
+      "Only the property's tax assessor",
+      "The specific creditor extending the credit"
+    ],
+    "correctIndex": 3,
+    "explanation": "Regulation Z disclosures must clearly identify the creditor making the credit available, so consumers know who is extending the loan."
+  },
+  {
+    "id": "federal-law-64",
+    "category": "federal-law",
+    "question": "Under the Ability-to-Repay rule, a lender's verification of a borrower's income and assets must generally rely on:",
+    "choices": [
+      "Reasonably reliable third-party records, such as tax returns, payroll statements, or bank records",
+      "Only the real estate agent's estimate",
+      "No documentation at all",
+      "The borrower's verbal statement alone"
+    ],
+    "correctIndex": 0,
+    "explanation": "The ATR rule requires lenders to verify income and assets using reasonably reliable third-party records, such as tax transcripts, payroll records, or bank statements, rather than relying on unverified borrower statements."
+  },
+  {
+    "id": "federal-law-65",
+    "category": "federal-law",
+    "question": "The legal theory that a facially neutral lending policy can still violate fair lending law if it has a disproportionately negative effect on a protected class, regardless of intent, is known as:",
+    "choices": [
+      "Steering",
+      "Redlining",
+      "Disparate treatment",
+      "Disparate impact"
+    ],
+    "correctIndex": 3,
+    "explanation": "Disparate impact theory holds that a policy applied equally on its face can still violate fair lending laws if it has an unjustified, disproportionately adverse effect on a protected class, even without discriminatory intent."
+  },
+  {
+    "id": "federal-law-66",
+    "category": "federal-law",
+    "question": "Federal telemarketing restrictions, including the National Do Not Call Registry, generally limit an MLO's ability to:",
+    "choices": [
+      "Make unsolicited marketing calls to consumers who have registered their number on the Do Not Call list, absent an exception",
+      "List their NMLS ID on business cards",
+      "Advertise on their own website",
+      "Send any written mail advertisement"
+    ],
+    "correctIndex": 0,
+    "explanation": "Telemarketing rules generally restrict unsolicited marketing calls to numbers on the National Do Not Call Registry, subject to limited exceptions such as an existing business relationship."
+  },
+  {
+    "id": "federal-law-67",
+    "category": "federal-law",
+    "question": "Under FCRA, a lender that pulls a consumer's credit report for a mortgage application is exercising what is known as:",
+    "choices": [
+      "An impermissible purpose",
+      "A permissible purpose, since the consumer initiated a credit transaction",
+      "A UDAAP violation",
+      "A HMDA violation"
+    ],
+    "correctIndex": 1,
+    "explanation": "FCRA permits a credit report to be obtained when there is a permissible purpose, such as in connection with a credit transaction the consumer has initiated, like a mortgage application."
+  },
+  {
+    "id": "federal-law-68",
+    "category": "federal-law",
+    "question": "Under Regulation B, if an application is incomplete, a creditor must generally notify the applicant of the needed information or take action on the application within:",
+    "choices": [
+      "There is no time limit",
+      "180 days",
+      "30 days",
+      "1 business day"
+    ],
+    "correctIndex": 2,
+    "explanation": "Regulation B generally requires a creditor to notify an applicant of incompleteness and needed information, or otherwise act on the application, within 30 days of receiving it."
+  },
+  {
+    "id": "federal-law-69",
+    "category": "federal-law",
+    "question": "RESPA's prohibition on required use of an affiliated business generally means a lender may refer a borrower to an affiliated title company, but may NOT:",
+    "choices": [
+      "Charge any fee for title services",
+      "Ever refer business to an affiliate under any circumstance",
+      "Require the borrower to use that affiliated company as a condition of the loan",
+      "Disclose the affiliation at all"
+    ],
+    "correctIndex": 2,
+    "explanation": "RESPA permits referrals to an affiliated business as long as the affiliation is disclosed, but generally prohibits requiring the borrower to use that affiliate as a condition of obtaining the loan."
+  },
+  {
+    "id": "federal-law-70",
+    "category": "federal-law",
+    "question": "Under FCRA, an adverse action notice based on information in a credit report must generally include:",
+    "choices": [
+      "The name and contact information of the consumer reporting agency that supplied the report, and notice of the consumer's right to dispute inaccurate information",
+      "No mention of the credit bureau used",
+      "The names of all other applicants who were approved",
+      "The lender's internal underwriting manual"
+    ],
+    "correctIndex": 0,
+    "explanation": "FCRA requires an adverse action notice based on credit report information to identify the reporting agency that furnished the report and inform the consumer of their right to obtain a free copy and dispute inaccuracies."
+  },
+  {
+    "id": "federal-law-71",
+    "category": "federal-law",
+    "question": "The Bank Secrecy Act generally requires financial institutions, including many mortgage lenders, to file reports on:",
+    "choices": [
+      "Routine loan closings under $1,000",
+      "Certain suspicious or large currency transactions that may indicate money laundering",
+      "Every mortgage application regardless of content",
+      "Employee vacation schedules"
+    ],
+    "correctIndex": 1,
+    "explanation": "The BSA requires covered financial institutions to file reports, such as Suspicious Activity Reports and Currency Transaction Reports, to help detect and deter money laundering and related financial crimes."
+  },
+  {
+    "id": "federal-law-72",
+    "category": "federal-law",
+    "question": "The Military Lending Act's protections generally apply to which group?",
+    "choices": [
+      "Only retired veterans",
+      "Only reservists on inactive duty",
+      "All U.S. citizens regardless of military status",
+      "Active-duty servicemembers and certain covered dependents"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Military Lending Act's protections, including the Military Annual Percentage Rate cap, generally apply to active-duty servicemembers and certain covered dependents on specified consumer credit products."
+  },
+  {
+    "id": "federal-law-73",
+    "category": "federal-law",
+    "question": "Under ECOA, requiring an applicant to reveal whether income comes from alimony or child support is generally permissible only when:",
+    "choices": [
+      "Never — this question can never be asked",
+      "The applicant is female",
+      "The lender requires it of every applicant regardless of relevance",
+      "The applicant is first informed the income need not be disclosed unless they want it considered in qualifying"
+    ],
+    "correctIndex": 3,
+    "explanation": "Regulation B allows lenders to ask about alimony, child support, or separate maintenance income only after informing the applicant that such disclosure is optional unless they want the income counted toward qualification."
+  },
+  {
+    "id": "federal-law-74",
+    "category": "federal-law",
+    "question": "Which of the following best distinguishes HOEPA \"high-cost\" loans from ordinary Higher-Priced Mortgage Loans (HPMLs)?",
+    "choices": [
+      "HPMLs face more restrictions than HOEPA loans",
+      "HOEPA loans exceed a higher rate/fee threshold and trigger significantly more restrictions than HPMLs",
+      "HOEPA only applies to VA loans",
+      "They are identical, using the same threshold and rules"
+    ],
+    "correctIndex": 1,
+    "explanation": "HOEPA high-cost loans are triggered by a higher rate or fee threshold than HPMLs and carry more extensive restrictions and required disclosures, reflecting their higher-risk classification."
+  },
+  {
+    "id": "federal-law-75",
+    "category": "federal-law",
+    "question": "Which of the following is a purpose the CFPB cites for requiring lenders to comply with the integrated TRID disclosures?",
+    "choices": [
+      "To set a nationwide fixed interest rate",
+      "To help borrowers understand and compare loan terms and closing costs more easily",
+      "To replace state licensing requirements",
+      "To eliminate the need for any closing documents"
+    ],
+    "correctIndex": 1,
+    "explanation": "TRID's integrated Loan Estimate and Closing Disclosure forms were designed to help consumers better understand and compare loan terms and closing costs across different lenders."
   }
 ]
