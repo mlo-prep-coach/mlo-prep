@@ -47,6 +47,12 @@ export default function RootLayout({ children }) {
             Licensing Act, or any state regulatory agency. NMLS is a registered trademark of the
             State Regulatory Registry, LLC.
           </p>
+          <p className="mx-auto mt-3 max-w-md text-center text-xs leading-relaxed text-navy-300">
+            Practice questions, explanations, and flashcards on this site were developed with the
+            assistance of AI and reviewed for accuracy against current regulatory sources. They
+            are original study aids, not official exam questions, and are not guaranteed to match
+            questions on the actual NMLS SAFE exam.
+          </p>
         </main>
 
         <MobileTabBar />
