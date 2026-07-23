@@ -2,13 +2,17 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { RotateCw, ThumbsDown, ThumbsUp, PartyPopper } from "lucide-react";
+import { RotateCw, ThumbsDown, ThumbsUp, PartyPopper, ArrowRight, Sparkles } from "lucide-react";
 import { shuffle } from "@/lib/exam";
 import { recordFlashcardResult } from "@/lib/storage";
 import ProgressBar from "@/components/ProgressBar";
 
-export default function FlashcardSession({ questions: inputQuestions, title, backHref }) {
-  const [questions] = useState(() => shuffle(inputQuestions));
+export default function FlashcardSession({ questions: inputQuestions, title, backHref, limit }) {
+  const [questions] = useState(() => {
+    const shuffled = shuffle(inputQuestions);
+    return limit ? shuffled.slice(0, limit) : shuffled;
+  });
+  const isPreview = !!limit && inputQuestions.length > limit;
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [results, setResults] = useState([]);
@@ -42,6 +46,25 @@ export default function FlashcardSession({ questions: inputQuestions, title, bac
           </span>
           .
         </p>
+
+        {isPreview && (
+          <Link
+            href="/upgrade"
+            className="flex w-full items-center gap-3 rounded-2xl border border-brand-200 bg-brand-50/60 p-4 text-left"
+          >
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-navy-900 to-brand-600 text-white">
+              <Sparkles size={18} strokeWidth={2.25} />
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="font-display font-semibold text-navy-900">
+                That&apos;s just a {limit}-card taste of this deck
+              </p>
+              <p className="text-sm text-navy-500">Subscribe to unlock every flashcard deck</p>
+            </div>
+            <ArrowRight size={18} className="shrink-0 text-brand-600" />
+          </Link>
+        )}
+
         <div className="flex gap-3">
           <button
             type="button"

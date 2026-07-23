@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { Star, ArrowRight, Layers } from "lucide-react";
+import { Star, ArrowRight, Layers, Sparkles } from "lucide-react";
 import { CATEGORIES } from "@/lib/categories";
 import CategoryCard from "@/components/CategoryCard";
 
-export default function FlashcardsPage() {
+export default function FlashcardsIndex({ hasAccess }) {
   return (
     <div className="flex flex-col gap-6">
       <div className="flex items-center gap-3">
@@ -19,6 +19,13 @@ export default function FlashcardsPage() {
           </p>
         </div>
       </div>
+
+      {!hasAccess && (
+        <p className="flex items-center gap-2 rounded-xl bg-brand-50 p-3 text-sm text-brand-700">
+          <Sparkles size={15} className="shrink-0" />
+          Free preview: 3 cards per deck. Subscribe to unlock full decks.
+        </p>
+      )}
 
       <Link
         href="/flashcards/bookmarked"

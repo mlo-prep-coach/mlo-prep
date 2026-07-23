@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Trophy, XCircle, Zap, ListFilter, Home, TrendingUp } from "lucide-react";
+import { Trophy, XCircle, Zap, ListFilter, Home, TrendingUp, ArrowRight, Sparkles } from "lucide-react";
 import { getLastSession } from "@/lib/storage";
 import { getCategory, CATEGORIES } from "@/lib/categories";
 import { computeXP } from "@/lib/gamification";
@@ -64,7 +64,11 @@ export default function ResultsPage() {
 
         <div className="relative">
           <p className="text-sm font-semibold text-brand-200">
-            {isExam ? "Full Mock Exam" : session.label || category?.name || "Practice Session"}
+            {isExam
+              ? session.preview
+                ? "Mock Exam Preview"
+                : "Full Mock Exam"
+              : session.label || category?.name || "Practice Session"}
           </p>
 
           <div className="mt-4 flex justify-center">
@@ -91,6 +95,22 @@ export default function ResultsPage() {
           </div>
         </div>
       </section>
+
+      {session.preview && (
+        <Link
+          href="/upgrade"
+          className="flex items-center gap-3 rounded-2xl border border-brand-200 bg-brand-50/60 p-4"
+        >
+          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-navy-900 to-brand-600 text-white">
+            <Sparkles size={18} strokeWidth={2.25} />
+          </span>
+          <div className="min-w-0 flex-1">
+            <p className="font-display font-semibold text-navy-900">That was just a 15-question taste</p>
+            <p className="text-sm text-navy-500">Subscribe to unlock the full 120-question exam</p>
+          </div>
+          <ArrowRight size={18} className="shrink-0 text-brand-600" />
+        </Link>
+      )}
 
       {showBreakdown && (
         <section>

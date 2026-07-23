@@ -13,7 +13,9 @@ import {
   Timer,
   Flag,
   LayoutGrid,
+  Sparkles,
 } from "lucide-react";
+import Link from "next/link";
 import { buildMockExam } from "@/lib/exam";
 import { getAllQuestions } from "@/lib/questions";
 import { saveSession } from "@/lib/storage";
@@ -21,8 +23,10 @@ import QuestionCard from "@/components/QuestionCard";
 import ProgressBar from "@/components/ProgressBar";
 import ExamOverview from "@/components/ExamOverview";
 
-const TOTAL_QUESTIONS = 120;
-const EXAM_SECONDS = 190 * 60;
+const FULL_QUESTIONS = 120;
+const FULL_EXAM_SECONDS = 190 * 60;
+const PREVIEW_QUESTIONS = 15;
+const PREVIEW_EXAM_SECONDS = 25 * 60;
 const WARNING_SECONDS = 30 * 60;
 const CRITICAL_SECONDS = 10 * 60;
 
@@ -42,15 +46,18 @@ const TIMER_STYLES = {
   critical: "bg-red-600 text-white animate-pulse",
 };
 
-export default function MockExam() {
+export default function MockExam({ hasAccess }) {
   const router = useRouter();
+  const totalQuestions = hasAccess ? FULL_QUESTIONS : PREVIEW_QUESTIONS;
+  const examSeconds = hasAccess ? FULL_EXAM_SECONDS : PREVIEW_EXAM_SECONDS;
+
   const [started, setStarted] = useState(false);
   const [questions, setQuestions] = useState([]);
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState({});
   const [markedForReview, setMarkedForReview] = useState({});
   const [showOverview, setShowOverview] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(EXAM_SECONDS);
+  const [timeLeft, setTimeLeft] = useState(examSeconds);
   const submittedRef = useRef(false);
 
   const availableCount = getAllQuestions().length;
@@ -69,7 +76,7 @@ export default function MockExam() {
   }, [started, timeLeft]);
 
   function handleStart() {
-    setQuestions(buildMockExam(TOTAL_QUESTIONS));
+    setQuestions(buildMockExam(totalQuestions));
     setStarted(true);
   }
 
@@ -103,6 +110,7 @@ export default function MockExam() {
       id: `exam-${Date.now()}`,
       mode: "exam",
       category: null,
+      preview: !hasAccess,
       timestamp: Date.now(),
       score: answerList.filter((a) => a.correct).length,
       total: answerList.length,
@@ -124,20 +132,31 @@ export default function MockExam() {
   }
 
   if (!started) {
-    const facts = [
-      { icon: ListChecks, text: `${TOTAL_QUESTIONS} questions, weighted to match real exam category percentages` },
-      { icon: Timer, text: "190-minute countdown timer" },
-      { icon: EyeOff, text: "No feedback until you submit — just like the real exam" },
-      { icon: Target, text: "75% correct is required to pass" },
-    ];
+    const facts = hasAccess
+      ? [
+          { icon: ListChecks, text: `${FULL_QUESTIONS} questions, weighted to match real exam category percentages` },
+          { icon: Timer, text: "190-minute countdown timer" },
+          { icon: EyeOff, text: "No feedback until you submit — just like the real exam" },
+          { icon: Target, text: "75% correct is required to pass" },
+        ]
+      : [
+          { icon: ListChecks, text: `${PREVIEW_QUESTIONS}-question free preview, weighted like the real exam` },
+          { icon: Timer, text: "25-minute countdown timer" },
+          { icon: EyeOff, text: "No feedback until you submit — just like the real exam" },
+          { icon: Sparkles, text: "Subscribe to unlock the full 120-question, 190-minute exam" },
+        ];
     return (
       <div className="flex flex-col items-center gap-5 rounded-3xl border border-navy-100 bg-white p-7 text-center shadow-[0_1px_2px_rgba(13,27,56,0.04)]">
         <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-navy-900 to-brand-600 text-white">
           <Clock size={26} strokeWidth={2.25} />
         </span>
         <div>
-          <h1 className="font-display text-xl font-bold text-navy-900">Full Mock Exam</h1>
-          <p className="mt-1 text-sm text-navy-500">Simulate real exam-day conditions</p>
+          <h1 className="font-display text-xl font-bold text-navy-900">
+            {hasAccess ? "Full Mock Exam" : "Mock Exam Preview"}
+          </h1>
+          <p className="mt-1 text-sm text-navy-500">
+            {hasAccess ? "Simulate real exam-day conditions" : "Try a sample of the real exam experience"}
+          </p>
         </div>
 
         <ul className="flex w-full flex-col gap-3 text-left">
@@ -151,10 +170,10 @@ export default function MockExam() {
           ))}
         </ul>
 
-        {availableCount < TOTAL_QUESTIONS && (
+        {hasAccess && availableCount < totalQuestions && (
           <p className="rounded-xl bg-amber-50 p-3 text-sm text-amber-800">
             Note: only {availableCount} placeholder questions exist right now, so some will
-            repeat to fill all {TOTAL_QUESTIONS} slots until you add more real questions.
+            repeat to fill all {totalQuestions} slots until you add more real questions.
           </p>
         )}
         <button
@@ -162,7 +181,7 @@ export default function MockExam() {
           onClick={handleStart}
           className="mt-1 w-full rounded-xl bg-navy-900 px-6 py-3.5 text-sm font-bold text-white shadow-sm transition hover:bg-navy-800"
         >
-          Begin Exam
+          {hasAccess ? "Begin Exam" : "Begin Preview"}
         </button>
       </div>
     );

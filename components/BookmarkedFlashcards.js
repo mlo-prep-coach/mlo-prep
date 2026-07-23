@@ -6,7 +6,7 @@ import { getBookmarks } from "@/lib/storage";
 import { getQuestionById } from "@/lib/questions";
 import FlashcardSession from "@/components/FlashcardSession";
 
-export default function BookmarkedFlashcardsPage() {
+export default function BookmarkedFlashcards({ limit }) {
   const [questions, setQuestions] = useState(null);
 
   useEffect(() => {
@@ -33,6 +33,11 @@ export default function BookmarkedFlashcardsPage() {
   }
 
   return (
-    <FlashcardSession questions={questions} title="Bookmarked Questions" backHref="/flashcards" />
+    <FlashcardSession
+      questions={questions}
+      title="Bookmarked Questions"
+      backHref="/flashcards"
+      limit={limit}
+    />
   );
 }
