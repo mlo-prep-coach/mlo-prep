@@ -3,7 +3,12 @@
     "id": "ethics-1",
     "category": "ethics",
     "question": "Accepting an unearned fee for referring settlement service business is prohibited under:",
-    "choices": ["TILA", "HMDA", "FCRA", "RESPA Section 8"],
+    "choices": [
+      "TILA",
+      "HMDA",
+      "FCRA",
+      "RESPA Section 8"
+    ],
     "correctIndex": 3,
     "explanation": "RESPA Section 8 prohibits kickbacks and unearned fees for the referral of settlement service business."
   },
@@ -58,5 +63,265 @@
     ],
     "correctIndex": 3,
     "explanation": "Ethical practice requires proactively disclosing any conflict of interest to the affected parties, not waiting to be asked or handling it only through internal notes."
+  },
+  {
+    "id": "ethics-6",
+    "category": "ethics",
+    "question": "An MLO tells a borrower their income is insufficient to qualify, then suggests the borrower state a higher, false income on the application. This is an example of:",
+    "choices": [
+      "Acceptable coaching to help the borrower qualify",
+      "A standard underwriting technique",
+      "Required disclosure practice",
+      "Mortgage fraud"
+    ],
+    "correctIndex": 3,
+    "explanation": "Knowingly encouraging a borrower to misstate income constitutes mortgage fraud, regardless of the MLO's intent to help the borrower qualify."
+  },
+  {
+    "id": "ethics-7",
+    "category": "ethics",
+    "question": "An \"occupancy fraud\" scenario occurs when a borrower:",
+    "choices": [
+      "Falsely claims a property will be their primary residence to obtain better loan terms",
+      "Fails to occupy the property at all after some time",
+      "Rents the property to a family member with lender approval",
+      "Sells the property within one year"
+    ],
+    "correctIndex": 0,
+    "explanation": "Occupancy fraud occurs when a borrower misrepresents their intended occupancy, such as falsely claiming primary residence status to get more favorable rates, while actually intending to rent or flip the property."
+  },
+  {
+    "id": "ethics-8",
+    "category": "ethics",
+    "question": "A \"straw buyer\" scheme typically involves:",
+    "choices": [
+      "A legitimate co-signer disclosed on the application",
+      "Using another person's identity and credit to obtain a mortgage for the actual, undisclosed buyer",
+      "A real estate agent representing both parties",
+      "A lender offering a below-market rate"
+    ],
+    "correctIndex": 1,
+    "explanation": "A straw buyer scheme uses someone else's name and credit to obtain financing on behalf of the true, often undisclosed, party in interest — a form of mortgage fraud."
+  },
+  {
+    "id": "ethics-9",
+    "category": "ethics",
+    "question": "Under the Loan Originator Compensation rule, an MLO's pay may NOT be based on:",
+    "choices": [
+      "The loan volume closed",
+      "The interest rate or other terms of the loan",
+      "A percentage of the loan amount, if not tied to loan terms",
+      "A flat salary"
+    ],
+    "correctIndex": 1,
+    "explanation": "The LO Compensation rule prohibits basing compensation on the terms of a loan, such as the interest rate, to remove incentives for steering borrowers into costlier loans."
+  },
+  {
+    "id": "ethics-10",
+    "category": "ethics",
+    "question": "An MLO advertises a rate that is only available to borrowers with an 800+ credit score, without clearly disclosing this qualification. This advertising practice is:",
+    "choices": [
+      "A potential UDAAP and TILA advertising violation for being misleading",
+      "Acceptable as long as the rate is technically available to someone",
+      "Required to attract more applicants",
+      "Only a concern if a complaint is filed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Advertising a rate that most applicants cannot actually obtain, without clear qualifying disclosures, can be misleading and violate UDAAP and TILA advertising requirements."
+  },
+  {
+    "id": "ethics-11",
+    "category": "ethics",
+    "question": "An MLO discovers that a colleague is inflating appraised values to help loans close. The ethical and appropriate action is to:",
+    "choices": [
+      "Ignore it since it isn't the MLO's transaction",
+      "Confront the colleague privately and let it go",
+      "Do nothing unless directly asked to participate",
+      "Report the conduct through appropriate internal or regulatory channels"
+    ],
+    "correctIndex": 3,
+    "explanation": "MLOs have an ethical and often legal obligation to report suspected fraud through appropriate internal compliance or regulatory channels, not to ignore it."
+  },
+  {
+    "id": "ethics-12",
+    "category": "ethics",
+    "question": "\"Property flipping fraud\" typically involves:",
+    "choices": [
+      "A legitimate renovation and resale after a reasonable holding period",
+      "A builder selling new construction",
+      "Artificially inflating a property's value in a short period of time to obtain a larger loan than the property is worth",
+      "A short sale approved by the lender"
+    ],
+    "correctIndex": 2,
+    "explanation": "Property flipping fraud involves artificially and rapidly inflating a property's appraised value, often through collusion, to obtain a mortgage far exceeding the property's true worth."
+  },
+  {
+    "id": "ethics-13",
+    "category": "ethics",
+    "question": "An MLO consistently steers minority borrowers toward higher-cost loan products than similarly qualified non-minority borrowers. This is an example of:",
+    "choices": [
+      "Illegal disparate treatment under fair lending laws",
+      "A legitimate pricing strategy based on risk",
+      "Standard practice as long as disclosures are provided",
+      "Acceptable if the borrower does not complain"
+    ],
+    "correctIndex": 0,
+    "explanation": "Systematically offering worse terms to borrowers based on a protected characteristic is illegal disparate treatment under fair lending laws such as ECOA and the Fair Housing Act."
+  },
+  {
+    "id": "ethics-14",
+    "category": "ethics",
+    "question": "Which of the following is an example of \"predatory lending\"?",
+    "choices": [
+      "Offering a borrower a lower rate after a credit improvement",
+      "Repeatedly refinancing a borrower into new loans primarily to generate fees, with little benefit to the borrower",
+      "Providing required disclosures on time",
+      "Denying a loan application that does not meet underwriting guidelines"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Loan flipping,\" or repeatedly refinancing a borrower mainly to generate fees without meaningful benefit to the borrower, is a classic predatory lending practice."
+  },
+  {
+    "id": "ethics-15",
+    "category": "ethics",
+    "question": "An MLO notices signs that an elderly borrower may be pressured by a relative into a large cash-out loan the borrower doesn't seem to understand. The appropriate response is to:",
+    "choices": [
+      "Proceed quickly to close before anyone changes their mind",
+      "Ignore it since it's a family matter",
+      "Slow down, ensure the borrower understands the transaction, and escalate concerns as appropriate",
+      "Only discuss the loan with the relative"
+    ],
+    "correctIndex": 2,
+    "explanation": "MLOs should be alert to signs of possible elder financial exploitation and take appropriate steps to protect the borrower, including escalating concerns through proper channels."
+  },
+  {
+    "id": "ethics-16",
+    "category": "ethics",
+    "question": "A borrower's complaint about their MLO should generally be:",
+    "choices": [
+      "Ignored if the MLO believes the complaint is unfounded",
+      "Resolved only through litigation",
+      "Documented and handled through the company's formal complaint resolution process",
+      "Kept informal and undocumented"
+    ],
+    "correctIndex": 2,
+    "explanation": "Consumer complaints should be documented and addressed through a formal, consistent complaint-handling process, both for compliance and fair treatment of the consumer."
+  },
+  {
+    "id": "ethics-17",
+    "category": "ethics",
+    "question": "Which of the following describes a genuine conflict of interest an MLO must disclose?",
+    "choices": [
+      "The MLO closed a similar loan last month",
+      "The MLO works for a large national lender",
+      "The MLO is licensed in multiple states",
+      "The MLO has a financial interest in a title company being used in the transaction"
+    ],
+    "correctIndex": 3,
+    "explanation": "An MLO having an undisclosed financial interest in a service provider used in the transaction, such as a title company, is a conflict of interest that must be disclosed."
+  },
+  {
+    "id": "ethics-18",
+    "category": "ethics",
+    "question": "Under UDAAP standards, an \"abusive\" act or practice generally involves:",
+    "choices": [
+      "Simply charging a standard origination fee",
+      "Requiring standard income documentation",
+      "Materially interfering with a consumer's ability to understand a term or taking unreasonable advantage of the consumer",
+      "Following investor underwriting guidelines"
+    ],
+    "correctIndex": 2,
+    "explanation": "An \"abusive\" practice under UDAAP typically involves materially interfering with a consumer's understanding of a product or taking unreasonable advantage of a consumer's lack of understanding, inability to protect their interests, or reliance on the institution."
+  },
+  {
+    "id": "ethics-19",
+    "category": "ethics",
+    "question": "An MLO knowingly helps a borrower obtain a loan using a fabricated employment verification letter. Beyond an ethics violation, this conduct is most likely to also constitute:",
+    "choices": [
+      "Criminal mortgage fraud",
+      "A minor paperwork error",
+      "A permissible underwriting exception",
+      "A civil contract dispute only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Knowingly submitting fabricated documentation to obtain a loan is mortgage fraud and can carry criminal penalties, not merely a compliance technicality."
+  },
+  {
+    "id": "ethics-20",
+    "category": "ethics",
+    "question": "Which best describes the ethical obligation an MLO has regarding a borrower's nonpublic personal financial information?",
+    "choices": [
+      "To share it freely with any interested third party",
+      "To safeguard it and only share it as permitted by privacy laws and the borrower's consent",
+      "To store it indefinitely without safeguards",
+      "To disclose it publicly once the loan closes successfully"
+    ],
+    "correctIndex": 1,
+    "explanation": "MLOs and their institutions must safeguard borrowers' nonpublic personal information and limit disclosure to what's permitted under privacy laws like the Gramm-Leach-Bliley Act and the borrower's consent."
+  },
+  {
+    "id": "ethics-21",
+    "category": "ethics",
+    "question": "Which best describes the ethical standard an MLO should apply when a loan program technically allows a practice that could still harm the borrower's long-term financial interest?",
+    "choices": [
+      "The MLO should still act in the borrower's best interest and fully explain the risks and tradeoffs",
+      "The MLO only needs to follow the letter of the law",
+      "The MLO should recommend whatever maximizes their own commission",
+      "The MLO has no obligation once minimum disclosures are provided"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ethical practice goes beyond bare legal compliance — MLOs should act in the borrower's best interest, clearly explaining risks and tradeoffs even when a technically permissible option could still be harmful."
+  },
+  {
+    "id": "ethics-22",
+    "category": "ethics",
+    "question": "A borrower asks their MLO to falsify the source of a large deposit to avoid providing paperwork proving it isn't borrowed money. The MLO should:",
+    "choices": [
+      "Falsify it as requested since it speeds up the process",
+      "Decline and require proper documentation, since falsifying the source of funds is mortgage fraud",
+      "Only falsify it if the deposit is under $1,000",
+      "Ask a colleague to falsify it instead"
+    ],
+    "correctIndex": 1,
+    "explanation": "Misrepresenting the source of funds to avoid required documentation is mortgage fraud; the MLO must require accurate, verifiable documentation regardless of convenience."
+  },
+  {
+    "id": "ethics-23",
+    "category": "ethics",
+    "question": "Which of the following is the best example of proper handling of a borrower's confidential financial documents by an MLO?",
+    "choices": [
+      "Emailing documents to any party who requests them",
+      "Leaving printed documents in a shared, unsecured office area",
+      "Storing documents securely and sharing them only with parties who have a legitimate need in the transaction",
+      "Posting anonymized examples on social media for marketing"
+    ],
+    "correctIndex": 2,
+    "explanation": "MLOs must safeguard borrowers' sensitive financial documents, limiting access to those with a legitimate business need in the transaction, consistent with privacy laws like the Gramm-Leach-Bliley Act."
+  },
+  {
+    "id": "ethics-24",
+    "category": "ethics",
+    "question": "An MLO is offered an all-expenses-paid vacation by a title company in exchange for directing closings to that company. Accepting this offer would most likely violate:",
+    "choices": [
+      "The Fair Housing Act's protected class provisions",
+      "HMDA's data reporting requirements",
+      "The Flood Disaster Protection Act",
+      "RESPA Section 8's prohibition on kickbacks for referrals of settlement services"
+    ],
+    "correctIndex": 3,
+    "explanation": "Accepting something of value, such as a vacation, in exchange for referring settlement service business is a kickback prohibited under RESPA Section 8."
+  },
+  {
+    "id": "ethics-25",
+    "category": "ethics",
+    "question": "When an MLO is unsure whether a specific action complies with fair lending laws, the most appropriate step is to:",
+    "choices": [
+      "Proceed and address any issues only if a regulator raises them",
+      "Make a personal judgment call without documentation",
+      "Consult compliance resources or a supervisor before proceeding, rather than guessing",
+      "Avoid the transaction entirely without seeking guidance"
+    ],
+    "correctIndex": 2,
+    "explanation": "When compliance is uncertain, MLOs should proactively seek guidance from compliance resources or supervisors rather than guessing, to ensure fair lending obligations are met."
   }
 ]

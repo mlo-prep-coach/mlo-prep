@@ -3,7 +3,12 @@
     "id": "general-knowledge-1",
     "category": "general-knowledge",
     "question": "Private Mortgage Insurance (PMI) is typically required when the loan-to-value (LTV) ratio exceeds:",
-    "choices": ["60%", "70%", "95%", "80%"],
+    "choices": [
+      "60%",
+      "70%",
+      "95%",
+      "80%"
+    ],
     "correctIndex": 3,
     "explanation": "Lenders typically require PMI on conventional loans when the LTV ratio exceeds 80%, since the down payment is less than 20%."
   },
@@ -24,7 +29,12 @@
     "id": "general-knowledge-3",
     "category": "general-knowledge",
     "question": "Debt-to-income (DTI) ratio is calculated as:",
-    "choices": ["Total assets divided by total debt", "Loan amount divided by property value", "Monthly debt payments divided by gross monthly income", "Credit score divided by loan amount"],
+    "choices": [
+      "Total assets divided by total debt",
+      "Loan amount divided by property value",
+      "Monthly debt payments divided by gross monthly income",
+      "Credit score divided by loan amount"
+    ],
     "correctIndex": 2,
     "explanation": "DTI is a borrower's total monthly debt payments divided by their gross monthly income, expressed as a percentage."
   },
@@ -32,7 +42,12 @@
     "id": "general-knowledge-4",
     "category": "general-knowledge",
     "question": "Which loan type is insured by the Federal Housing Administration and often allows lower down payments?",
-    "choices": ["FHA loan", "Conventional loan", "Jumbo loan", "VA loan"],
+    "choices": [
+      "FHA loan",
+      "Conventional loan",
+      "Jumbo loan",
+      "VA loan"
+    ],
     "correctIndex": 0,
     "explanation": "FHA loans are insured by the Federal Housing Administration and typically allow lower down payments and more flexible credit requirements. VA loans are also low-down-payment, but they're guaranteed by the Department of Veterans Affairs, not the FHA."
   },
@@ -40,8 +55,273 @@
     "id": "general-knowledge-5",
     "category": "general-knowledge",
     "question": "In an escrow account, a lender collects funds monthly to pay for:",
-    "choices": ["The borrower's homeowner's association dues only", "The lender's origination fee", "Private investment accounts", "Property taxes and homeowner's insurance"],
+    "choices": [
+      "The borrower's homeowner's association dues only",
+      "The lender's origination fee",
+      "Private investment accounts",
+      "Property taxes and homeowner's insurance"
+    ],
     "correctIndex": 3,
     "explanation": "Escrow accounts are commonly used to collect and pay recurring property taxes and homeowner's insurance premiums on the borrower's behalf."
+  },
+  {
+    "id": "general-knowledge-6",
+    "category": "general-knowledge",
+    "question": "Which government agency guarantees, rather than directly insures, loans for eligible veterans and service members?",
+    "choices": [
+      "The Federal Housing Administration (FHA)",
+      "The USDA",
+      "The Department of Veterans Affairs (VA)",
+      "Fannie Mae"
+    ],
+    "correctIndex": 2,
+    "explanation": "VA loans are guaranteed by the Department of Veterans Affairs, not insured the way FHA loans are."
+  },
+  {
+    "id": "general-knowledge-7",
+    "category": "general-knowledge",
+    "question": "USDA loans are primarily designed to help eligible borrowers purchase homes in:",
+    "choices": [
+      "Urban high-rise buildings",
+      "Designated rural areas",
+      "Any location nationwide without restriction",
+      "Commercial districts only"
+    ],
+    "correctIndex": 1,
+    "explanation": "USDA loans are designed to promote homeownership in designated rural and some eligible suburban areas, subject to income and property location limits."
+  },
+  {
+    "id": "general-knowledge-8",
+    "category": "general-knowledge",
+    "question": "In an adjustable-rate mortgage, the \"margin\" refers to:",
+    "choices": [
+      "The maximum the rate can increase in one adjustment period",
+      "The initial fixed-rate period",
+      "The lender's profit on the loan",
+      "A fixed percentage added to the index to determine the interest rate"
+    ],
+    "correctIndex": 3,
+    "explanation": "The margin is a fixed percentage the lender adds to the index rate to determine the borrower's fully indexed interest rate on an ARM."
+  },
+  {
+    "id": "general-knowledge-9",
+    "category": "general-knowledge",
+    "question": "An ARM's \"lifetime cap\" limits:",
+    "choices": [
+      "The number of times the rate can adjust per year",
+      "The maximum the interest rate can ever increase over the life of the loan",
+      "The maximum loan term",
+      "The maximum loan amount"
+    ],
+    "correctIndex": 1,
+    "explanation": "The lifetime cap sets the maximum amount the interest rate can increase over the entire term of the adjustable-rate loan."
+  },
+  {
+    "id": "general-knowledge-10",
+    "category": "general-knowledge",
+    "question": "Combined loan-to-value (CLTV) ratio accounts for:",
+    "choices": [
+      "Only the first mortgage balance",
+      "The borrower's total debt divided by income",
+      "The appraised value minus closing costs",
+      "The total balance of all loans secured by the property, divided by its value"
+    ],
+    "correctIndex": 3,
+    "explanation": "CLTV includes the balances of all loans secured by the property, such as a first mortgage plus a HELOC, divided by the property's value."
+  },
+  {
+    "id": "general-knowledge-11",
+    "category": "general-knowledge",
+    "question": "A borrower's FICO credit score is primarily used by lenders to assess:",
+    "choices": [
+      "The borrower's creditworthiness and repayment risk",
+      "The property's market value",
+      "The borrower's employment history",
+      "The loan program's interest rate index"
+    ],
+    "correctIndex": 0,
+    "explanation": "FICO scores summarize a borrower's credit history and are used by lenders to help assess repayment risk."
+  },
+  {
+    "id": "general-knowledge-12",
+    "category": "general-knowledge",
+    "question": "A \"discount point\" paid at closing typically:",
+    "choices": [
+      "Increases the loan amount",
+      "Is required on all government loans",
+      "Replaces the need for an appraisal",
+      "Lowers the interest rate in exchange for an upfront fee"
+    ],
+    "correctIndex": 3,
+    "explanation": "A discount point is an upfront fee, typically 1% of the loan amount, paid to reduce the interest rate over the life of the loan."
+  },
+  {
+    "id": "general-knowledge-13",
+    "category": "general-knowledge",
+    "question": "The Annual Percentage Rate (APR) differs from the note interest rate because APR:",
+    "choices": [
+      "Is always lower than the note rate",
+      "Includes certain fees and costs, reflecting the overall cost of credit",
+      "Only applies to adjustable-rate loans",
+      "Is set by the borrower's employer"
+    ],
+    "correctIndex": 1,
+    "explanation": "APR incorporates the interest rate plus certain fees and costs, giving a broader picture of the loan's overall annual cost compared to the note rate alone."
+  },
+  {
+    "id": "general-knowledge-14",
+    "category": "general-knowledge",
+    "question": "Which of the following best describes \"negative amortization\"?",
+    "choices": [
+      "A loan where the principal balance decreases faster than scheduled",
+      "A fixed-rate loan with no interest",
+      "A loan structure where unpaid interest is added to the principal balance, increasing the amount owed",
+      "A type of down payment assistance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Negative amortization occurs when a borrower's payment is less than the interest due, causing the unpaid interest to be added to the loan balance."
+  },
+  {
+    "id": "general-knowledge-15",
+    "category": "general-knowledge",
+    "question": "A \"balloon payment\" mortgage is characterized by:",
+    "choices": [
+      "A large lump-sum payment due at the end of the loan term",
+      "Equal payments for the entire loan term",
+      "No interest charged during the loan term",
+      "Automatic conversion to a 30-year fixed loan"
+    ],
+    "correctIndex": 0,
+    "explanation": "A balloon mortgage has smaller regular payments followed by one large lump-sum payment due at the end of the term."
+  },
+  {
+    "id": "general-knowledge-16",
+    "category": "general-knowledge",
+    "question": "Which secondary market entity is a government corporation, rather than a government-sponsored enterprise, and primarily guarantees securities backed by government-insured loans like FHA and VA loans?",
+    "choices": [
+      "Fannie Mae",
+      "Ginnie Mae",
+      "Freddie Mac",
+      "The Federal Reserve"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ginnie Mae is a wholly owned government corporation that guarantees mortgage-backed securities composed of government-insured loans, unlike Fannie Mae and Freddie Mac, which are government-sponsored enterprises."
+  },
+  {
+    "id": "general-knowledge-17",
+    "category": "general-knowledge",
+    "question": "FHA loans require borrowers to pay a Mortgage Insurance Premium (MIP), which differs from conventional PMI in that MIP:",
+    "choices": [
+      "Is never required on FHA loans",
+      "Can only be canceled at 50% LTV",
+      "Is paid entirely by the lender",
+      "May be required for the life of the loan depending on the down payment and term"
+    ],
+    "correctIndex": 3,
+    "explanation": "Unlike conventional PMI, FHA's MIP may be required for the life of the loan on certain loans, depending on the down payment amount and loan term, rather than automatically canceling at a set LTV."
+  },
+  {
+    "id": "general-knowledge-18",
+    "category": "general-knowledge",
+    "question": "Which of the following loan types generally allows the highest LTV, or lowest down payment, for eligible, qualifying borrowers?",
+    "choices": [
+      "Jumbo loans",
+      "Conventional loans without mortgage insurance",
+      "VA loans, which can allow 100% financing for eligible veterans",
+      "Investment property loans"
+    ],
+    "correctIndex": 2,
+    "explanation": "VA loans can allow eligible veterans to finance up to 100% of the purchase price with no down payment, subject to entitlement and lender requirements."
+  },
+  {
+    "id": "general-knowledge-19",
+    "category": "general-knowledge",
+    "question": "A \"jumbo loan\" is best defined as a mortgage that:",
+    "choices": [
+      "Has a term longer than 30 years",
+      "Is insured by the FHA",
+      "Exceeds the conforming loan limit set for the area",
+      "Requires no credit check"
+    ],
+    "correctIndex": 2,
+    "explanation": "A jumbo loan exceeds the conforming loan limits set annually by the Federal Housing Finance Agency, meaning it cannot be purchased by Fannie Mae or Freddie Mac."
+  },
+  {
+    "id": "general-knowledge-20",
+    "category": "general-knowledge",
+    "question": "Which of the following best describes an \"interest-only\" loan feature?",
+    "choices": [
+      "The loan has no interest charges at all",
+      "The borrower pays extra principal each month automatically",
+      "The loan converts to an ARM after five years",
+      "The borrower pays only interest for a set period, with no reduction of principal during that time"
+    ],
+    "correctIndex": 3,
+    "explanation": "During the interest-only period, the borrower's payment covers only the interest due, so the principal balance does not decrease."
+  },
+  {
+    "id": "general-knowledge-21",
+    "category": "general-knowledge",
+    "question": "A property described as a \"PUD\" (Planned Unit Development) typically involves:",
+    "choices": [
+      "Individually owned units with shared common areas governed by an HOA",
+      "A single large apartment building with no individual ownership",
+      "Only commercial properties",
+      "Government-owned housing exclusively"
+    ],
+    "correctIndex": 0,
+    "explanation": "A PUD consists of individually owned properties within a community that shares common areas and amenities, typically managed by a homeowners association."
+  },
+  {
+    "id": "general-knowledge-22",
+    "category": "general-knowledge",
+    "question": "Which of the following is typically included in a borrower's escrow account analysis?",
+    "choices": [
+      "The borrower's credit card debt",
+      "Property taxes and homeowners insurance premiums",
+      "The real estate agent's commission",
+      "The appraiser's fee"
+    ],
+    "correctIndex": 1,
+    "explanation": "Escrow account analysis reviews the funds collected and disbursed for recurring items like property taxes and homeowners insurance."
+  },
+  {
+    "id": "general-knowledge-23",
+    "category": "general-knowledge",
+    "question": "A prepayment penalty, where permitted, is a fee charged to a borrower who:",
+    "choices": [
+      "Pays off all or part of the loan earlier than scheduled",
+      "Misses a monthly payment",
+      "Refinances with the same lender",
+      "Requests a rate lock extension"
+    ],
+    "correctIndex": 0,
+    "explanation": "A prepayment penalty is a fee some loans charge if the borrower pays off the loan, in part or in full, ahead of the original schedule. Such penalties are restricted or prohibited on many loan types today."
+  },
+  {
+    "id": "general-knowledge-24",
+    "category": "general-knowledge",
+    "question": "Which of the following most directly determines whether a loan is considered \"conforming\"?",
+    "choices": [
+      "Whether it meets Fannie Mae and Freddie Mac's underwriting and loan-size guidelines",
+      "Whether it has a fixed or adjustable rate",
+      "Whether the borrower is a first-time homebuyer",
+      "The state in which the borrower resides"
+    ],
+    "correctIndex": 0,
+    "explanation": "A conforming loan meets the underwriting guidelines and loan limits set by Fannie Mae and Freddie Mac, allowing it to be purchased by those GSEs."
+  },
+  {
+    "id": "general-knowledge-25",
+    "category": "general-knowledge",
+    "question": "Which of the following best describes the role of Fannie Mae and Freddie Mac in the mortgage market?",
+    "choices": [
+      "They directly originate loans to consumers at retail branches",
+      "They set state licensing requirements",
+      "They purchase conforming loans from lenders and package them into mortgage-backed securities",
+      "They insure FHA loans"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fannie Mae and Freddie Mac are government-sponsored enterprises that purchase conforming loans from lenders and package them into mortgage-backed securities, providing liquidity to the mortgage market."
   }
 ]

@@ -3,7 +3,12 @@
     "id": "federal-law-1",
     "category": "federal-law",
     "question": "RESPA primarily regulates:",
-    "choices": ["Settlement services and prohibits kickbacks and referral fees", "Advertising of interest rates", "State licensing renewal", "Credit score calculation methods"],
+    "choices": [
+      "Settlement services and prohibits kickbacks and referral fees",
+      "Advertising of interest rates",
+      "State licensing renewal",
+      "Credit score calculation methods"
+    ],
     "correctIndex": 0,
     "explanation": "The Real Estate Settlement Procedures Act (RESPA) governs settlement services and prohibits kickbacks and unearned referral fees, notably under Section 8."
   },
@@ -11,7 +16,12 @@
     "id": "federal-law-2",
     "category": "federal-law",
     "question": "Under the Equal Credit Opportunity Act (ECOA), a lender may NOT deny credit based on which factor?",
-    "choices": ["Debt-to-income ratio", "Credit history", "Loan-to-value ratio", "Receipt of public assistance income"],
+    "choices": [
+      "Debt-to-income ratio",
+      "Credit history",
+      "Loan-to-value ratio",
+      "Receipt of public assistance income"
+    ],
     "correctIndex": 3,
     "explanation": "ECOA prohibits discrimination based on protected characteristics, including the fact that an applicant's income derives from public assistance."
   },
@@ -19,7 +29,12 @@
     "id": "federal-law-3",
     "category": "federal-law",
     "question": "The Home Mortgage Disclosure Act (HMDA) primarily requires lenders to:",
-    "choices": ["Cap interest rates on high-cost loans", "Collect and report data on mortgage applications to help identify discriminatory lending patterns", "Provide a three-day right of rescission", "Disclose closing costs three days before closing"],
+    "choices": [
+      "Cap interest rates on high-cost loans",
+      "Collect and report data on mortgage applications to help identify discriminatory lending patterns",
+      "Provide a three-day right of rescission",
+      "Disclose closing costs three days before closing"
+    ],
     "correctIndex": 1,
     "explanation": "HMDA requires covered lenders to collect and publicly report mortgage application data, which helps regulators identify potential discriminatory lending patterns."
   },
@@ -27,7 +42,12 @@
     "id": "federal-law-4",
     "category": "federal-law",
     "question": "The Ability-to-Repay/Qualified Mortgage (ATR/QM) rule, which requires lenders to make a reasonable, good-faith determination of a borrower's ability to repay, amended which existing federal law?",
-    "choices": ["RESPA", "Fair Housing Act", "Truth in Lending Act (TILA)", "SAFE Act"],
+    "choices": [
+      "RESPA",
+      "Fair Housing Act",
+      "Truth in Lending Act (TILA)",
+      "SAFE Act"
+    ],
     "correctIndex": 2,
     "explanation": "The Dodd-Frank Act amended TILA to add the Ability-to-Repay/Qualified Mortgage (ATR/QM) rule, rather than creating a standalone statute."
   },
@@ -35,8 +55,338 @@
     "id": "federal-law-5",
     "category": "federal-law",
     "question": "The Fair Housing Act prohibits discrimination in residential lending based on all of the following EXCEPT:",
-    "choices": ["Credit score", "Familial status", "National origin", "Race"],
+    "choices": [
+      "Credit score",
+      "Familial status",
+      "National origin",
+      "Race"
+    ],
     "correctIndex": 0,
     "explanation": "Credit score is a legitimate underwriting factor, not a protected class. Race, familial status, and national origin are protected characteristics under the Fair Housing Act."
+  },
+  {
+    "id": "federal-law-6",
+    "category": "federal-law",
+    "question": "Which federal law provides borrowers a three-business-day right to rescind certain refinance transactions secured by their primary residence?",
+    "choices": [
+      "Truth in Lending Act (TILA)",
+      "RESPA",
+      "HMDA",
+      "Fair Housing Act"
+    ],
+    "correctIndex": 0,
+    "explanation": "TILA provides a three-business-day right of rescission for certain non-purchase transactions, such as refinances, secured by a borrower's primary residence."
+  },
+  {
+    "id": "federal-law-7",
+    "category": "federal-law",
+    "question": "Under RESPA, which section specifically prohibits giving or accepting kickbacks for referrals of settlement service business?",
+    "choices": [
+      "Section 6",
+      "Section 10",
+      "Section 4",
+      "Section 8"
+    ],
+    "correctIndex": 3,
+    "explanation": "RESPA Section 8 prohibits kickbacks, fee-splitting, and unearned fees for referrals of settlement service business."
+  },
+  {
+    "id": "federal-law-8",
+    "category": "federal-law",
+    "question": "The Homeowners Protection Act requires a lender to automatically terminate PMI on a conventional loan once the loan balance reaches what percentage of the home's original value, assuming the borrower is current on payments?",
+    "choices": [
+      "80%",
+      "90%",
+      "70%",
+      "78%"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Homeowners Protection Act requires automatic PMI termination once the loan balance reaches 78% of the original property value, provided the borrower is current on payments."
+  },
+  {
+    "id": "federal-law-9",
+    "category": "federal-law",
+    "question": "Under the Homeowners Protection Act, a borrower may generally REQUEST cancellation of PMI once the loan balance reaches what percentage of the original value?",
+    "choices": [
+      "78%",
+      "95%",
+      "60%",
+      "80%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Borrowers may request PMI cancellation once they reach 80% LTV, subject to the lender's payment history and equity requirements; automatic termination occurs later, at 78%."
+  },
+  {
+    "id": "federal-law-10",
+    "category": "federal-law",
+    "question": "Which federal law requires lenders to disclose the Annual Percentage Rate (APR) and finance charge to borrowers?",
+    "choices": [
+      "Truth in Lending Act (TILA)",
+      "RESPA",
+      "HMDA",
+      "FCRA"
+    ],
+    "correctIndex": 0,
+    "explanation": "TILA, implemented by Regulation Z, requires disclosure of the APR and finance charge so borrowers can compare loan costs."
+  },
+  {
+    "id": "federal-law-11",
+    "category": "federal-law",
+    "question": "The Fair Credit Reporting Act (FCRA) primarily governs:",
+    "choices": [
+      "The use and accuracy of consumer credit report information",
+      "Interest rate caps on subprime loans",
+      "State licensing renewal timelines",
+      "Escrow account calculations"
+    ],
+    "correctIndex": 0,
+    "explanation": "FCRA regulates how consumer reporting agencies and users of credit reports, including lenders, collect, use, and share consumer credit information."
+  },
+  {
+    "id": "federal-law-12",
+    "category": "federal-law",
+    "question": "Under HOEPA (Home Ownership and Equity Protection Act), loans that exceed certain rate or fee thresholds are classified as:",
+    "choices": [
+      "High-cost mortgages, subject to additional restrictions and disclosures",
+      "Conforming loans",
+      "Qualified Mortgages automatically",
+      "Exempt from RESPA"
+    ],
+    "correctIndex": 0,
+    "explanation": "HOEPA identifies \"high-cost\" mortgages based on APR and fee thresholds and imposes additional consumer protections and restrictions on them."
+  },
+  {
+    "id": "federal-law-13",
+    "category": "federal-law",
+    "question": "The Loan Originator Compensation rule under TILA/Regulation Z primarily prohibits:",
+    "choices": [
+      "Compensating a loan originator based on the terms of a loan, such as the interest rate",
+      "Paying a loan originator a salary",
+      "Charging borrowers an origination fee",
+      "Requiring a credit check on applicants"
+    ],
+    "correctIndex": 0,
+    "explanation": "The LO Compensation rule prohibits basing an originator's compensation on loan terms, such as the interest rate, to prevent incentives for steering borrowers into costlier loans."
+  },
+  {
+    "id": "federal-law-14",
+    "category": "federal-law",
+    "question": "Which federal law requires financial institutions to explain their information-sharing practices to customers and safeguard sensitive data?",
+    "choices": [
+      "HMDA",
+      "ECOA",
+      "Gramm-Leach-Bliley Act",
+      "SAFE Act"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Gramm-Leach-Bliley Act requires financial institutions to provide privacy notices and implement safeguards to protect customers' nonpublic personal information."
+  },
+  {
+    "id": "federal-law-15",
+    "category": "federal-law",
+    "question": "Under ECOA, which of the following is a protected basis on which a lender may NOT discriminate?",
+    "choices": [
+      "Debt-to-income ratio",
+      "Credit score",
+      "Loan-to-value ratio",
+      "Marital status"
+    ],
+    "correctIndex": 3,
+    "explanation": "ECOA prohibits discrimination based on protected characteristics including race, color, religion, national origin, sex, marital status, age, and receipt of public assistance income."
+  },
+  {
+    "id": "federal-law-16",
+    "category": "federal-law",
+    "question": "The Servicemembers Civil Relief Act (SCRA) primarily provides protections related to:",
+    "choices": [
+      "First-time homebuyer down payment assistance",
+      "Interest rate caps and other financial protections for military servicemembers",
+      "Appraisal standards",
+      "Escrow account interest payments"
+    ],
+    "correctIndex": 1,
+    "explanation": "The SCRA provides financial and legal protections for active-duty servicemembers, including interest rate caps on certain pre-service debts."
+  },
+  {
+    "id": "federal-law-17",
+    "category": "federal-law",
+    "question": "Which law requires lenders to determine flood zone status and notify borrowers if flood insurance is required because the property is in a Special Flood Hazard Area?",
+    "choices": [
+      "RESPA",
+      "TILA",
+      "The Flood Disaster Protection Act",
+      "The Fair Housing Act"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Flood Disaster Protection Act requires lenders to determine flood zone status and notify borrowers when flood insurance is required."
+  },
+  {
+    "id": "federal-law-18",
+    "category": "federal-law",
+    "question": "Under Regulation B (ECOA), a lender that takes an application for credit secured by a first lien on a dwelling must, upon request, provide the applicant with:",
+    "choices": [
+      "The lender's internal profit margin on the loan",
+      "A copy of the appraisal report used in the credit decision",
+      "The credit scores of all other applicants",
+      "The appraiser's personal contact information"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regulation B requires creditors to provide applicants a copy of any appraisal or valuation used in connection with an application for credit secured by a first lien on a dwelling."
+  },
+  {
+    "id": "federal-law-19",
+    "category": "federal-law",
+    "question": "The Military Lending Act (MLA) primarily restricts:",
+    "choices": [
+      "Where military families can purchase homes",
+      "The types of loans available to civilians",
+      "The interest rates and terms that can be charged to active-duty servicemembers and their dependents on certain credit products",
+      "VA loan eligibility requirements"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Military Lending Act caps the Military Annual Percentage Rate and restricts certain loan terms for active-duty servicemembers and covered dependents."
+  },
+  {
+    "id": "federal-law-20",
+    "category": "federal-law",
+    "question": "Which agency has primary rulemaking and enforcement authority over most federal consumer financial protection laws affecting mortgage lending, including TILA and RESPA?",
+    "choices": [
+      "The Internal Revenue Service",
+      "The Consumer Financial Protection Bureau (CFPB)",
+      "The Federal Reserve exclusively",
+      "The Department of Housing and Urban Development exclusively"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Dodd-Frank Act created the CFPB and gave it primary rulemaking and enforcement authority over most federal consumer financial protection laws, including TILA and RESPA."
+  },
+  {
+    "id": "federal-law-21",
+    "category": "federal-law",
+    "question": "Under RESPA, an Affiliated Business Arrangement (AfBA) disclosure is required when:",
+    "choices": [
+      "A borrower changes lenders mid-transaction",
+      "A settlement service provider refers business to another provider in which it holds a financial interest",
+      "A loan is sold on the secondary market",
+      "An appraisal is ordered"
+    ],
+    "correctIndex": 1,
+    "explanation": "RESPA requires disclosure of Affiliated Business Arrangements so borrowers know when a referral is being made to a provider in which the referring party has an ownership or financial interest."
+  },
+  {
+    "id": "federal-law-22",
+    "category": "federal-law",
+    "question": "A lender's failure to accurately collect and report mortgage application data as required could result in violations of:",
+    "choices": [
+      "The Fair Housing Act only",
+      "HMDA",
+      "TILA only",
+      "The SAFE Act only"
+    ],
+    "correctIndex": 1,
+    "explanation": "HMDA specifically requires accurate collection and reporting of mortgage application data; failing to do so can result in HMDA violations."
+  },
+  {
+    "id": "federal-law-23",
+    "category": "federal-law",
+    "question": "Which of the following best describes the purpose of the Ability-to-Repay (ATR) requirement under TILA?",
+    "choices": [
+      "To guarantee approval for all qualified veterans",
+      "To set a maximum interest rate nationwide",
+      "To ensure lenders make a reasonable, good-faith determination that a borrower can repay the loan",
+      "To require a minimum down payment on all loans"
+    ],
+    "correctIndex": 2,
+    "explanation": "The ATR rule requires lenders to reasonably and in good faith determine that a borrower has the ability to repay the loan according to its terms."
+  },
+  {
+    "id": "federal-law-24",
+    "category": "federal-law",
+    "question": "A Qualified Mortgage (QM) generally must NOT include which of the following features?",
+    "choices": [
+      "A fixed interest rate",
+      "Negative amortization",
+      "A 30-year term",
+      "Standard underwriting documentation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Qualified Mortgages generally cannot have risky features such as negative amortization, interest-only payments, or balloon payments, with limited exceptions, among other requirements."
+  },
+  {
+    "id": "federal-law-25",
+    "category": "federal-law",
+    "question": "Which federal law prohibits lenders from discriminating based on the age of an applicant, provided the applicant has the legal capacity to enter into a contract?",
+    "choices": [
+      "ECOA",
+      "HMDA",
+      "RESPA",
+      "FCRA"
+    ],
+    "correctIndex": 0,
+    "explanation": "ECOA prohibits discrimination based on age, provided the applicant has the legal capacity to enter into a binding contract."
+  },
+  {
+    "id": "federal-law-26",
+    "category": "federal-law",
+    "question": "Under TILA's high-cost mortgage provisions (HOEPA), which of the following is generally PROHIBITED or significantly restricted on covered high-cost loans?",
+    "choices": [
+      "Prepayment penalties",
+      "Fixed interest rates",
+      "Standard closing disclosures",
+      "Property appraisals"
+    ],
+    "correctIndex": 0,
+    "explanation": "HOEPA prohibits or significantly restricts certain loan terms on high-cost mortgages, including most prepayment penalties."
+  },
+  {
+    "id": "federal-law-27",
+    "category": "federal-law",
+    "question": "Which of the following is a purpose of the Bank Secrecy Act (BSA) as it relates to mortgage lending?",
+    "choices": [
+      "Setting maximum loan-to-value ratios",
+      "Regulating appraisal fees",
+      "Establishing state licensing exam content",
+      "Requiring financial institutions to help detect and prevent money laundering"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Bank Secrecy Act requires financial institutions to maintain records and file reports that help detect and prevent money laundering and other financial crimes."
+  },
+  {
+    "id": "federal-law-28",
+    "category": "federal-law",
+    "question": "A lender denies a loan application and must send an adverse action notice. Under ECOA/Regulation B, this notice must generally be sent within how many days of receiving a completed application?",
+    "choices": [
+      "3 days",
+      "10 days",
+      "30 days",
+      "90 days"
+    ],
+    "correctIndex": 2,
+    "explanation": "Regulation B generally requires creditors to notify applicants of action taken, including denials, within 30 days of receiving a completed application."
+  },
+  {
+    "id": "federal-law-29",
+    "category": "federal-law",
+    "question": "Which of the following is regulated primarily by the Fair Housing Act rather than ECOA?",
+    "choices": [
+      "Disclosure of the finance charge",
+      "Reporting of HMDA data",
+      "Escrow account analysis timing",
+      "Discrimination in housing-related transactions based on disability"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Fair Housing Act prohibits discrimination in housing-related transactions, including lending, based on protected classes such as disability, race, and familial status."
+  },
+  {
+    "id": "federal-law-30",
+    "category": "federal-law",
+    "question": "Regulation C implements which federal law?",
+    "choices": [
+      "RESPA",
+      "TILA",
+      "HMDA",
+      "ECOA"
+    ],
+    "correctIndex": 2,
+    "explanation": "Regulation C implements the Home Mortgage Disclosure Act (HMDA), governing the collection and reporting of mortgage application data."
   }
 ]

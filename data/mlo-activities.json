@@ -3,7 +3,12 @@
     "id": "mlo-activities-1",
     "category": "mlo-activities",
     "question": "Which document must a lender provide to a borrower within three business days of receiving a completed mortgage application?",
-    "choices": ["Closing Disclosure", "Loan Estimate", "Truth in Lending disclosure only", "Good Faith Estimate"],
+    "choices": [
+      "Closing Disclosure",
+      "Loan Estimate",
+      "Truth in Lending disclosure only",
+      "Good Faith Estimate"
+    ],
     "correctIndex": 1,
     "explanation": "Under TRID rules, the Loan Estimate must be delivered or placed in the mail within three business days of receiving a completed loan application."
   },
@@ -11,7 +16,12 @@
     "id": "mlo-activities-2",
     "category": "mlo-activities",
     "question": "What is the minimum number of business days a borrower must have to review the Closing Disclosure before consummation of the loan?",
-    "choices": ["1 business day", "7 business days", "3 business days", "10 business days"],
+    "choices": [
+      "1 business day",
+      "7 business days",
+      "3 business days",
+      "10 business days"
+    ],
     "correctIndex": 2,
     "explanation": "TRID requires a mandatory three business day waiting period between receipt of the Closing Disclosure and loan consummation."
   },
@@ -19,7 +29,12 @@
     "id": "mlo-activities-3",
     "category": "mlo-activities",
     "question": "During loan processing, verifying a borrower's income and assets primarily supports which underwriting factor?",
-    "choices": ["Loan-to-value ratio", "Property appraisal", "Title insurance", "Ability to repay"],
+    "choices": [
+      "Loan-to-value ratio",
+      "Property appraisal",
+      "Title insurance",
+      "Ability to repay"
+    ],
     "correctIndex": 3,
     "explanation": "Verified income and asset documentation is central to the lender's ability-to-repay (ATR) determination."
   },
@@ -40,8 +55,338 @@
     "id": "mlo-activities-5",
     "category": "mlo-activities",
     "question": "Which activity would classify an individual as a \"loan originator\" under the SAFE Act?",
-    "choices": ["Performing purely administrative or clerical tasks", "Taking a residential mortgage loan application and offering or negotiating loan terms for compensation", "Servicing a loan after closing", "Providing legal advice on a purchase contract"],
+    "choices": [
+      "Performing purely administrative or clerical tasks",
+      "Taking a residential mortgage loan application and offering or negotiating loan terms for compensation",
+      "Servicing a loan after closing",
+      "Providing legal advice on a purchase contract"
+    ],
     "correctIndex": 1,
     "explanation": "The SAFE Act defines a loan originator as someone who takes an application and offers or negotiates loan terms for compensation or gain."
+  },
+  {
+    "id": "mlo-activities-6",
+    "category": "mlo-activities",
+    "question": "Which of the following is NOT considered one of the traditional \"Four Cs\" of mortgage underwriting?",
+    "choices": [
+      "Commission",
+      "Capacity",
+      "Capital",
+      "Collateral"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Four Cs of mortgage underwriting are Capacity, Credit, Capital, and Collateral. Commission is not one of them."
+  },
+  {
+    "id": "mlo-activities-7",
+    "category": "mlo-activities",
+    "question": "A borrower's gross monthly income is $6,000 and their total monthly debt payments, including the proposed housing payment, are $2,400. What is the borrower's back-end DTI ratio?",
+    "choices": [
+      "20%",
+      "60%",
+      "40%",
+      "24%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Back-end DTI equals total monthly debt payments divided by gross monthly income: $2,400 ÷ $6,000 = 40%."
+  },
+  {
+    "id": "mlo-activities-8",
+    "category": "mlo-activities",
+    "question": "Which document is generated at closing and lists the final, itemized terms and costs of the mortgage loan?",
+    "choices": [
+      "Closing Disclosure",
+      "Loan Estimate",
+      "Adverse Action Notice",
+      "Uniform Residential Loan Application"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Closing Disclosure provides the final, itemized terms and closing costs of the loan and must be provided at least three business days before closing."
+  },
+  {
+    "id": "mlo-activities-9",
+    "category": "mlo-activities",
+    "question": "A rate lock agreement primarily protects a borrower from:",
+    "choices": [
+      "Changes in property value during underwriting",
+      "Increases in property taxes",
+      "Interest rate increases between locking and closing",
+      "Changes in the borrower's credit score"
+    ],
+    "correctIndex": 2,
+    "explanation": "A rate lock guarantees a specific interest rate for a set period, protecting the borrower from rate increases before closing."
+  },
+  {
+    "id": "mlo-activities-10",
+    "category": "mlo-activities",
+    "question": "Which of the following is typically required to verify a self-employed borrower's income?",
+    "choices": [
+      "Two years of personal and business tax returns",
+      "A single pay stub",
+      "A verbal statement from the borrower",
+      "A letter from a friend"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lenders typically require two years of personal, and often business, tax returns to verify and average self-employed income."
+  },
+  {
+    "id": "mlo-activities-11",
+    "category": "mlo-activities",
+    "question": "An \"adverse action notice\" must be sent to an applicant when:",
+    "choices": [
+      "The loan is approved with standard terms",
+      "The borrower requests a rate lock",
+      "The application is denied, or approved on terms less favorable than requested",
+      "The appraisal is ordered"
+    ],
+    "correctIndex": 2,
+    "explanation": "Under ECOA/Regulation B, a creditor must provide an adverse action notice when denying an application or offering less favorable terms than applied for, explaining the reasons or the applicant's right to request them."
+  },
+  {
+    "id": "mlo-activities-12",
+    "category": "mlo-activities",
+    "question": "Gift funds used toward a down payment typically require:",
+    "choices": [
+      "No documentation at all",
+      "A verbal confirmation from the donor",
+      "A signed gift letter confirming no repayment is expected",
+      "Approval from the seller"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lenders generally require a signed gift letter stating the funds are a bona fide gift with no expectation of repayment."
+  },
+  {
+    "id": "mlo-activities-13",
+    "category": "mlo-activities",
+    "question": "A valid \"changed circumstance\" that increases closing costs beyond regulatory tolerances generally requires the lender to:",
+    "choices": [
+      "Provide a revised Loan Estimate within three business days of learning of the change",
+      "Absorb the cost with no disclosure",
+      "Cancel the loan application",
+      "Wait until closing to disclose the change"
+    ],
+    "correctIndex": 0,
+    "explanation": "When a valid changed circumstance causes costs to exceed tolerance thresholds, lenders must issue a revised Loan Estimate within three business days of learning about the change."
+  },
+  {
+    "id": "mlo-activities-14",
+    "category": "mlo-activities",
+    "question": "Which of the following best describes a Home Equity Line of Credit (HELOC)?",
+    "choices": [
+      "A fixed lump-sum second mortgage",
+      "An unsecured personal loan",
+      "A type of first-mortgage refinance",
+      "A revolving line of credit secured by the borrower's home equity"
+    ],
+    "correctIndex": 3,
+    "explanation": "A HELOC is a revolving line of credit secured by the equity in the borrower's home, similar to a credit card with a credit limit."
+  },
+  {
+    "id": "mlo-activities-15",
+    "category": "mlo-activities",
+    "question": "During loan processing, which party is primarily responsible for verifying that a loan file meets investor and program guidelines before final approval?",
+    "choices": [
+      "The underwriter",
+      "The real estate agent",
+      "The title company",
+      "The appraiser"
+    ],
+    "correctIndex": 0,
+    "explanation": "The underwriter reviews the complete loan file to ensure it meets investor, program, and regulatory guidelines before issuing final approval."
+  },
+  {
+    "id": "mlo-activities-16",
+    "category": "mlo-activities",
+    "question": "A \"cash-out refinance\" differs from a \"rate-and-term refinance\" because it:",
+    "choices": [
+      "Always has a lower interest rate",
+      "Allows the borrower to receive funds beyond paying off the existing loan",
+      "Cannot be used on a primary residence",
+      "Requires no appraisal"
+    ],
+    "correctIndex": 1,
+    "explanation": "A cash-out refinance lets the borrower take out a new, larger loan and receive the difference in cash, beyond simply paying off the existing mortgage."
+  },
+  {
+    "id": "mlo-activities-17",
+    "category": "mlo-activities",
+    "question": "Which of the following would most likely trigger a requirement for private mortgage insurance on a conventional loan?",
+    "choices": [
+      "A down payment of less than 20%",
+      "A down payment of 25%",
+      "A credit score above 740",
+      "A fixed-rate loan term"
+    ],
+    "correctIndex": 0,
+    "explanation": "Conventional loans with a down payment of less than 20% (an LTV above 80%) typically require PMI."
+  },
+  {
+    "id": "mlo-activities-18",
+    "category": "mlo-activities",
+    "question": "The Uniform Residential Loan Application (URLA, or Form 1003) is used to:",
+    "choices": [
+      "Disclose final closing costs",
+      "Collect the borrower's financial and property information for underwriting",
+      "Verify the appraiser's license",
+      "Record the deed of trust"
+    ],
+    "correctIndex": 1,
+    "explanation": "The URLA (Form 1003) is the standardized application used to collect borrower financial, employment, and property information for underwriting."
+  },
+  {
+    "id": "mlo-activities-19",
+    "category": "mlo-activities",
+    "question": "A borrower is locked at 6.5% but market rates drop to 6.0% before closing. Absent a float-down provision, the borrower will typically:",
+    "choices": [
+      "Automatically receive the lower 6.0% rate",
+      "Have the loan canceled",
+      "Close at the locked 6.5% rate",
+      "Pay a penalty to keep the original rate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Without a float-down option, a rate lock is binding — the borrower closes at the locked rate even if market rates move lower."
+  },
+  {
+    "id": "mlo-activities-20",
+    "category": "mlo-activities",
+    "question": "Which underwriting factor is most directly assessed by a property appraisal?",
+    "choices": [
+      "Capacity",
+      "Credit",
+      "Capital",
+      "Collateral"
+    ],
+    "correctIndex": 3,
+    "explanation": "An appraisal establishes the value of the property, which is the \"Collateral\" factor in underwriting."
+  },
+  {
+    "id": "mlo-activities-21",
+    "category": "mlo-activities",
+    "question": "A borrower's loan file shows they are self-employed with declining income over the past two years. This is most likely to affect the lender's assessment of the borrower's:",
+    "choices": [
+      "Property's appraised value",
+      "Title search results",
+      "Social Security number verification",
+      "Capacity to repay the loan"
+    ],
+    "correctIndex": 3,
+    "explanation": "Declining self-employed income raises concerns about the borrower's capacity — their ability to repay the loan going forward."
+  },
+  {
+    "id": "mlo-activities-22",
+    "category": "mlo-activities",
+    "question": "Which of the following loan file details would be considered a \"red flag\" during processing that may require further investigation?",
+    "choices": [
+      "A consistent two-year employment history",
+      "A stable credit score",
+      "A property in good condition per the appraisal",
+      "A large, unexplained deposit into the borrower's bank account shortly before closing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Large, unexplained deposits are a common red flag that may indicate undisclosed debt, borrowed down payment funds, or fraud, and typically require a documented explanation."
+  },
+  {
+    "id": "mlo-activities-23",
+    "category": "mlo-activities",
+    "question": "What is the primary purpose of title insurance in a mortgage transaction?",
+    "choices": [
+      "To insure the borrower's life during the loan term",
+      "To protect against losses from defects in the property's title",
+      "To guarantee the appraised value",
+      "To cover the cost of homeowners insurance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Title insurance protects the lender, and optionally the borrower, against financial loss from defects in the property's title, such as liens or ownership disputes."
+  },
+  {
+    "id": "mlo-activities-24",
+    "category": "mlo-activities",
+    "question": "A borrower wants predictable payments for the entire life of the loan. Which loan type best meets this need?",
+    "choices": [
+      "A 5/1 ARM",
+      "A fixed-rate mortgage",
+      "An interest-only loan",
+      "A balloon mortgage"
+    ],
+    "correctIndex": 1,
+    "explanation": "A fixed-rate mortgage keeps the interest rate, and therefore the principal and interest payment, the same for the entire loan term."
+  },
+  {
+    "id": "mlo-activities-25",
+    "category": "mlo-activities",
+    "question": "Under TRID, which of the following is generally considered a valid \"changed circumstance\" that could justify a revised Loan Estimate?",
+    "choices": [
+      "The MLO made a math error unrelated to any new information",
+      "The borrower's preferred closing date",
+      "An appraisal comes in lower than expected, affecting loan terms",
+      "The lender's internal staffing schedule"
+    ],
+    "correctIndex": 2,
+    "explanation": "A valid changed circumstance involves new information not known at the time of the original disclosure, such as an appraisal affecting loan eligibility or terms. A lender's clerical error generally does not qualify."
+  },
+  {
+    "id": "mlo-activities-26",
+    "category": "mlo-activities",
+    "question": "Which best describes \"seller concessions\" in a purchase transaction?",
+    "choices": [
+      "Funds the seller contributes toward the buyer's closing costs, subject to program limits",
+      "A reduction in the appraised value",
+      "A discount on the seller's real estate commission",
+      "A penalty paid by the seller for a late closing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Seller concessions are funds the seller agrees to contribute toward the buyer's closing costs or prepaid items, subject to loan program and LTV-based limits."
+  },
+  {
+    "id": "mlo-activities-27",
+    "category": "mlo-activities",
+    "question": "A \"float-down\" provision in a rate lock agreement allows the borrower to:",
+    "choices": [
+      "Extend the lock period at no cost",
+      "Take advantage of a lower rate if market rates drop before closing",
+      "Switch loan programs after closing",
+      "Avoid paying an appraisal fee"
+    ],
+    "correctIndex": 1,
+    "explanation": "A float-down provision allows the borrower to lock in a lower rate if market rates drop during the lock period, unlike a standard rate lock."
+  },
+  {
+    "id": "mlo-activities-28",
+    "category": "mlo-activities",
+    "question": "Which party typically conducts the final review to ensure all conditions have been met before a loan is issued \"clear to close\"?",
+    "choices": [
+      "The real estate agent",
+      "The underwriter",
+      "The homeowner's insurance agent",
+      "The MLO's marketing team"
+    ],
+    "correctIndex": 1,
+    "explanation": "The underwriter reviews all outstanding conditions and issues final approval, or \"clear to close,\" once they are satisfied."
+  },
+  {
+    "id": "mlo-activities-29",
+    "category": "mlo-activities",
+    "question": "A borrower's construction loan converts to a permanent mortgage after the home is built. This is best described as:",
+    "choices": [
+      "A reverse mortgage",
+      "A HELOC",
+      "A bridge loan",
+      "A construction-to-permanent loan"
+    ],
+    "correctIndex": 3,
+    "explanation": "A construction-to-permanent loan finances the building phase and then automatically converts to a standard permanent mortgage once construction is complete."
+  },
+  {
+    "id": "mlo-activities-30",
+    "category": "mlo-activities",
+    "question": "Which of the following types of income generally CANNOT be counted toward qualifying income without documentation showing a history and expectation of continuance?",
+    "choices": [
+      "Base salary from stable, verified employment",
+      "Two-year averaged base wages",
+      "Verified Social Security income",
+      "Bonus or overtime income with no established history"
+    ],
+    "correctIndex": 3,
+    "explanation": "Variable income like bonuses or overtime generally must have a documented history and reasonable expectation of continuance to be counted; otherwise it may be excluded or reduced."
   }
 ]

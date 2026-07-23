@@ -16,7 +16,12 @@
     "id": "state-content-2",
     "category": "state-content",
     "question": "Most states require a mortgage loan originator to complete continuing education requirements:",
-    "choices": ["Annually, to renew their license", "Never, once initially licensed", "Only if they change employers", "Only when a complaint is filed"],
+    "choices": [
+      "Annually, to renew their license",
+      "Never, once initially licensed",
+      "Only if they change employers",
+      "Only when a complaint is filed"
+    ],
     "correctIndex": 0,
     "explanation": "State licensing laws generally require MLOs to complete continuing education courses annually to renew their license."
   },
@@ -24,7 +29,12 @@
     "id": "state-content-3",
     "category": "state-content",
     "question": "A surety bond required by many states for MLO licensing primarily serves to:",
-    "choices": ["Guarantee the MLO's personal income", "Provide a source of recovery for consumers harmed by the MLO's licensing law violations", "Pay the MLO's taxes", "Replace the need for a credit check"],
+    "choices": [
+      "Guarantee the MLO's personal income",
+      "Provide a source of recovery for consumers harmed by the MLO's licensing law violations",
+      "Pay the MLO's taxes",
+      "Replace the need for a credit check"
+    ],
     "correctIndex": 1,
     "explanation": "Surety bonds provide a financial remedy for consumers harmed by an MLO's violation of licensing laws or regulations."
   },
@@ -32,7 +42,12 @@
     "id": "state-content-4",
     "category": "state-content",
     "question": "State licensing laws for MLOs are generally built on a uniform framework established by:",
-    "choices": ["The Federal Reserve", "State real estate commissions only", "The IRS", "The SAFE Mortgage Licensing Act"],
+    "choices": [
+      "The Federal Reserve",
+      "State real estate commissions only",
+      "The IRS",
+      "The SAFE Mortgage Licensing Act"
+    ],
     "correctIndex": 3,
     "explanation": "The SAFE Mortgage Licensing Act of 2008 established the uniform framework that states use for MLO licensing requirements."
   },
@@ -48,5 +63,239 @@
     ],
     "correctIndex": 2,
     "explanation": "MLO licenses are state-specific, so an MLO must obtain a separate license or registration for each additional state through NMLS."
+  },
+  {
+    "id": "state-content-6",
+    "category": "state-content",
+    "question": "An MLO's NMLS unique identifier must be:",
+    "choices": [
+      "Kept confidential and never shared with borrowers",
+      "Changed annually",
+      "Used only for internal company records",
+      "Displayed on loan applications, solicitations, and other documents as required by law"
+    ],
+    "correctIndex": 3,
+    "explanation": "MLOs are required to display their NMLS unique identifier on loan applications, business cards, and certain advertising and documents so consumers can verify their license."
+  },
+  {
+    "id": "state-content-7",
+    "category": "state-content",
+    "question": "Most state MLO licenses must be renewed by which date each year, absent a specific state exception?",
+    "choices": [
+      "June 30",
+      "December 31",
+      "The MLO's birthday",
+      "The anniversary of initial licensure"
+    ],
+    "correctIndex": 1,
+    "explanation": "Most states require MLO license renewal by December 31 each year, coordinated through the NMLS annual renewal period."
+  },
+  {
+    "id": "state-content-8",
+    "category": "state-content",
+    "question": "The SAFE Act's 20-hour pre-licensing education requirement includes a minimum of how many hours specifically on federal law and regulations?",
+    "choices": [
+      "3 hours",
+      "8 hours",
+      "1 hour",
+      "12 hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 20-hour SAFE Act pre-licensing curriculum requires a minimum of 3 hours on federal law and regulations, along with 3 hours of ethics, 2 hours on non-traditional mortgage products, and 12 elective hours."
+  },
+  {
+    "id": "state-content-9",
+    "category": "state-content",
+    "question": "The SAFE Act's annual 8-hour continuing education requirement includes a minimum of how many hours of ethics training?",
+    "choices": [
+      "2 hours",
+      "8 hours",
+      "5 hours",
+      "0 hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "The annual 8-hour continuing education requirement includes a minimum of 2 hours of ethics, along with 3 hours of federal law and regulations, 2 hours on non-traditional mortgage products, and at least 1 elective hour."
+  },
+  {
+    "id": "state-content-10",
+    "category": "state-content",
+    "question": "As part of the NMLS licensing process, applicants are generally required to submit to:",
+    "choices": [
+      "A criminal background check via fingerprinting",
+      "A physical health examination",
+      "A four-year college degree verification",
+      "A personal reference from a licensed real estate agent"
+    ],
+    "correctIndex": 0,
+    "explanation": "NMLS licensing generally requires a criminal background check, including fingerprint submission through the FBI, as part of the character and fitness review."
+  },
+  {
+    "id": "state-content-11",
+    "category": "state-content",
+    "question": "The MU4 form filed with NMLS is primarily used to:",
+    "choices": [
+      "Register a mortgage company",
+      "Report loan-level HMDA data",
+      "Renew a surety bond",
+      "Register and collect background information on an individual MLO"
+    ],
+    "correctIndex": 3,
+    "explanation": "Form MU4 is the individual Uniform Mortgage Loan Originator form used to register an individual MLO and collect their background and employment history."
+  },
+  {
+    "id": "state-content-12",
+    "category": "state-content",
+    "question": "Which NMLS form is generally used to register a mortgage company, as opposed to an individual MLO?",
+    "choices": [
+      "Form MU4",
+      "Form 1003",
+      "Form MU1",
+      "Form W-2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Form MU1 is the Uniform Mortgage Lender/Mortgage Broker form used to register a company with NMLS, while Form MU4 registers an individual."
+  },
+  {
+    "id": "state-content-13",
+    "category": "state-content",
+    "question": "If an MLO's license is revoked in one state for a violation, this information is generally:",
+    "choices": [
+      "Kept confidential from all other states",
+      "Automatically expunged after one year",
+      "Accessible to other state regulators through the shared NMLS system",
+      "Irrelevant to licensing in other states"
+    ],
+    "correctIndex": 2,
+    "explanation": "NMLS is a shared system across states, so disciplinary actions and license status are generally visible to regulators in other states, supporting coordinated oversight."
+  },
+  {
+    "id": "state-content-14",
+    "category": "state-content",
+    "question": "The SAFE Act's \"Temporary Authority to Operate\" provision generally allows:",
+    "choices": [
+      "Unlicensed individuals to originate loans indefinitely",
+      "A license to be valid in all 50 states automatically",
+      "A qualifying MLO to originate loans in a new state for a limited time while their license application is pending",
+      "MLOs to skip continuing education permanently"
+    ],
+    "correctIndex": 2,
+    "explanation": "Temporary Authority to Operate allows certain qualifying, previously licensed or registered MLOs to originate loans in a new state for a limited period while a license application is under review."
+  },
+  {
+    "id": "state-content-15",
+    "category": "state-content",
+    "question": "Which of the following is a common ground for state disciplinary action against an MLO's license?",
+    "choices": [
+      "Taking approved continuing education early",
+      "Working for more than one branch of the same company",
+      "Fraud, dishonesty, or a pattern of violating licensing laws",
+      "Having a high loan volume"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fraud, dishonesty, and violations of licensing laws or regulations are common grounds for state regulators to suspend or revoke an MLO's license."
+  },
+  {
+    "id": "state-content-16",
+    "category": "state-content",
+    "question": "State MLO licensing laws generally require licensees to maintain business records for:",
+    "choices": [
+      "No specific period",
+      "A specified minimum retention period set by state law",
+      "Only until the loan closes",
+      "One week"
+    ],
+    "correctIndex": 1,
+    "explanation": "State licensing laws typically require MLOs and their employers to retain business records for a minimum period specified by law, to support regulatory examinations and audits."
+  },
+  {
+    "id": "state-content-17",
+    "category": "state-content",
+    "question": "A \"net worth\" or \"surety bond\" requirement for a mortgage company license primarily serves to:",
+    "choices": [
+      "Provide financial assurance that the company can meet its obligations and provide recourse for harmed consumers",
+      "Guarantee a specific profit margin",
+      "Replace the need for individual MLO licensing",
+      "Set the company's maximum loan volume"
+    ],
+    "correctIndex": 0,
+    "explanation": "Net worth and surety bond requirements provide a financial cushion and a source of recovery for consumers if a licensed company fails to meet its obligations or violates licensing laws."
+  },
+  {
+    "id": "state-content-18",
+    "category": "state-content",
+    "question": "If an MLO changes employers to a new mortgage company within the same state, they generally must:",
+    "choices": [
+      "Retake the national exam",
+      "Complete a new 20-hour pre-licensing course",
+      "Wait one year before originating loans again",
+      "Update their NMLS record to reflect the new employer's sponsorship"
+    ],
+    "correctIndex": 3,
+    "explanation": "When changing employers, an MLO must update their NMLS record so the new company can sponsor their license; retaking the national exam or the full pre-licensing course is not required."
+  },
+  {
+    "id": "state-content-19",
+    "category": "state-content",
+    "question": "A state license that is not renewed by the state's deadline generally results in:",
+    "choices": [
+      "An automatic 10-year extension",
+      "The license lapsing or expiring, preventing the MLO from originating loans",
+      "No consequence as long as CE is eventually completed",
+      "Immediate criminal charges"
+    ],
+    "correctIndex": 1,
+    "explanation": "Failing to renew a license by the state deadline generally causes it to lapse or expire, meaning the individual cannot legally originate loans until it is reinstated."
+  },
+  {
+    "id": "state-content-20",
+    "category": "state-content",
+    "question": "Which of the following best explains why state licensing requirements can vary somewhat despite the SAFE Act's uniform framework?",
+    "choices": [
+      "States are prohibited from adding any requirements beyond the SAFE Act",
+      "The SAFE Act sets minimum national standards, but states may impose additional requirements",
+      "The SAFE Act eliminates all state authority over licensing",
+      "Only federally chartered banks are subject to state law"
+    ],
+    "correctIndex": 1,
+    "explanation": "The SAFE Act establishes minimum uniform standards, but individual states retain authority to impose additional licensing requirements beyond that federal floor."
+  },
+  {
+    "id": "state-content-21",
+    "category": "state-content",
+    "question": "An individual whose primary job duties involve only loan processing or underwriting, without taking applications or negotiating loan terms, is generally:",
+    "choices": [
+      "Always required to hold the same license as an MLO",
+      "Exempt from all mortgage-related regulations",
+      "Required to complete twice the pre-licensing hours of an MLO",
+      "Not required to be licensed as an MLO under the SAFE Act"
+    ],
+    "correctIndex": 3,
+    "explanation": "Individuals performing purely clerical or support functions, such as processing or underwriting without taking applications or negotiating terms, are generally not required to be licensed as loan originators under the SAFE Act."
+  },
+  {
+    "id": "state-content-22",
+    "category": "state-content",
+    "question": "State mortgage regulators primarily rely on which system to track license status, complaints, and enforcement actions across states?",
+    "choices": [
+      "The IRS database",
+      "NMLS",
+      "The credit bureaus",
+      "The Federal Reserve's internal system"
+    ],
+    "correctIndex": 1,
+    "explanation": "NMLS serves as the shared national system regulators use to track licensing status, complaints, and enforcement actions for MLOs across states."
+  },
+  {
+    "id": "state-content-23",
+    "category": "state-content",
+    "question": "If an MLO stops originating loans for an extended period without maintaining their license, what typically happens to their license status?",
+    "choices": [
+      "It typically becomes inactive or expired, requiring reinstatement steps before originating again",
+      "It remains fully active indefinitely with no action needed",
+      "It automatically grants authority to originate in all states",
+      "No further education will ever be required"
+    ],
+    "correctIndex": 0,
+    "explanation": "A license that isn't properly renewed and maintained, including required continuing education, will typically become inactive or expired, requiring the MLO to complete reinstatement steps before originating loans again."
   }
 ]
