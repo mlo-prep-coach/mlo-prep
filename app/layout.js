@@ -58,7 +58,11 @@ export default function RootLayout({ children }) {
             <Link href="/terms" className="underline hover:text-navy-500">
               Terms of Service
             </Link>
-            , which includes a binding arbitration agreement and class action waiver.
+            , which includes a binding arbitration agreement and class action waiver, and our{" "}
+            <Link href="/privacy" className="underline hover:text-navy-500">
+              Privacy Policy
+            </Link>
+            .
           </p>
         </main>
 

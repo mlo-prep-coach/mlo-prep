@@ -100,7 +100,8 @@ export default function TermsPage() {
           the AAA rules or applicable law otherwise provide.
         </p>
         <p className={BODY_CLASS}>
-          <strong className="text-navy-800">Class action waiver.</strong> You and MLO
+          <strong className="text-navy-800">Class action waiver.</strong>{" "}
+          You and MLO
           Prep agree that any arbitration or proceeding will be conducted only on an
           individual basis and not as a class, consolidated, or representative action.
           The arbitrator may not consolidate more than one person&apos;s claims and may
