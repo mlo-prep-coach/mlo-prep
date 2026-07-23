@@ -53,6 +53,13 @@ export default function RootLayout({ children }) {
             are original study aids, not official exam questions, and are not guaranteed to match
             questions on the actual NMLS SAFE exam.
           </p>
+          <p className="mx-auto mt-3 max-w-md text-center text-xs leading-relaxed text-navy-300">
+            By using MLO Prep, you agree to our{" "}
+            <Link href="/terms" className="underline hover:text-navy-500">
+              Terms of Service
+            </Link>
+            , which includes a binding arbitration agreement and class action waiver.
+          </p>
         </main>
 
         <MobileTabBar />

@@ -2,6 +2,7 @@
 
 import { Suspense, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { GraduationCap, CheckCircle2, Loader2 } from "lucide-react";
 
 const FEATURES = [
@@ -103,6 +104,13 @@ function UpgradeContent() {
               Subscribe Now
             </button>
           </form>
+          <p className="mt-3 text-center text-xs text-navy-300">
+            By subscribing, you agree to our{" "}
+            <Link href="/terms" className="underline hover:text-navy-100">
+              Terms of Service
+            </Link>
+            , including binding arbitration.
+          </p>
         </div>
       </div>
 
