@@ -1,14 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { CalendarCheck, Trophy, Pencil, ArrowRight } from "lucide-react";
 import {
-  getStudyPlanSettings,
+  getStudyPlanSettingsSnapshot,
   saveStudyPlanSettings,
   getCategoryStats,
   getProfile,
   saveProfile,
+  subscribeToStorage,
+  getServerSnapshot,
 } from "@/lib/storage";
 import { buildStudyPlan, parseDateOnly } from "@/lib/studyPlan";
 import { getCategory } from "@/lib/categories";
@@ -18,29 +20,37 @@ function todayISO() {
 }
 
 export default function StudyPlanPage() {
-  const [settings, setSettings] = useState(undefined);
+  // Reads localStorage synchronously on the client's first render instead of
+  // waiting for a post-mount effect to escape an initial null render.
+  const storedSettings = useSyncExternalStore(
+    subscribeToStorage,
+    getStudyPlanSettingsSnapshot,
+    getServerSnapshot
+  );
+  const [settingsOverride, setSettingsOverride] = useState(undefined);
+  const settings = settingsOverride === undefined ? storedSettings : settingsOverride;
+
   const [examDateInput, setExamDateInput] = useState("");
   const [daysPerWeekInput, setDaysPerWeekInput] = useState(5);
 
   useEffect(() => {
-    // localStorage only exists client-side; reading it post-mount avoids a hydration mismatch.
-    const existing = getStudyPlanSettings();
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setSettings(existing);
-    const profileExamDate = getProfile()?.examDate;
-    if (!existing && profileExamDate) {
-      setExamDateInput(profileExamDate);
+    if (!settings) {
+      const profileExamDate = getProfile()?.examDate;
+      if (profileExamDate) {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setExamDateInput(profileExamDate);
+      }
     }
+    // Only ever needs to run once, to prefill the form from the profile.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  if (settings === undefined) return null;
 
   function handleSubmit(e) {
     e.preventDefault();
     if (!examDateInput) return;
     const next = { examDate: examDateInput, daysPerWeek: Number(daysPerWeekInput) };
     saveStudyPlanSettings(next);
-    setSettings(next);
+    setSettingsOverride(next);
 
     // Keep the profile's exam date (used for the dashboard countdown) in sync.
     const profile = getProfile();
@@ -126,7 +136,7 @@ export default function StudyPlanPage() {
           </div>
           <button
             type="button"
-            onClick={() => setSettings(null)}
+            onClick={() => setSettingsOverride(null)}
             className="flex shrink-0 items-center gap-1.5 rounded-full bg-white/10 px-3 py-1.5 text-xs font-semibold hover:bg-white/20"
           >
             <Pencil size={12} /> Edit

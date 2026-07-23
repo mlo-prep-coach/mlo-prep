@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -16,7 +16,14 @@ import {
   History,
 } from "lucide-react";
 import { CATEGORIES } from "@/lib/categories";
-import { getHistory, getCategoryStats, getBookmarks, getProfile } from "@/lib/storage";
+import {
+  getHistory,
+  getCategoryStats,
+  getBookmarks,
+  getProfileSnapshot,
+  subscribeToStorage,
+  getServerSnapshot,
+} from "@/lib/storage";
 import { computeStreak, computeXP, computeLevel, getAchievements } from "@/lib/gamification";
 import {
   getDailyMission,
@@ -46,24 +53,20 @@ const item = {
 
 export default function Dashboard() {
   const router = useRouter();
-  const [profile, setProfile] = useState(undefined);
-  const [data, setData] = useState(null);
+  // Reads localStorage synchronously on the client's first render instead of
+  // waiting for a post-mount effect to escape an initial null render.
+  const profile = useSyncExternalStore(subscribeToStorage, getProfileSnapshot, getServerSnapshot);
 
   useEffect(() => {
-    const p = getProfile();
-    if (!p) {
-      router.replace("/onboarding");
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setProfile(null);
-      return;
-    }
+    if (!profile) router.replace("/onboarding");
+  }, [profile, router]);
 
+  const data = useMemo(() => {
+    if (!profile) return null;
     const history = getHistory();
     const bookmarks = getBookmarks();
     const stats = getCategoryStats();
-    // localStorage only exists client-side; reading it post-mount avoids a hydration mismatch.
-    setProfile(p);
-    setData({
+    return {
       stats,
       history,
       streak: computeStreak(history),
@@ -71,8 +74,22 @@ export default function Dashboard() {
       achievements: getAchievements(history, bookmarks),
       totalAnswered: stats.reduce((sum, s) => sum + s.total, 0),
       totalCorrect: stats.reduce((sum, s) => sum + s.correct, 0),
-    });
-  }, [router]);
+    };
+  }, [profile]);
+
+  if (profile === null) {
+    // Redirects via the effect above; this is a visible fallback in case
+    // that hasn't run yet (or doesn't, e.g. a blocked/slow navigation),
+    // so the page is never left looking blank.
+    return (
+      <div className="flex flex-col items-center gap-3 py-16 text-center">
+        <p className="text-sm text-navy-500">Setting up your dashboard…</p>
+        <Link href="/onboarding" className="text-sm font-semibold text-brand-600 hover:underline">
+          Continue to setup →
+        </Link>
+      </div>
+    );
+  }
 
   if (!profile || !data) return null;
 

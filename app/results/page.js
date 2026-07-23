@@ -1,9 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { Trophy, XCircle, Zap, ListFilter, Home, TrendingUp, ArrowRight, Sparkles } from "lucide-react";
-import { getLastSession } from "@/lib/storage";
+import {
+  getLastSessionSnapshot,
+  subscribeToStorage,
+  getServerSnapshot,
+} from "@/lib/storage";
 import { getCategory, CATEGORIES } from "@/lib/categories";
 import { computeXP } from "@/lib/gamification";
 import QuestionCard from "@/components/QuestionCard";
@@ -13,18 +17,14 @@ import ProgressBar from "@/components/ProgressBar";
 const PASS_THRESHOLD = 75;
 
 export default function ResultsPage() {
-  const [session, setSession] = useState(undefined);
+  // Reads localStorage synchronously on the client's first render instead of
+  // waiting for a post-mount effect to escape an initial null render.
+  const session = useSyncExternalStore(
+    subscribeToStorage,
+    getLastSessionSnapshot,
+    getServerSnapshot
+  );
   const [filter, setFilter] = useState("all");
-
-  useEffect(() => {
-    // localStorage only exists client-side; reading it post-mount avoids a hydration mismatch.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setSession(getLastSession());
-  }, []);
-
-  if (session === undefined) {
-    return null;
-  }
 
   if (!session) {
     return (

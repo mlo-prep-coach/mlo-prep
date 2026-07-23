@@ -1,21 +1,28 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useMemo, useSyncExternalStore } from "react";
 import Link from "next/link";
-import { getBookmarks } from "@/lib/storage";
+import {
+  getBookmarks,
+  getIsClientSnapshot,
+  getIsClientServerSnapshot,
+  subscribeToNothing,
+} from "@/lib/storage";
 import { getQuestionById } from "@/lib/questions";
 import FlashcardSession from "@/components/FlashcardSession";
 
 export default function BookmarkedFlashcards({ limit }) {
-  const [questions, setQuestions] = useState(null);
-
-  useEffect(() => {
-    const bookmarks = getBookmarks();
-    const resolved = bookmarks.map((b) => getQuestionById(b.questionId)).filter(Boolean);
-    // localStorage only exists client-side; reading it post-mount avoids a hydration mismatch.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setQuestions(resolved);
-  }, []);
+  // Reads localStorage synchronously on the client's first render instead of
+  // waiting for a post-mount effect to escape an initial null render.
+  const isClient = useSyncExternalStore(
+    subscribeToNothing,
+    getIsClientSnapshot,
+    getIsClientServerSnapshot
+  );
+  const questions = useMemo(() => {
+    if (!isClient) return null;
+    return getBookmarks().map((b) => getQuestionById(b.questionId)).filter(Boolean);
+  }, [isClient]);
 
   if (questions === null) return null;
 

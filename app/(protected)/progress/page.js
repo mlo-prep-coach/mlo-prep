@@ -1,9 +1,17 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { Flame, Zap, Trophy, Check, RotateCcw } from "lucide-react";
-import { getCategoryStats, getHistory, getBookmarks, clearHistory } from "@/lib/storage";
+import {
+  getCategoryStats,
+  getHistory,
+  getBookmarks,
+  clearHistory,
+  getIsClientSnapshot,
+  getIsClientServerSnapshot,
+  subscribeToNothing,
+} from "@/lib/storage";
 import { computeStreak, computeXP, computeLevel, getAchievements } from "@/lib/gamification";
 import ProgressBar from "@/components/ProgressBar";
 
@@ -30,19 +38,25 @@ function loadProgressData() {
 }
 
 export default function ProgressPage() {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    // localStorage only exists client-side; reading it post-mount avoids a hydration mismatch.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setData(loadProgressData());
-  }, []);
+  // Reads localStorage synchronously on the client's first render instead of
+  // waiting for a post-mount effect to escape an initial null render.
+  const isClient = useSyncExternalStore(
+    subscribeToNothing,
+    getIsClientSnapshot,
+    getIsClientServerSnapshot
+  );
+  const [dataOverride, setDataOverride] = useState(undefined);
+  const data = useMemo(() => {
+    if (dataOverride !== undefined) return dataOverride;
+    if (!isClient) return null;
+    return loadProgressData();
+  }, [isClient, dataOverride]);
 
   function handleClear() {
     const ok = window.confirm("Clear all saved progress? This cannot be undone.");
     if (!ok) return;
     clearHistory();
-    setData(loadProgressData());
+    setDataOverride(loadProgressData());
   }
 
   if (!data) return null;

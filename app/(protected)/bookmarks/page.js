@@ -1,26 +1,33 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { Star, PlayCircle } from "lucide-react";
-import { getBookmarks } from "@/lib/storage";
+import {
+  getBookmarks,
+  getIsClientSnapshot,
+  getIsClientServerSnapshot,
+  subscribeToNothing,
+} from "@/lib/storage";
 import { getQuestionById } from "@/lib/questions";
 import { getCategory } from "@/lib/categories";
 import PracticeSession from "@/components/PracticeSession";
 
 export default function BookmarksPage() {
-  const [bookmarkedQuestions, setBookmarkedQuestions] = useState(null);
-  const [practicing, setPracticing] = useState(false);
-
-  useEffect(() => {
-    const bookmarks = getBookmarks();
-    const questions = bookmarks
+  // Reads localStorage synchronously on the client's first render instead of
+  // waiting for a post-mount effect to escape an initial null render.
+  const isClient = useSyncExternalStore(
+    subscribeToNothing,
+    getIsClientSnapshot,
+    getIsClientServerSnapshot
+  );
+  const bookmarkedQuestions = useMemo(() => {
+    if (!isClient) return null;
+    return getBookmarks()
       .map((b) => getQuestionById(b.questionId))
       .filter(Boolean);
-    // localStorage only exists client-side; reading it post-mount avoids a hydration mismatch.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setBookmarkedQuestions(questions);
-  }, []);
+  }, [isClient]);
+  const [practicing, setPracticing] = useState(false);
 
   if (bookmarkedQuestions === null) return null;
 
