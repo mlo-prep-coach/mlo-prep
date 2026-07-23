@@ -50,6 +50,13 @@ const LABEL_ROWS = [
     linked: "Not linked by us",
     sharedWith: "Vercel, for security and uptime only",
   },
+  {
+    category: "Site analytics",
+    examples: "Pages visited, referrer, device/browser type",
+    stored: "Vercel Web Analytics, in aggregate",
+    linked: "Not linked to your identity",
+    sharedWith: "Vercel; no advertising or cross-site cookies",
+  },
 ];
 
 export default function PrivacyPage() {
@@ -57,7 +64,7 @@ export default function PrivacyPage() {
     <div className="mx-auto flex max-w-2xl flex-col gap-8 py-6">
       <div className="flex flex-col gap-1">
         <h1 className="font-display text-2xl font-bold text-navy-900">Privacy Policy</h1>
-        <p className="text-sm text-navy-400">Last updated: July 23, 2026</p>
+        <p className="text-sm text-navy-400">Last updated: July 24, 2026</p>
       </div>
 
       {/* Privacy nutrition label */}
@@ -92,7 +99,7 @@ export default function PrivacyPage() {
         <div className="border-t-2 border-navy-900 bg-navy-50 px-5 py-4">
           <ul className="flex flex-col gap-1 text-xs font-semibold text-navy-700">
             <li>✓ No advertising or cross-site tracking cookies</li>
-            <li>✓ No analytics or behavioral tracking scripts</li>
+            <li>✓ Analytics are cookie-free and never tied to your identity</li>
             <li>✓ We never see or store your full card number</li>
             <li>✓ We have no database — most of your data never leaves your device</li>
             <li>✓ We never sell your data</li>
@@ -130,12 +137,15 @@ export default function PrivacyPage() {
       </div>
 
       <div className={SECTION_CLASS}>
-        <h2 className={HEADING_CLASS}>3. Cookies</h2>
+        <h2 className={HEADING_CLASS}>3. Cookies and analytics</h2>
         <p className={BODY_CLASS}>
           After a successful subscription or restore, we set one functional cookie
           (&quot;mlo_access&quot;) containing a signed reference to your Stripe customer ID. It is
           used solely to verify your subscription status with Stripe on each visit to a paid
-          feature. We do not use advertising, analytics, or cross-site tracking cookies.
+          feature. We do not use advertising or cross-site tracking cookies. We use Vercel Web
+          Analytics to see aggregate traffic patterns, like how many people visit and which pages
+          are popular. It is cookie-free and does not track you individually or across other
+          websites — we only ever see anonymized, aggregate numbers, never a profile tied to you.
         </p>
       </div>
 
@@ -146,10 +156,10 @@ export default function PrivacyPage() {
           processes all payments and subscription
           management; see Stripe&apos;s own privacy policy for how it handles your payment data.{" "}
           <strong className="text-navy-800">Vercel</strong>{" "}
-          hosts this website and may briefly log
-          basic technical information, like IP address and browser type, for security and
-          reliability purposes. We do not share your information with any other third party, and
-          we never sell your data.
+          hosts this website, may briefly log
+          basic technical information like IP address and browser type for security and
+          reliability purposes, and provides the cookie-free analytics described above. We do not
+          share your information with any other third party, and we never sell your data.
         </p>
       </div>
 

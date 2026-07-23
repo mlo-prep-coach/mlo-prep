@@ -1,5 +1,6 @@
 import { Inter, Manrope } from "next/font/google";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import { GraduationCap } from "lucide-react";
 import { DesktopNav, MobileTabBar } from "@/components/NavBar";
 import UserAvatar from "@/components/UserAvatar";
@@ -67,6 +68,7 @@ export default function RootLayout({ children }) {
         </main>
 
         <MobileTabBar />
+        <Analytics />
       </body>
     </html>
   );
