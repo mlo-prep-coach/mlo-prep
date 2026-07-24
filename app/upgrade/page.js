@@ -17,18 +17,19 @@ const CALLBACK_ERRORS = {
   missing_session: "Something went wrong starting checkout. Please try again.",
 };
 
-export default function UpgradePage() {
+function CallbackErrorBanner() {
+  const searchParams = useSearchParams();
+  const callbackError = CALLBACK_ERRORS[searchParams.get("error")];
+  if (!callbackError) return null;
   return (
-    <Suspense fallback={null}>
-      <UpgradeContent />
-    </Suspense>
+    <p className="rounded-xl bg-amber-50 p-3 text-center text-sm text-amber-800">
+      {callbackError}
+    </p>
   );
 }
 
-function UpgradeContent() {
+export default function UpgradePage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const callbackError = CALLBACK_ERRORS[searchParams.get("error")];
 
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState("idle"); // idle | loading | error
@@ -72,11 +73,9 @@ function UpgradeContent() {
         </p>
       </div>
 
-      {callbackError && (
-        <p className="rounded-xl bg-amber-50 p-3 text-center text-sm text-amber-800">
-          {callbackError}
-        </p>
-      )}
+      <Suspense fallback={null}>
+        <CallbackErrorBanner />
+      </Suspense>
 
       <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-navy-950 via-navy-900 to-brand-800 p-6 text-white shadow-lg">
         <div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-brand-500/20 blur-3xl" />
