@@ -8,12 +8,12 @@ const CONTENT_SECURITY_POLICY = [
   "frame-src 'none'",
   "frame-ancestors 'none'",
   "base-uri 'self'",
-  // /api/checkout submits same-origin, then issues a server-side redirect to
-  // Stripe Checkout — modern Chrome enforces form-action against that final
-  // redirect target too, not just the immediate form action, so Stripe's
-  // domain must be explicitly allowed here or the redirect gets silently
-  // blocked client-side.
-  "form-action 'self' https://checkout.stripe.com",
+  // /api/checkout and /api/billing-portal submit same-origin, then issue a
+  // server-side redirect to Stripe — modern Chrome enforces form-action
+  // against that final redirect target too, not just the immediate form
+  // action, so Stripe's domains must be explicitly allowed here or the
+  // redirect gets silently blocked client-side.
+  "form-action 'self' https://checkout.stripe.com https://billing.stripe.com",
   "object-src 'none'",
   "upgrade-insecure-requests",
 ].join("; ");
