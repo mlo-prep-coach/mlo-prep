@@ -85,8 +85,8 @@ export default function TermsPage() {
         <p className={BODY_CLASS}>
           <strong className="text-navy-800">Informal resolution first.</strong> Before
           filing an arbitration, you agree to first contact us at{" "}
-          <a href="mailto:jaden.lz21a@gmail.com" className="text-brand-600 underline">
-            jaden.lz21a@gmail.com
+          <a href="mailto:getmloprep@gmail.com" className="text-brand-600 underline">
+            getmloprep@gmail.com
           </a>{" "}
           and describe the dispute so we can try to resolve it informally within 60
           days.
@@ -110,8 +110,8 @@ export default function TermsPage() {
         <p className={BODY_CLASS}>
           <strong className="text-navy-800">Your right to opt out.</strong> You may opt
           out of this arbitration agreement by emailing{" "}
-          <a href="mailto:jaden.lz21a@gmail.com" className="text-brand-600 underline">
-            jaden.lz21a@gmail.com
+          <a href="mailto:getmloprep@gmail.com" className="text-brand-600 underline">
+            getmloprep@gmail.com
           </a>{" "}
           within 30 days of first agreeing to these Terms, stating your name and that
           you opt out of arbitration. If you opt out, neither you nor MLO Prep will be
@@ -150,8 +150,8 @@ export default function TermsPage() {
         <p className={BODY_CLASS}>
           Questions about these Terms, including the arbitration agreement, can be
           sent to{" "}
-          <a href="mailto:jaden.lz21a@gmail.com" className="text-brand-600 underline">
-            jaden.lz21a@gmail.com
+          <a href="mailto:getmloprep@gmail.com" className="text-brand-600 underline">
+            getmloprep@gmail.com
           </a>
           .
         </p>

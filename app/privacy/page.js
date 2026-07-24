@@ -170,8 +170,8 @@ export default function PrivacyPage() {
           site data for this site. You can cancel your subscription at any time, which stops
           future billing; Stripe retains standard payment records as required for its own
           compliance obligations. To ask a question about your data, email{" "}
-          <a href="mailto:jaden.lz21a@gmail.com" className="text-brand-600 underline">
-            jaden.lz21a@gmail.com
+          <a href="mailto:getmloprep@gmail.com" className="text-brand-600 underline">
+            getmloprep@gmail.com
           </a>
           .
         </p>
