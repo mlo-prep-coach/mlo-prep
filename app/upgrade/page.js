@@ -133,8 +133,13 @@ export default function UpgradePage() {
       </div>
 
       <div className="rounded-2xl border border-navy-100 bg-white p-5 shadow-[0_1px_2px_rgba(13,27,56,0.04)]">
-        <p className="mb-3 text-center text-sm font-semibold text-navy-700">
+        <p className="mb-1 text-center text-sm font-semibold text-navy-700">
           Already subscribed?
+        </p>
+        <p className="mb-3 text-center text-xs text-navy-400">
+          Enter the email you subscribed with to unlock full access on this device. Your
+          subscription carries over — but progress, streaks, and bookmarks are saved per device
+          and won&apos;t transfer from your other device.
         </p>
         <form onSubmit={handleRestore} className="flex flex-col gap-3">
           <input

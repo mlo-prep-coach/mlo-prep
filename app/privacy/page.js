@@ -121,7 +121,11 @@ export default function PrivacyPage() {
           Your first name, exam date, study hours per day, practice and exam answers, scores,
           bookmarks, streaks, and XP are all saved using your browser&apos;s local storage. This
           data is never sent to our servers, is not visible to us, and is deleted if you clear
-          your browser&apos;s site data.
+          your browser&apos;s site data. Because of this, this data does not sync between
+          devices — if you use MLO Prep on a phone and a computer, each keeps its own separate
+          progress. Restoring access on a new device (via the &quot;Restore Access&quot; email
+          form) restores your paid subscription status there, but not your saved progress from
+          another device.
         </p>
       </div>
 
