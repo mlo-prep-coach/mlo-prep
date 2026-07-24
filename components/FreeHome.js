@@ -25,8 +25,8 @@ export default function FreeHome() {
             Try {freeCategory?.name} free
           </h1>
           <p className="mt-2 max-w-md text-sm text-navy-100">
-            Answer real practice questions with instant feedback and explanations — no signup
-            required. Subscribe to unlock every category, full mock exams, and more.
+            10 new practice questions every day, with instant feedback and explanations — no
+            signup required. Subscribe to unlock every category, full mock exams, and more.
           </p>
           <Link
             href={`/practice/${FREE_CATEGORY_ID}`}

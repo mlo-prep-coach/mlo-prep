@@ -7,12 +7,14 @@ import { shuffle } from "@/lib/exam";
 import { recordFlashcardResult } from "@/lib/storage";
 import ProgressBar from "@/components/ProgressBar";
 
-export default function FlashcardSession({ questions: inputQuestions, title, backHref, limit }) {
-  const [questions] = useState(() => {
-    const shuffled = shuffle(inputQuestions);
-    return limit ? shuffled.slice(0, limit) : shuffled;
-  });
-  const isPreview = !!limit && inputQuestions.length > limit;
+export default function FlashcardSession({
+  questions: inputQuestions,
+  title,
+  backHref,
+  isPreview,
+  previewLimit,
+}) {
+  const [questions] = useState(() => shuffle(inputQuestions));
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [results, setResults] = useState([]);
@@ -57,9 +59,11 @@ export default function FlashcardSession({ questions: inputQuestions, title, bac
             </span>
             <div className="min-w-0 flex-1">
               <p className="font-display font-semibold text-navy-900">
-                That&apos;s just a {limit}-card taste of this deck
+                That&apos;s today&apos;s {previewLimit}-card free set for this deck
               </p>
-              <p className="text-sm text-navy-500">Subscribe to unlock every flashcard deck</p>
+              <p className="text-sm text-navy-500">
+                A new set unlocks tomorrow. Subscribe for unlimited cards, every deck.
+              </p>
             </div>
             <ArrowRight size={18} className="shrink-0 text-brand-600" />
           </Link>

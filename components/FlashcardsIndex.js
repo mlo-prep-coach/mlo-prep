@@ -23,7 +23,7 @@ export default function FlashcardsIndex({ hasAccess }) {
       {!hasAccess && (
         <p className="flex items-center gap-2 rounded-xl bg-brand-50 p-3 text-sm text-brand-700">
           <Sparkles size={15} className="shrink-0" />
-          Free preview: 3 cards per deck. Subscribe to unlock full decks.
+          Free preview: 3 new cards per deck, every day. Subscribe to unlock full decks.
         </p>
       )}
 

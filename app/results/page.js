@@ -105,8 +105,14 @@ export default function ResultsPage() {
             <Sparkles size={18} strokeWidth={2.25} />
           </span>
           <div className="min-w-0 flex-1">
-            <p className="font-display font-semibold text-navy-900">That was just a 15-question taste</p>
-            <p className="text-sm text-navy-500">Subscribe to unlock the full 120-question exam</p>
+            <p className="font-display font-semibold text-navy-900">
+              {isExam ? "That was just a 15-question taste" : "That was today's free daily set"}
+            </p>
+            <p className="text-sm text-navy-500">
+              {isExam
+                ? "Subscribe to unlock the full 120-question exam"
+                : "Subscribe for unlimited practice, every category, any time"}
+            </p>
           </div>
           <ArrowRight size={18} className="shrink-0 text-brand-600" />
         </Link>

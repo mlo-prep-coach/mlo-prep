@@ -9,9 +9,10 @@ import {
   subscribeToNothing,
 } from "@/lib/storage";
 import { getQuestionById } from "@/lib/questions";
+import { pickDailySubset } from "@/lib/dailyLimit";
 import FlashcardSession from "@/components/FlashcardSession";
 
-export default function BookmarkedFlashcards({ limit }) {
+export default function BookmarkedFlashcards({ dailyLimit }) {
   // Reads localStorage synchronously on the client's first render instead of
   // waiting for a post-mount effect to escape an initial null render.
   const isClient = useSyncExternalStore(
@@ -19,10 +20,15 @@ export default function BookmarkedFlashcards({ limit }) {
     getIsClientSnapshot,
     getIsClientServerSnapshot
   );
-  const questions = useMemo(() => {
+  const allQuestions = useMemo(() => {
     if (!isClient) return null;
     return getBookmarks().map((b) => getQuestionById(b.questionId)).filter(Boolean);
   }, [isClient]);
+
+  const questions = useMemo(() => {
+    if (!allQuestions) return null;
+    return dailyLimit ? pickDailySubset(allQuestions, dailyLimit, "flashcards:bookmarked") : allQuestions;
+  }, [allQuestions, dailyLimit]);
 
   if (questions === null) return null;
 
@@ -39,12 +45,15 @@ export default function BookmarkedFlashcards({ limit }) {
     );
   }
 
+  const isPreview = !!dailyLimit && allQuestions.length > dailyLimit;
+
   return (
     <FlashcardSession
       questions={questions}
       title="Bookmarked Questions"
       backHref="/flashcards"
-      limit={limit}
+      isPreview={isPreview}
+      previewLimit={dailyLimit}
     />
   );
 }
