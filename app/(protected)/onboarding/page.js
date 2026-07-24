@@ -197,6 +197,7 @@ export default function OnboardingPage() {
           <button
             type="button"
             onClick={handleBack}
+            aria-label="Back"
             className="flex items-center gap-1.5 rounded-xl border border-navy-200 px-4 py-3 text-sm font-semibold text-navy-700 hover:bg-navy-50"
           >
             <ArrowLeft size={15} />

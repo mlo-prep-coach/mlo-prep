@@ -18,6 +18,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${manrope.variable}`}>
       <body className="min-h-screen bg-[#f6f8fc] font-sans text-navy-900 antialiased">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-navy-900 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+        >
+          Skip to main content
+        </a>
         <header className="sticky top-0 z-20 border-b border-navy-100/70 bg-white/90 backdrop-blur">
           <div className="mx-auto flex max-w-4xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
             <Link href="/" className="flex shrink-0 items-center gap-2.5">
@@ -40,7 +46,7 @@ export default function RootLayout({ children }) {
           </div>
         </header>
 
-        <main className="mx-auto max-w-4xl px-4 pb-24 pt-6 sm:px-6 sm:pb-10">
+        <main id="main-content" className="mx-auto max-w-4xl px-4 pb-24 pt-6 sm:px-6 sm:pb-10">
           {children}
           <p className="mx-auto mt-10 max-w-md text-center text-xs leading-relaxed text-navy-300">
             MLO Prep is an independent study tool and is not affiliated with, endorsed by, or

@@ -101,9 +101,22 @@ export default function UpgradePage() {
           </ul>
 
           <form action="/api/checkout" method="POST">
+            <label className="mt-5 flex items-start gap-2.5 text-xs text-navy-200">
+              <input
+                type="checkbox"
+                name="autoRenewalConsent"
+                required
+                aria-required="true"
+                className="mt-0.5 h-4 w-4 shrink-0 rounded border-navy-400 bg-white/10 accent-brand-500"
+              />
+              <span>
+                I understand this is a recurring subscription that will automatically charge
+                $9.99/month to my payment method until I cancel.
+              </span>
+            </label>
             <button
               type="submit"
-              className="mt-6 w-full rounded-xl bg-white px-6 py-3.5 text-sm font-bold text-navy-900 shadow-sm transition hover:bg-brand-50"
+              className="mt-4 w-full rounded-xl bg-white px-6 py-3.5 text-sm font-bold text-navy-900 shadow-sm transition hover:bg-brand-50"
             >
               Subscribe Now
             </button>
