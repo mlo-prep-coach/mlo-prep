@@ -84,7 +84,12 @@ export default function UpgradePage() {
             <span className="font-display text-4xl font-extrabold">$9.99</span>
             <span className="text-sm text-navy-200">/ month</span>
           </p>
-          <p className="mt-1 text-sm text-navy-200">Cancel anytime</p>
+          <p className="mt-1 text-sm font-semibold text-navy-100">
+            Recurring subscription — billed $9.99 today and every month after
+          </p>
+          <p className="mt-1 text-sm text-navy-200">
+            Automatically renews monthly until you cancel. Cancel anytime, no fees.
+          </p>
 
           <ul className="mt-5 flex flex-col gap-2.5">
             {FEATURES.map((f) => (
@@ -104,7 +109,8 @@ export default function UpgradePage() {
             </button>
           </form>
           <p className="mt-3 text-center text-xs text-navy-300">
-            By subscribing, you agree to our{" "}
+            By clicking Subscribe Now, you authorize a recurring charge of $9.99/month to your
+            payment method, starting today, until you cancel. You agree to our{" "}
             <Link href="/terms" className="underline hover:text-navy-100">
               Terms of Service
             </Link>
