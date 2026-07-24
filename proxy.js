@@ -11,6 +11,7 @@ const LIMITS = {
   "/api/restore-access": 8,
   "/api/checkout": 20,
   "/api/checkout/callback": 30,
+  "/api/billing-portal": 20,
 };
 
 const hits = new Map();
@@ -57,5 +58,5 @@ export function proxy(request) {
 }
 
 export const config = {
-  matcher: ["/api/checkout", "/api/checkout/callback", "/api/restore-access"],
+  matcher: ["/api/checkout", "/api/checkout/callback", "/api/restore-access", "/api/billing-portal"],
 };
